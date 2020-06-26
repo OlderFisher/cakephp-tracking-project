@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Language: fr_FR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "title"
+msgstr "Cookie Policy"
+
+msgid "effective"
+msgstr "effective as of 19th of May 2020"
+
+msgid "general_information.title"
+msgstr "1. General Information"
+
+msgid "general_information.text.1"
+msgstr "1.1	This document uses the same terminology and abbreviations as the Terms and Conditions document. A cookie is a small piece of text used to store information on web browsers. It remembers information about your visit on our website, like your preferred currency and other settings, and helps us optimize and improve the user experience of the Website. Cookies makes it possible to provide an easier and more rewarding service to you by enabling crucial functionalities."
+
+msgid "general_information.text.2"
+msgstr "1.2	The cookies we use (and other types of technologies we use with similar purpose as cookies, referred here to as cookies) may vary over time as we continuously update and improve our services. We will use necessary cookies immediately upon your access to our Site, but to use analytics cookies we need your consent. More information about the cookies that we use is presented in our list of commonly used cookies below."
+
+msgid "th.category"
+msgstr "Category of use"
+
+msgid "th.example"
+msgstr "Example"
+
+msgid "th.preferences.title"
+msgstr "Preferences"
+
+msgid "th.preferences.text"
+msgstr "Preferences cookies enables the functionality of our services and helps us provide a personalized experience of our site. It remembers information such as preferred language and currency and then adapt how the site appear or behave. "
+
+msgid "th.authentification.title"
+msgstr "Authentication & Security"
+
+msgid "th.authentication.subtitle.1"
+msgstr "Authentication"
+
+msgid "th.authentication.text.1"
+msgstr "If you have an account on the Site, we use cookies to verify your account and, if you prefer, keep you logged in so that our services will be more accessible to you. Cookies also allow us to store security information so that we are able to recover your account in case it has been hacked or you have forgotten your password."
+
+msgid "th.authentication.subtitle.2"
+msgstr "Security"
+
+msgid "th.authentication.text.2"
+msgstr "If you have an account on the Site, security cookies helps us keep your account safe and protect user data from unauthorized parties. These cookies prevent fraudulent use of login credentials by, for instance, applying further security measures when someone attempts to access your account without the proper authorization."
+
+msgid "th.performance.title"
+msgstr "Performance"
+
+msgid "th.performance.text"
+msgstr "Performance cookies enables all functions on our website to work correctly. For example, you may not be able to use our search function or login page (if you have an account) without these cookies."
+
+msgid "th.analytics.title"
+msgstr "Analytics"
+
+msgid "th.analytics.text"
+msgstr "These cookies will provide information regarding how visitors interact with our services and makes it possible for us to collect information about which aspects should be further developed in order to improve the user experience."
+
+msgid "general_information.text.3"
+msgstr "1.3 We may use third party services like Google Analytics. Cookies from such services are used to collect data for statistical reports. "
+
+msgid "general_information.text.4"
+msgstr "1.4 The Site utilises Google Analytics for statistical purposes. Google Analytics is set in a way that it does not collect your IP address nor any other personally identifiable information. We are only interested in how the Site is being used so that we can improve, modify and adapt the Site and Services to best suit user’s needs. More information on how Google Analytics works and how you can opt out of its use can be found on: <a href=\"https://policies.google.com/technologies/partner-sites\" target=\"_blank\">https://policies.google.com/technologies/partner-sites</a>."
+
+msgid "managing_cookie.title"
+msgstr "2. Managing Cookies"
+
+#. 1: Site name
+msgid "managing_cookie.text.1"
+msgstr "2.1 At any time you have the possibility to manage your cookies preferences. This is done in your browser or device settings. Depending on which browser and device you use you may be able to control which cookies you allow, which cookies you want to block in the future, and delete cookies. For more information about these settings visit your browser or device´s help page. Note that some of %1$s Services might not work as intended if you choose to disable cookies."
+
+msgid "contact_information.title"
+msgstr "3. Contact Information"
+
+#. 1: Email
+msgid "contact_information.text.1"
+msgstr "3.1 If you have any queries or concerns regarding our Cookie Policy and how the information is handled, or you wish to access, retrieve, amend, or update your Information feel free to contact us at %1$s."

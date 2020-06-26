@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Language: fr_FR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "title"
+msgstr "Conditions générales d’utilisation (« CGV »)"
+
+msgid "effective"
+msgstr "prenant effet le 19 mai 2020"
+
+#. 1: Site name
+msgid "description.1"
+msgstr "Le Contrat d’utilisation de %1$s énonce les conditions générales d’utilisation de la plate-forme %1$s et des autres services fournis par %1$s. Veuillez lire attentivement le présent document et en conserver une copie à titre de référence."
+
+#. 1: Site name
+#. 2: Company name
+#. 3: Company number
+#. 4: Company address
+msgid "description.2"
+msgstr "Votre utilisation de la plate-forme %1$s vaut acceptation d’être légalement lié par nos conditions générales énoncées dans le présent document. Veuillez donc lire celles-ci attentivement avant d’utiliser notre plate-forme car ce faisant, vous concluez un contrat légalement contraignant avec %2$s, une société irlandaise à responsabilité limitée, immatriculée au registre du commerce et des sociétés irlandais sous le numéro %3$s, dont le siège social est situé au %4$s. Si vous n’acceptez pas (ou si vous ne pouvez pas respecter) les conditions générales énoncées ci-dessous, n’utilisez pas nos services ou n’y accédez pas. "
+
+#. 1: Site name
+msgid "description.3"
+msgstr "Les présentes conditions ne sauraient s’opposer à toute obligation ou autorisation prévue par un quelconque autre contrat conclu entre vous et %1$s. Les clauses de tout Contrat individuel conclu entre vous et %1$s annulent et remplacent les clauses des présentes Conditions."
+
+msgid "1.definition.title"
+msgstr "1. Définitions"
+
+msgid "1.definition.p1"
+msgstr "Les définitions suivantes expliquent certaines des terminologies et abréviations utilisées dans nos conditions générales :"
+
+msgid "1.definition.terms_agreement"
+msgstr "“<strong>Conditions/Contrat</strong>” fait référence à la dernière version du présent document."
+
+#. 1: Site name
+#. 1: Company name
+msgid "1.definition.us"
+msgstr "“<strong>Nous/%1$s</strong>” désigne %2$s, la Plate-forme, ainsi que ses développeurs et ses sociétés liées."
+
+#. 1: Site name
+#. 2: Site url
+msgid "1.definition.site"
+msgstr "“<strong>Site</strong>” désigne le site Web de %1$s ccessible à l’adresse %2$s, ou à toute autre URL pouvant héberger des sites Web ou des Services de %1$s."
+
+#. 1: Site name
+msgid "1.definition.services"
+msgstr "“<strong>Services</strong>” fait référence au service de localisation de colis fourni par %1$s, le contenu présent sur le Site et les autres services fournis par %1$s."
+
+msgid "1.definition.platform"
+msgstr "“<strong>Plate-forme</strong>” désigne collectivement le Site et les Services."
+
+msgid "1.definition.you"
+msgstr "“<strong>Utilisateur/Vous</strong>” désigne toute personne physique ou morale qui s’inscrit à nos Services ou les utilise."
+
+#. 1: Site name
+msgid "1.definition.party"
+msgstr "“<strong>Partie</strong>” désigne individuellement soit l’Utilisateur, soit %1$s et “<strong>Parties</strong>” désignent collectivement l’Utilisateur et %1$s."
+
+#. 1: Site name
+msgid "1.definition.third_party"
+msgstr "“<strong>Tiers</strong>” désigne les applications, sites Web, personnes physiques ou morales autre que %1$s, la Plate-forme ou ses sociétés liées."
+
+msgid "1.definition.content"
+msgstr "“<strong>Contenu</strong>” désigne l’ensemble des images, textes, données audio et vidéo ou toute autre information se trouvant sur la Plate-forme ou obtenue grâce à celle-ci."
+
+msgid "1.definition.supbscription_period"
+msgstr "“<strong>Durée d’abonnement</strong>” désigne la période pendant laquelle votre abonnement à notre Plate-forme est actif."
+
+msgid "1.definition.subscription_fee"
+msgstr "“<strong>Frais d’abonnement</strong>” désigne le coût de l’Abonnement pour la Durée d’abonnement sélectionnée."
+
+msgid "1.definition.effective_date"
+msgstr "“<strong>Date d’effet</strong>” désigne la date de traitement du paiement de l’abonnement sélectionné."
+
+msgid "1.definition.confidential_information"
+msgstr "“<strong>Informations confidentielles</strong>” désigne toutes les informations divulguées entre les Parties en lien avec les Services. Les Informations confidentielles ne couvrent pas les informations qui étaient connues de l’une ou l’autre partie avant leur divulgation ni les informations qui ont été mises à la disposition du public."
+
+msgid "2.general_provisions.title"
+msgstr "2. Clauses générales"
+
+msgid "2.general_provisions.subtitle.a"
+msgstr "(A)	Admissibilité"
+
+msgid "2.general_provisions.1"
+msgstr "2.1	L’utilisation de nos Services vaut attestation a) que vous jouissez de la pleine capacité juridique pour conclure une relation légalement contraignante, b) que vous fournirez des informations exactes, à jour et exhaustives lorsque celles-ci vous seront demandées, informations qui seront en tous points compatibles avec les présentes Conditions et c) que vous n’utiliserez pas les Services en violation des présentes Conditions ou des lois applicables. Si vous accédez à nos Services pour le compte d’une personne morale, vous attestez en outre que a) vous bénéficiez de l’autorisation nécessaire pour accepter les conditions du présent Contrat, b) vous bénéficiez de l’autorisation nécessaire pour engager cette personne morale par l’acceptation du présent Contrat et c) la personne morale pour le compte de laquelle vous acceptez le présent Contrat jouit du plein pouvoir de conclure les présentes et d’exécuter les obligations qui y sont définies."
+
+msgid "2.general_provisions.2"
+msgstr "2.2	Nous ne pouvons pas contrôler qui utilise la Plate-forme, il vous appartient donc d’évaluer si l’utilisation de celle-ci respecte les lois et réglementations locales. Chaque fois que vous utilisez notre Plate-forme, vous devez respecter les conditions du présent Contrat et toutes les lois, réglementations et politiques applicables. Si une partie de la Plate-forme ne respecte pas vos lois locales, vous ne pouvez pas utiliser le Site et les Services. Tout Service de ce type sera réputé être « indisponible dans votre région »."
+
+msgid "2.general_provisions.subtitle.b"
+msgstr "(B)	Champ d’application des Services"
+
+#. 1: Site name
+msgid "2.general_provisions.3"
+msgstr "2.3	%1$s exploite une plate-forme via laquelle les utilisateurs enregistrés peuvent demander des informations sur la localisation d'un colis en fournissant le numéro de colis associé à ce colis. Les informations de localisation sont fournies par les transporteurs ainsi nous ne pouvons que les relayer."
+
+msgid "2.general_provisions.4"
+msgstr "2.4	Nous fournissons nos Services sous un format de fichier spécifique qui sera affiché sur le Site. L’Utilisateur doit vérifier qu’il peut utiliser ce format avec les moyens techniques à sa disposition. Nous ne fournissons pas d’autres formats, sauf indication contraire. Nous ne fournissons pas non plus de biens matériels (tels que des impressions)."
+
+#. 1: Site name
+msgid "2.general_provisions.5"
+msgstr "2.5	%1$s ne peut pas garantir que les Services répondront à vos besoins ou seront accessibles de manière ininterrompue, sûre ou exempte d’erreurs. %1$s ne peut pas garantir que ses Services fonctionneront 24 h sur 24, et n’offre aucune garantie de ce type. Les Services peuvent être interrompus pour des raisons liées a) à la réalisation de maintenance programmée, b) à des événements de force majeure, c) à la suspension ou résiliation du compte d’Utilisateurs spécifiques, d) à des problèmes d’Internet indépendants de la volonté de %1$s et e) à des bogues du code, du matériel ou des Services sans correctif connu disponible dans le commerce."
+
+msgid "2.general_provisions.subtitle.c"
+msgstr "(C)	Inscription"
+
+msgid "2.general_provisions.6"
+msgstr "2.6	Lors de l’inscription sur notre Plate-forme ou lors de toute autre interaction avec celle-ci, les Utilisateurs sont tenus de fournir des informations vraies, exactes, à jour et exhaustives les concernant, lorsqu’ils y sont invités dans les formulaires fournis. Vous vous engagez à mettre à jour vos informations en cas de changement afin que les informations enregistrées restent vraies, exactes, à jour et exhaustives. Si vous fournissez des informations ne respectant pas les conditions susmentionnées, nous pouvons vous refuser l’accès au Site, en tout ou en partie, ou bien à nos Services, ou encore y mettre fin. Nous ne saurons être tenus responsables de toute défaillance dans la fourniture des Services résultant d’informations qui ne sont pas vraies, exactes, à jour et exhaustives."
+
+msgid "2.general_provisions.7"
+msgstr "2.7	Vous convenez qu’il vous incombe de garder vos informations de connexion confidentielles. Vous êtes responsable de toutes les activités effectuées sur votre compte. Si jamais vous découvrez ou soupçonnez que quelqu’un a accédé à votre compte sans autorisation, nous vous recommandons de nous en informer immédiatement."
+
+msgid "2.general_provisions.subtitle.d"
+msgstr "(D)	Durée d’abonnement"
+
+msgid "2.general_provisions.8"
+msgstr "2.8	Les Utilisateurs peuvent choisir leur Durée d’abonnement grâce à l’option présente sur le Site. La Durée d’abonnement commence à la Date d’effet et se termine le même jour au cours du mois d’expiration de la Durée d’abonnement choisie. Si aucune date du mois d’expiration de la Durée d’abonnement ne correspond à la Date d’effet, la Durée d’abonnement se terminera le dernier jour de ce mois. Si la Durée d’abonnement est calculée en heures, celle-ci expire après l’expiration de toutes les heures de la Durée d’abonnement choisie. "
+
+msgid "2.general_provisions.9"
+msgstr "2.9	La Durée d’abonnement sera automatiquement renouvelée à la fin de la Durée d’abonnement en cours. La Durée d’abonnement renouvelée sera par défaut identique à la Durée d’abonnement en cours, sauf Durée d’abonnement promotionnelle spéciale. Après expiration de la Durée d’abonnement promotionnelle, votre abonnement passera automatiquement à un abonnement normal dont la durée correspondra à la Durée d’abonnement normale la plus courte possible. Les Frais d’abonnement pour le renouvellement de la Durée d’abonnement seront calculés conformément aux tarifs en vigueur dix (10) jours avant l’expiration de la Durée d’abonnement en cours. Si vous souhaitez cesser d’utiliser nos Services, vous pouvez résilier votre compte ou mettre fin à l’option de renouvellement automatique dans votre compte Utilisateur avant l’expiration de la Durée d’abonnement en cours."
+
+msgid "2.general_provisions.subtitle.e"
+msgstr "(E)	Utilisation convenable"
+
+msgid "2.general_provisions.10"
+msgstr "2.10 Vous vous interdisez d’utiliser nos Services à mauvais escient, à savoir une utilisation, un accès ou une interférence dans le cadre du Site ou du Service constituant une violation du présent Contrat, de notre politique de confidentialité et des lois et réglementations applicables. Nous pouvons, à notre seule discrétion, suspendre ou résilier l’accès à tout ou partie du Site et des Services à tout Utilisateur, sans préavis ni nécessité de délibérer sur les raisons d’une telle mesure. Nous nous réservons le droit de refuser des Services à quiconque à tout moment. Lors de votre utilisation de nos Services, vous vous interdisez d’enfreindre les Conditions, les Politiques, les lois et réglementations applicables, y compris, sans limitation, ce qui suit :"
+
+msgid "2.general_provisions.10.1"
+msgstr "(a)	d’envoyer ou d’autrement publier des communications commerciales non autorisées (telles que des spams) par l’intermédiaire du Site ;"
+
+msgid "2.general_provisions.10.2"
+msgstr "(b) de collecter du contenu ou des informations d’utilisateurs du Site, ou d’autrement accéder au Site par des moyens automatisés (tels que des robots de collecte, des robots, des araignées ou des outils de scraping) sans notre autorisation ;"
+
+msgid "2.general_provisions.10.3"
+msgstr "(c) de télécharger des virus ou d’autres codes malveillants ;"
+
+msgid "2.general_provisions.10.4"
+msgstr "(d) de publier ou transmettre un contenu illégal, haineux, obscène, menaçant, incitant à la violence, insultant, diffamatoire, portant atteinte aux droits de propriété intellectuelle ou à la vie privée, ou autrement répréhensible pour des tiers ;"
+
+msgid "2.general_provisions.10.5"
+msgstr "(e)	de prendre toute mesure créant une charge d’utilisation disproportionnée sur notre Site, sauf autorisation expresse de notre part ;"
+
+msgid "2.general_provisions.10.6"
+msgstr "(f) de créer plus d’un compte ou partager votre compte avec quiconque ;"
+
+msgid "2.general_provisions.10.7"
+msgstr "(g) de communiquer tout renseignement ou contenu qu’une loi ou encore des relations contractuelles ou fiduciaires vous interdisent de rendre accessible ou qui autrement enfreint les droits de quelqu’un d’autre ;"
+
+msgid "2.general_provisions.10.8"
+msgstr "(h) d’encourager la participation à des contenus, des systèmes pyramidaux, des enquêtes, des chaînes de lettres ou d’envoi de spam ou des courriers électroniques non sollicités par l’intermédiaire du site Web, ou encore d’en faire la promotion."
+
+msgid "2.general_provisions.subtitle.f"
+msgstr "(F)	Contact"
+
+#. 1: Site name
+msgid "2.general_provisions.11"
+msgstr "2.11 Si vous nous communiquez votre adresse électronique, nous pouvons vous contacter à l’aide de ces coordonnées au sujet de toute question relative aux Services (<b>Courriers électroniques du Service</b>). De tels courriers électroniques ne constituant pas des « publicités électroniques commerciales non sollicitées », vous ne pouvez pas refuser de les recevoir. Vous pouvez choisir de recevoir des courriers électroniques sur les actualités, les promotions, les offres spéciales ou d’autres sujets d’intérêt liés à %1$s et à nos sociétés liées <b>(Courriers électroniques promotionnels</b>). Vous pouvez choisir de ne plus recevoir ces courriers électroniques promotionnels à tout moment en suivant les instructions qui s’y trouvent."
+
+#. 1: E-mail address
+msgid "2.general_provisions.12"
+msgstr "2.12 Si vous avez des questions ou des suggestions, vous pouvez nous contacter à l’adresse %1$s."
+
+msgid "3.intellectual_property.title"
+msgstr "3. Propriété intellectuelle"
+
+msgid "3.intellectual_property.subtitle.a"
+msgstr "(A)	Droits de propriété"
+
+#. 1: Site name
+msgid "3.intellectual_property.1"
+msgstr "3.1	Tous les droits de propriété intellectuelle liés au Site, aux Services et au Contenu sont la propriété exclusive de %1$s, ou sont utilisés en vertu de licences ou d’autorisations appropriées. Aucun élément du présent Contrat ne saurait être interprété comme destiné à transférer ces droits de propriété intellectuelle à vous-mêmes ou à tout autre tiers."
+
+#. 1: Site name
+msgid "3.intellectual_property.2"
+msgstr "3.2	Sous réserve de votre respect des présentes conditions, nous vous accordons une licence limitée, non exclusive, non cessible et ne pouvant faire l’objet d’une sous-licence pour accéder afin de l’utiliser à la Plate-forme fournie par %1$s dans le cadre de votre forfait d’abonnement. Sauf autorisation expresse des présentes Conditions, vous n’êtes pas autorisé à copier, modifier ou créer des travaux dérivés basés sur les Services ; à distribuer, transférer, accorder une sous-licence, louer, ou prêter les Services à un tiers ; à faire de l’ingénierie inverse, décompiler ou désassembler les Services ni à rendre les fonctionnalités des Services accessibles à plusieurs utilisateurs par quelque moyen que ce soit."
+
+#. 1: Site name
+msgid "3.intellectual_property.2-2"
+msgstr "3.3	%1$s ne revendique ni ne fait valoir aucun Droit de propriété intellectuelle sur les documents hébergés sur la Plate-forme, ni pour elle-même ni pour un tiers."
+
+msgid "3.intellectual_property.subtitle.b"
+msgstr "(B)	Informations confidentielles"
+
+#. 1: Site name
+msgid "3.intellectual_property.3"
+msgstr "3.4	Pendant la durée du présent Contrat, les Utilisateurs peuvent être tenus de fournir ou transmettre volontairement certaines Informations confidentielles à %1$s ; celle-ci peut divulguer certaines Informations confidentielles aux utilisateurs. En ce qui concerne ces informations, les deux parties conviennent par les présentes a) de conserver les Informations confidentielles en toute confidentialité, b) de prendre toutes les mesures possibles pour protéger leur confidentialité, c) de ne pas les divulguer ou autrement rendre accessibles à un tiers sans consentement écrit préalable, d) de les utiliser uniquement aux fins prévues, e) de restituer toutes les Informations confidentielles et l’ensemble des copies, extraits ou travaux dérivés résultant de celles-ci sur demande écrite ou sur résiliation du Contrat et de détruire ou d’effacer toutes les copies restantes des Informations confidentielles, quelle que soit la forme ou quel que soit le support de stockage."
+
+msgid "3.intellectual_property.subtitle.c"
+msgstr "(C)	Notification de violation de droits"
+
+msgid "3.intellectual_property.4"
+msgstr "3.5	Si vous pensez que votre travail a été copié en violation du droit d’auteur ou que vos droits de propriété intellectuelle ont été autrement enfreints, veuillez fournir les informations suivantes à l’Agent chargé des droits d’auteur du Site :"
+
+msgid "3.intellectual_property.4.1"
+msgstr "1. La signature électronique ou physique de la personne autorisée à agir pour le compte du propriétaire du droit d’auteur ou d’un autre droit de propriété intellectuelle ;"
+
+msgid "3.intellectual_property.4.2"
+msgstr "2. Une description de l’œuvre protégée par le droit d’auteur ou de toute autre propriété intellectuelle dont vous affirmez qu’elle a subi une violation ;"
+
+msgid "3.intellectual_property.4.3"
+msgstr "3. L’emplacement sur le Site où se trouve le document qui, selon vos affirmations, enfreint votre droit d’auteur ;"
+
+msgid "3.intellectual_property.4.4"
+msgstr "4. Vos nom, adresse, numéro de téléphone et adresse électronique ;"
+
+msgid "3.intellectual_property.4.5"
+msgstr "5. Une déclaration que vous avez signée indiquant que vous estimez de bonne foi que l’utilisation litigieuse n’est pas autorisée par le propriétaire du droit d’auteur, son mandataire ou la loi ;"
+
+msgid "3.intellectual_property.4.6"
+msgstr "6. Une déclaration, faite sous peine de parjure, selon laquelle les informations que vous avez fournies dans votre Notification sont exactes et que vous êtes le propriétaire du droit d’auteur ou de la propriété intellectuelle ou encore que vous êtes autorisé à agir au nom de son propriétaire."
+
+#. 1: E-mail address
+msgid "3.intellectual_property.5"
+msgstr "3.6	Notre agent chargé du droit d’auteur peut être contacté à l’adresse électronique suivante : %1$s"
+
+msgid "4.payment_and_pricing.title"
+msgstr "4. Règlement et tarification"
+
+msgid "4.payment_and_pricing.1"
+msgstr "4.1	Tous les prix des Services répertoriés se trouvent sur le Site et sont calculés lorsque vous décidez de prendre un abonnement sur le Site. Tous les prix sont TTC. Si un Service est indiqué à un prix incorrect en raison d’une erreur typographique ou d’une erreur de système, nous nous réservons le droit de refuser ou d’annuler toute commande passée pour celui-ci. Si le paiement du prix incorrect a déjà été effectué, nous vous rembourserons le même montant lors de l’annulation."
+
+msgid "4.payment_and_pricing.2"
+msgstr "4.2	Lors de votre inscription sur le Site, vous pouvez choisir le mode de paiement. Si vous payez par carte bancaire, vous devez fournir les informations valables et à jour nécessaires au traitement du paiement. Vous nous autorisez à débiter votre carte bancaire pour tous les frais dus pendant la Durée de votre abonnement."
+
+msgid "4.payment_and_pricing.3"
+msgstr "4.3	Les Frais d’abonnement sont calculés au moment de l’envoi de votre inscription sur le Site. Les Frais d’abonnement pour la Durée d’abonnement en cours ne subiront pas les changements de prix des Services tels que décrits à l’article 4.5 du présent Contrat."
+
+msgid "4.payment_and_pricing.4"
+msgstr "4.4	Si, pour une raison quelconque, nous ne sommes pas en mesure de traiter votre paiement, votre abonnement sera immédiatement résilié."
+
+msgid "4.payment_and_pricing.5"
+msgstr "4.5	Nous nous réservons le droit de modifier les prix à tout moment ; nous en aviserons les Utilisateurs toujours actifs. Ces changements n’auront pas d’effet sur la Durée d’abonnement en cours de l’utilisateur. Le renouvellement de la Durée d’abonnement sera facturé aux prix en vigueur dix (10) jours avant ledit renouvellement."
+
+msgid "5.third_party.title"
+msgstr "5. Services de tiers"
+
+#. 1: Site name
+msgid "5.third_party.1"
+msgstr "5.1	L’accès aux Services peut s’effectuer en lien avec des services et contenus de tiers (notamment des publicités) que %1$s ne contrôle pas. Vous reconnaissez que des Conditions d’utilisation et des politiques de confidentialité différentes peuvent s’appliquer à votre utilisation de ces services et contenus de tiers. %1$s ne cautionne pas ces services et contenus de tiers ; sa responsabilité ne sera en aucun cas engagée pour tout service ou contenu de ces prestataires tiers."
+
+msgid "6.cancellation.title"
+msgstr "6. Annulation "
+
+msgid "6.cancellation.1"
+msgstr "6.1	Vous pouvez résilier votre abonnement à tout moment, sans préavis et sans pénalité, en désactivant simplement votre compte sur les paramètres de votre compte. Sur désactivation, votre abonnement prendra fin immédiatement. Lorsque vous décidez de résilier votre abonnement, nous cessons de vous facturer les frais mensuels futurs jusqu’à ce que vous vous abonniez à nouveau aux Services. Vous serez informé par courrier électronique de la résiliation de votre abonnement."
+
+msgid "6.cancellation.2"
+msgstr "6.2	Vous comprenez et convenez que les frais pour la Durée d’abonnement sont dus au commencement de chaque Durée d’abonnement et qu’aucun remboursement ou crédit ne sera accordé pour la partie non utilisée de la Durée d’abonnement."
+
+#. 1: E-mail address
+msgid "6.cancellation.3"
+msgstr "6.3	Si vous avez besoin d’aide pour résilier votre abonnement, n’hésitez pas à contacter notre équipe d’assistance à l’adresse %1$s."
+
+msgid "7.refund.title"
+msgstr "7. Remboursement"
+
+#. 1: E-mail address
+msgid "7.refund.1"
+msgstr "7.1	Si vous n’êtes pas satisfait des Services, veuillez nous contacter à l’adresse %1$s. Vous pouvez avoir droit à un remboursement si vous résiliez votre abonnement dans les quatorze (14) jours suivant votre première inscription au forfait d’abonnement mensuel."
+
+msgid "7.refund.2"
+msgstr "7.2	Aucun remboursement ne sera effectué pour la Durée d’abonnement calculée en heures. Si votre premier abonnement était calculé en heures et que vous êtes passé à l’abonnement mensuel, le délai de 14 jours est calculé à partir du moment où vous êtes passé à l’abonnement mensuel."
+
+#. 1: Site name
+msgid "7.refund.3"
+msgstr "7.3	Le remboursement ne peut porter que sur le dernier paiement que vous nous avez versé. Les remboursements au-delà de la fenêtre d’achat de 14 jours seront considérés, à notre seule discrétion, uniquement si l’Utilisateur peut démontrer que le Service n’était pas accessible ou utilisable pendant la Durée d’abonnement et que des tentatives suffisantes ont été faites pour nous contacter afin de résoudre le problème. Dans ce cas, %1$s peut donner à l’Utilisateur un remboursement correspondant au prorata des frais de Service payés pendant la période où le Service n’était pas accessible ou utilisable."
+
+msgid "8.indemnity.title"
+msgstr "8.	Garantie"
+
+#. 1: Site name
+msgid "8.indemnity.1"
+msgstr "8.1	Vous garantissez %1$s, ses salariés et ses sociétés liées contre les demandes, les litiges, les réclamations, les responsabilité, les dommages-intérêts, les pertes et les frais, y compris, sans limitation, les honoraires et frais juridiques et comptables dans une limite raisonnable, découlant de quelque manière que ce soit de votre accès ou utilisation du Site et de nos Services, du contenu que vous fournissez ou de votre violation des présentes Conditions, ou s’y rapportant ; et vous les dégagez de toute responsabilité à cet égard."
+
+msgid "9.limitation_of_liability.title"
+msgstr "9. Limitation de responsabilité"
+
+#. 1: Site name
+msgid "9.limitation_of_liability.1"
+msgstr "9.1	Vous convenez que, dans la mesure permise par la loi applicable, votre seul et unique recours en cas de problème ou de mécontentement lié au service de %1$s est de cesser d’utiliser les services de %1$s."
+
+#. 1: Site name
+msgid "9.limitation_of_liability.2"
+msgstr "9.2	Dans la mesure maximale permise par la loi applicable, %1$s, ses salariés, dirigeants, actionnaires, administrateurs, mandataires, filiales, sociétés liées, successeurs, fournisseurs, ayants-droit ou concédants de licence ne sont pas responsables des dommages-intérêts indirects, spéciaux, accessoires, punitifs, exemplaires ou consécutifs, ou encore de toute perte de profits ou de revenus, qu’elle soit subie directement ou indirectement, ou bien de toute perte de données, d’utilisation, de survaleur ou d’autres pertes intangibles, résultant de votre accès ou de votre utilisation ou encore de votre incapacité à accéder ou à utiliser les services de %1$s, les applications tierces ou le contenu des applications tierces, quelle que soit la théorie juridique invoquée, même si %1$s a été informée de la possibilité de tels dommages-intérêts et même si un recours n’atteint pas son objectif essentiel. En aucun cas, la responsabilité globale de %1$s ne saurait dépasser le montant que vous avez versé à %1$s, le cas échéant, au cours du dernier mois au titre des services donnant lieu à la demande, dans la mesure permise par la loi applicable."
+
+#. 1: Site name
+msgid "9.limitation_of_liability.3"
+msgstr "9.3	%1$s, ses salariés, ses mandataires et ses administrateurs n’assument aucune responsabilité ; vous convenez par les présentes de nous dégager de toute responsabilité découlant (directement ou indirectement) des informations fournies par les Services, ou de toute erreur ou omission de celles-ci. La responsabilité de %1$s ne saurait être engagée au titre des pertes (directes ou indirectes) causées par les actions que vous avez effectuées ou les décisions que vous avez prises en fonction de la confiance que vous avez accordée aux informations obtenues par les Services ni pour les pertes provoquées par un retard ou un dysfonctionnement de l’exploitation ou de l’accessibilité des Services. Bien que nous nous efforcions de fournir un Contenu exact par le biais de la Plate-forme, nous ne donnons aucune garantie ni ne faisons aucune déclaration quant à l’exactitude dudit Contenu."
+
+msgid "10.changes.title"
+msgstr "10.	Changements"
+
+#. 1: Site name
+msgid "10.changes.1"
+msgstr "10.1 %1$s peut modifier ou remplacer notre contrat d’utilisation à tout moment. Nous publierons ces changements, remplacements et mises à jour sur le site ; nous vous en informerons par courrier électronique si possible. Ces changements, remplacements et mises à jour de notre contrat d’utilisation prendront effet immédiatement sur publication. Les changements apportés aux conditions de service n’auront pas d’effet sur les durées d’abonnement déjà réglées. Vous vous engagez à vous tenir informé de la dernière version publiée du contrat d’utilisation ; vous convenez que votre accès à notre service ou utilisation de celui-ci une fois la dernière version publiée sur notre site vaut acceptation de ces changements, remplacements et mises à jour qui auront alors force contraignante à votre égard. Le contrat d’utilisation s’applique quel que soit l’appareil ou le système d’exploitation que vous utilisez pour accéder à nos services."
+
+msgid "11.laws.title"
+msgstr "11.	Droit applicable et choix du forum"
+
+#. 1: Site name
+msgid "11.laws.1"
+msgstr "11.1 Le présent Contrat est régi par les lois de l’Irlande et interprété selon celles-ci, sans égard à leurs dispositions en matière de conflit de lois et à l’exclusion de la Convention des Nations Unies sur les contrats de vente internationale de marchandises. Vous convenez qu’en cas de différend avec %1$s, vous nous contacterez afin de le régler par des négociations et un accord mutuel. Si une solution ne peut être trouvée lors de ces négociations, vous vous engagez à vous soumettre par les présentes à la compétence non exclusive des tribunaux de la ville de Dublin, en Irlande."
+
+msgid "12.final_provisions.title"
+msgstr "12.	Clauses finales"
+
+msgid "12.final_provisions.1"
+msgstr "12.1 Si une partie des présentes Conditions est jugée nulle, illégale ou inapplicable à quelque égard que ce soit, la validité ou l’applicabilité du reste des Conditions n’en sera pas affectée."
+
+msgid "12.final_provisions.2"
+msgstr "12.2 Les titres des articles des Conditions sont uniquement à titre de commodité et n’ont aucun effet juridique ou contractuel."
+
+msgid "12.final_provisions.3"
+msgstr "12.3 Le fait de ne pas exercer ou de ne pas faire respecter un droit ou une clause du présent contrat ne saurait constituer une renonciation à ce droit ou à cette clause."
+
+msgid "12.final_provisions.4"
+msgstr "12.4 Aucune des parties ne peut céder ou transférer un droit ou une obligation en vertu du présent Contrat à un tiers sans obtenir un consentement écrit préalable, sauf à ses successeurs en cas de fusion, de vente ou de mise en liquidation de la Partie."
+
+msgid "13.legally_mandatory_information.title"
+msgstr "13. Informations légalement obligatoires sur la résolution des litiges en ligne pour les consommateurs"
+
+msgid "13.legally_mandatory_information.1"
+msgstr "13.1 Dans le cadre de notre devoir légal d’information, nous rappelons que la Commission européenne met à disposition une plate-forme de résolution des litiges en ligne sur Internet à l’adresse suivante : <a href=\"https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=FR\" target=\"_blank\">https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=FR</a>"
+
+msgid "13.legally_mandatory_information.2"
+msgstr "13.2 Cette plate-forme sert de point de contact pour la résolution extrajudiciaire des litiges résultant de contrats d’achat ou de services en ligne impliquant un consommateur."
+
+#. 1: E-mail address
+msgid "13.legally_mandatory_information.3"
+msgstr "13.3 Notre adresse électronique est %1$s."

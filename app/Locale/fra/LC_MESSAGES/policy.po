@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Language: fr_FR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "title"
+msgstr "Politique de Confidentalité de Trackerly"
+
+msgid "effective"
+msgstr "en vigueur à partir du 19 mai 2020"
+
+msgid "general_provisions.title"
+msgstr "1. Dispositions Générales"
+
+msgid "general_provisions.text.1"
+msgstr "1.1 Le présent document utilise la même terminologie et les mêmes abréviations que notre document sur les conditions d'utilisation. Cette politique de confidentialité régit la collecte, l'utilisation et le stockage des informations obtenues des utilisateurs lors de l'utilisation de notre plate-forme.  "
+
+msgid "general_provisions.text.2"
+msgstr "1.2 Les informations sur les utilisateurs sont divisées en informations personnellement identifiables et informations non-personnellement identifiables selon si les informations peuvent ou non identifier l'utilisateur comme une personne spécifique. Les informations sur les personnes morales n'entrent pas dans le champ d'application des informations telles que définies dans nos conditions d'utilisation et notre politique de confidentialité. "
+
+#. 1: Company name
+#. 2: Company number
+#. 3: Company address
+#. 4: E-mail address
+msgid "general_provisions.text.3"
+msgstr "1.3 %1$s, une société à responsabilité limitée irlandaise, enregistrée au registre du commerce et des sociétés irlandais sous le numéro 606933, dont le siège social est situé au 10 Clanwillan Square, Dublin 2, Irlande, occupe un poste de "contrôleur" tel que défini dans la directive européenne RGPD et nous sommes responsables du respect des principes relatifs au traitement des données à caractère personnel et nous devons être en mesure d'en apporter la preuve. Vous pouvez nous contacter en envoyant un e-mail %4$s"
+
+msgid "collection.title"
+msgstr "2. La Collecte et l'utilisation d'informations permettant d'identifier une personne"
+
+msgid "collection.text.1"
+msgstr "2.1 Nous pouvons obtenir certaines de vos informations personnelles afin de vous fournir nos services. Les informations que nous recueillons sont nécessaires pour fournir nos services, et nous ne recueillons aucune information qui ne soit pas requise par la nature de nos services. Nous pouvons collecter certaines des informations personnelles suivantes :"
+
+msgid "collection.text.1.li.1"
+msgstr "Prénom et nom de famille"
+
+msgid "collection.text.1.li.2"
+msgstr "Adresse électronique"
+
+msgid "collection.text.1.li.3"
+msgstr "Numéro de téléphone"
+
+msgid "collection.text.1.li.4"
+msgstr "Adresse IP et fichiers journaux du serveur"
+
+msgid "collection.text.1.li.5"
+msgstr "Informations sur les paiements"
+
+msgid "collection.text.1.li.6"
+msgstr "Autres informations que vous choisissez de fournir"
+
+msgid "collection.subtitle.a"
+msgstr "(A)	Nom"
+
+msgid "collection.text.2"
+msgstr "2.2 Afin de vous inscrire pour utiliser notre plate-forme, vous devez fournir votre nom et prénom. Nous n'utiliserons ces informations que pour vous créer un compte et pour nous adresser à vous à chaque fois que nous vous contacterons. La base juridique du traitement de ces informations est l'obligation contractuelle. Si vous ne fournissez pas votre nom lors de l'inscription, vous ne pourrez pas créer de compte chez nous. "
+
+msgid "collection.subtitle.b"
+msgstr "(B)	Adresse Électronique"
+
+msgid "collection.text.3"
+msgstr "2.3 Nous avons besoin de votre adresse électronique lorsque vous vous inscrivez pour utiliser les Services, vous pouvez la fournir lorsque vous vous abonnez à la newsletter ou lorsque vous contactez notre support. Nous n'utiliserons votre adresse électronique qu'en conformité avec la présente politique de confidentialité, y compris les règles relatives à la durée de la collecte. Nous recueillons votre adresse électronique pour nous conformer à notre obligation contractuelle de fournir nos services, ou avec votre consentement, selon le but de la collecte. Nous collecterons votre adresse électronique dans les cas suivants :"
+
+msgid "collection.text.3.li.1"
+msgstr "- <b>Lors de la creation d’un compte chez nous.</b> Nous collecterons votre adresse électronique pour la creation et la gestion de votre compte chez nous et pour vous envoyer des notifications concernant votre compte, par exemple lorsque vous souhaitez récupérer votre mot de passe, recevoir un message, que nous modifions notre politique de confidentialité ou qu'il y a une violation de données. Un compte est nécessaire pour accéder à certains de nos services et si vous ne nous fournissez pas votre adresse électronique à cette fin, vous ne pourrez pas accéder à ces services. "
+
+#. 1: E-mail address
+msgid "collection.text.3.li.2"
+msgstr "- <b>Lorsque vous nous contactez.</b> Nous collecterons votre adresse électronique chaque fois que vous nous contacterez via notre adresse électronique contact@trackerly.net. Chaque fois que nous collecterons votre adresse électronique de cette manière, nous l'utiliserons uniquement pour répondre à votre demande. "
+
+#. 1: Site name
+msgid "collection.text.3.li.3"
+msgstr "- <b>Lorsque vous vous inscrivez à notre newsletter.</b> Nous collecterons votre adresse électronique lorsque vous vous inscrirez pour recevoir plus d'informations sur Trackerly. En vous inscrivant à notre newsletter, vous consentez à recevoir des emails contenant les dernières nouvelles concernant Trackerly et les produits connexes."
+
+msgid "collection.subtitle.c"
+msgstr "(C)	Les Fichiers Journaux des Adresses IP et des Serveurs"
+
+msgid "collection.text.5"
+msgstr "2.5	Nous intégrons des systèmes de sécurité sur notre Plateforme afin de prévenir les tentatives et les exploitations malveillantes du Site. Nous scannons les adresses IP et interdisons les adresses IP qui présentent des signes malveillants tels que trop de défaillances de mots de passe, la recherche d'exploitations et autres. Nous traitons ces informations dans le but de protéger l'intégrité du site et des bases de données qui y sont liées. Nous recueillons votre adresse IP sur la base d'un intérêt légitime à maintenir l'intégrité et la sécurité de nos bases de données. "
+
+msgid "collection.text.6"
+msgstr "2.6	La Plateforme collecte une série de données et d'informations générales lorsqu'une personne accède au Site. Ces données et informations générales sont stockées dans les fichiers journaux du serveur. Les informations qui sont collectées comprennent (1) les types et versions de logiciels et de navigateurs utilisés, (2) le système d'exploitation utilisé par le système d'accès, (3) la date et l'heure d'accès aux services, (4) le fournisseur d'accès Internet du système d'accès et (5) toutes les autres données et informations similaires qui peuvent être utilisées en cas d'attaque de nos systèmes informatiques. "
+
+#. 1: Site name
+msgid "collection.text.7"
+msgstr "2.7	Nous recueillons ces informations à des fins d'enquête sur les infractions. Lors de l'utilisation de ces informations, nous pouvons connecter des fichiers journaux spécifiques à des Utilisateurs spécifiques à condition que les Utilisateurs soient connectés à leurs comptes Trackerly lorsqu'ils accèdent au Site. Ces informations sont nécessaires pour (1) résoudre les problèmes et corriger les bugs du système, (2) fournir correctement le contenu de notre Plateforme, (3) optimiser le contenu de notre Plateforme ainsi que sa publicité, (4) assurer la viabilité à long terme de nos systèmes informatiques et de la technologie de notre site web, et (5) fournir aux autorités répressives les informations nécessaires aux poursuites pénales en cas de cyber-attaque. Nous recueillons ces informations en fonction de notre intérêt légitime. "
+
+msgid "collection.subtitle.d"
+msgstr "(D)	Informations sur les Paiements"
+
+msgid "collection.text.8"
+msgstr "2.8	Tous les paiements sur la plate-forme sont effectués par l'intermédiaire de prestataires de services tiers, en fonction du mode de paiement. Vous comprenez par la présente qu'en effectuant un achat sur notre plate-forme, vos informations personnelles sont traitées et manipulées conformément aux dispositions respectives."
+
+msgid "collection.subtitle.e"
+msgstr "(E) Autres Informations"
+
+msgid "collection.text.9"
+msgstr "2.9	Vous pouvez, à un moment donné, choisir de fournir d'autres informations qui ne sont pas nécessaires au bon fonctionnement des services. Dans tous les cas, nous n'utiliserons ces informations qu'aux fins pour lesquelles vous les avez communiquées. Si nous ne sommes pas sûrs de la raison pour laquelle vous fournissez de telles informations, nous vous contacterons dans la mesure du possible. Dans le cas contraire, nous supprimerons ces informations."
+
+msgid "collection.subtitle.f"
+msgstr "(F) Généralites"
+
+msgid "collection.text.10"
+msgstr "2.10 Certains services ne vous seront pas accessibles si vous ne fournissez pas les informations demandées. Nous pouvons conserver des enregistrements de toutes les questions, plaintes ou compliments que vous avez formulés et de leurs réponses, si présentes. Chaque fois que vous nous contactez, nous recueillons les informations que vous avez choisi de fournir. Nous conserverons et utiliserons ces informations uniquement dans le but de répondre à vos demandes. Les informations contenues dans la demande, exemptes de toute information personnelle identifiable, seront stockées sur nos serveurs dans le but d'améliorer nos services et de fournir la meilleure assistance client possible."
+
+msgid "collection.text.11"
+msgstr "2.11 Nous ne vendons ni ne louons les informations personnelles à aucun tiers. Nous utilisons les Informations collectées pour nos besoins internes et de marketing, selon les besoins de la nature des Services, et uniquement en conformité avec la présente Politique de confidentialité. Dans certains cas, nous sommes obligés de nous conformer aux ordonnances des tribunaux et aux demandes du gouvernement et de fournir des informations ou des parties d'informations à des organismes autorisés."
+
+msgid "collection.text.12"
+msgstr "2.12 Nous pouvons divulguer vos informations personnelles à nos partenaires, agents et opérateurs dans le cadre d'accords de confidentialité ou d'accords similaires, y compris aux sociétés de traitement des paiements et aux sociétés de transport qui, selon nous, ont raisonnablement besoin d'entrer en contact avec ces informations : (i) pour fournir des services à votre demande ; (ii) pour administrer notre entreprise ou le site ; (iii) pour fournir une assistance à la clientèle ; (iv) pour mettre à jour les informations relatives à votre compte ; (v) pour transmettre des mises à jour, des annonces et des bulletins d'information ; (vi) pour répondre à vos communications et communiquer avec vous au sujet du site et d'autres activités liées au site ; (vii) en cas de réorganisation, fusion, vente, joint-venture, cession, transfert ou disposition de tout ou partie de l'activité ou des opérations du Site (y compris, sans limitation, en cas de faillite ou de toute autre procédure similaire) ; ou (viii) comme autrement autorisé par vous.  "
+
+msgid "collection.text.13"
+msgstr "2.13 Nous avons mis en place des procédures et des mesures de sécurité afin d'assurer une protection appropriée des informations que nous traitons, contre toute utilisation abusive, tout accès non autorisé, toute divulgation ou toute modification. Nous supprimerons toute information vous concernant dans un délai de quinze (15) jours après que la demande en ait été faite. "
+
+msgid "collection.text.14"
+msgstr "2.14 Nous reconnaissons que la sécurité de vos informations est l'une des plus grandes priorités et que, par conséquent, seuls les responsables autorisés du traitement ont accès à vos informations. Bien que nous prenions toutes les mesures appropriées pour assurer la sécurité de vos informations, vous comprenez qu'aucune mesure de sécurité des données dans le monde ne peut offrir une protection à 100%. Si nous constatons ou soupçonnons une violation des données personnelles, nous en informerons sans délai, dans les soixante-douze (72) heures suivant la prise de connaissance, l'autorité de contrôle compétente et les Utilisateurs si nécessaire."
+
+msgid "collection.text.15"
+msgstr "2.15 Le traitement des informations est effectué automatiquement, sans intervention humaine. Toutefois, lorsque vous nous contactez par email, les informations contenues dans l’email seront traitées par une personne réelle afin de vous fournir la réponse."
+
+#. 1: E-mail address
+msgid "collection.text.16"
+msgstr "2.16 Les utilisateurs peuvent demander l'accès, la modification et l'effacement des informations personnelles et exercer leur droit d'opposition. Ces demandes doivent être soumises à  %1$s."
+
+msgid "collection_non_personally.title"
+msgstr "3. Collecte EetT Utilisation D'Informations non Personnelles Identifiables"
+
+msgid "collection_non_personally.text.1"
+msgstr "3.1	La Plateforme et les autres plateformes d'analyse tiers collectent une série de données et d'informations générales lorsqu'un Utilisateur ou un système automatisé appelle la Plateforme. Ces données et informations générales sont stockées dans les fichiers journaux du serveur. Les données et informations collectées peuvent être (1) les types et versions de logiciels utilisés, (2) le système d'exploitation utilisé par le système d'accès, (3) la date et l'heure d'accès aux services, (4) le fournisseur d'accès Internet du système d'accès et (5) toute autre donnée et information similaire pouvant être utilisée en cas d'attaque de nos systèmes informatiques. "
+
+msgid "collection_non_personally.text.2"
+msgstr "3.2	Nous recueillons ces informations à des fins d'enquête sur les violations. Lors de l'utilisation de ces informations, nous ne tirons aucune conclusion sur l'utilisateur. Ces informations sont plutôt nécessaires pour (1) fournir correctement le contenu de notre Plateforme, (2) optimiser le contenu de notre Plateforme ainsi que sa publicité, (3) assurer la viabilité à long terme de nos systèmes informatiques et de la technologie de notre site web, et (4) fournir aux autorités répressives les informations nécessaires aux poursuites pénales en cas de cyber-attaque. Les données anonymes des fichiers journaux du serveur sont stockées séparément de toutes les données personnelles fournies par une personne concernée."
+
+msgid "storage_and_information_transfer.title"
+msgstr "4. Stockage et Transfert D'Informations"
+
+msgid "storage_and_information_transfer.text.1"
+msgstr "4.1	Les informations seront stockées sur des serveurs sécurisés, contrôlés et entretenus conformément aux mesures de protection de la vie privée. Nous pouvons stocker ou transférer des informations sur les personnes concernées situées dans l'UE vers des serveurs situés dans des pays jugés adéquats par la Commission européenne, ou dans des pays que la Commission européenne n'a pas jugés inadéquats, à condition que ces pays mettent en place des garanties appropriées et adéquates concernant la sécurité des informations personnelles."
+
+msgid "storage_and_information_transfer.text.2"
+msgstr "4.2	Les informations sont stockées sur les serveurs uniquement pour la durée nécessaire à la fourniture des services et au maintien de l'intégrité de nos bases de données. Nous tiendrons des registres des activités de traitement dans le but de démontrer la conformité avec la RGPD de l'UE."
+
+msgid "storage_and_information_transfer.text.3"
+msgstr "4.3 Certains services requièrent l'utilisation de solutions tierces. Lorsque vous êtes redirigé de notre site vers le site web d'un tiers, vous n'êtes plus en interaction avec notre site. Toute information que vous fournissez par le biais de sites web tiers sera traitée conformément à leur politique de confidentialité et aux autres conditions applicables. "
+
+msgid "third_party.title"
+msgstr "5. Sites Web, Services et Cookies de Tiers"
+
+msgid "third_party.text.1"
+msgstr "5.1	Le site ou les e-mails peuvent contenir des liens vers d'autres sites web externes qui ne relèvent pas de notre domaine. Nous ne sommes pas responsables des pratiques de confidentialité ou du contenu de ces sites web externes. Si vous choisissez de suivre ces liens vers des sites web externes, vous le faites à vos risques et périls."
+
+msgid "third_party.text.2"
+msgstr "5.2	Les cookies nous aident à optimiser et à améliorer l'expérience des utilisateurs du site en nous permettant de fournir des fonctionnalités essentielles. Les cookies que nous utilisons peuvent varier dans le temps car nous mettons à jour et améliorons continuellement notre site et nos services. Vous trouverez de plus amples informations dans notre politique en matière de cookies. "
+
+msgid "information_retention_period.title"
+msgstr "6. Période de Conservation des Informations"
+
+msgid "information_retention_period.text.1"
+msgstr "6.1	Si vous enregistrez un compte chez nous, nous conserverons vos informations aussi longtemps que vous aurez un compte actif. Dès que vous supprimerez votre compte, nous supprimerons toutes les informations que nous avons recueillies à votre sujet, sauf si nous avons des motifs légaux appropriés pour poursuivre leur traitement. Si votre compte a été résilié ou suspendu en raison d'une violation des conditions, nous conserverons vos informations pendant deux ans au maximum afin d'éviter des enregistrements répétés et d'appliquer les mesures de suspension."
+
+msgid "user_rights.title"
+msgstr "7. Droits de L'Utilisateur"
+
+msgid "user_rights.text.1"
+msgstr "7.1	Vous pouvez demander à:"
+
+msgid "user_rights.text.1.li.1"
+msgstr "Obtenir la confirmation que vos informations sont traitées, accéder aux informations vous concernant que nous avons stockées ainsi qu'à des informations complémentaires."
+
+#. 1: Site name
+msgid "user_rights.text.1.li.2"
+msgstr "Recevoir une copie des Informations vous concernant qui sont détenues par Trackerly dans un format structuré, couramment utilisé et lisible par machine."
+
+msgid "user_rights.text.1.li.3"
+msgstr "Corriger vos Informations."
+
+msgid "user_rights.text.1.li.4"
+msgstr "Faire supprimer vos Informations personnelles."
+
+#. 1: Site name
+msgid "user_rights.text.1.li.5"
+msgstr "S'opposer au traitement des Informations par %1$s."
+
+#. 1: Site name
+msgid "user_rights.text.1.li.6"
+msgstr "Restreindre le traitement de vos Informations par %1$s."
+
+msgid "user_rights.text.1.li.7"
+msgstr "Déposer une plainte auprès d'une autorité de contrôle."
+
+#. 1: Site name
+msgid "user_rights.text.2"
+msgstr "7.2	Ces droits peuvent être limités s'ils sont soumis aux intérêts légitimes et aux exigences réglementaires propres à %1$s."
+
+msgid "changes.title"
+msgstr "8. Modifications de la Politique de Confidentialité "
+
+msgid "changes.text.1"
+msgstr "8.1	Nous nous réservons le droit de modifier notre politique de confidentialité à tout moment. La version actuelle de notre politique de confidentialité est disponible sur le site, en indiquant la date d'entrée en vigueur. Nous vous encourageons à consulter régulièrement notre politique de confidentialité."
+
+msgid "contact.title"
+msgstr "9. Informations de Contact"
+
+#. 1: E-mail address
+msgid "contact.text.1"
+msgstr "9.1	Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité et la manière dont les informations sont traitées, ou si vous souhaitez accéder à vos informations, les récupérer, les modifier ou les mettre à jour, n'hésitez pas à nous contacter à l'adresse  %1$s."

@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Language: fr_FR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "title"
+msgstr "Politique sur les cookies"
+
+msgid "effective"
+msgstr "Prenant effet le 19 mai 2020"
+
+msgid "general_information.title"
+msgstr "1. Informations générales"
+
+msgid "general_information.text.1"
+msgstr "1.1	Le présent document utilise la même terminologie et les mêmes abréviations que le document sur les conditions générales. Un cookie est un petit fichier texte servant à stocker des informations sur les navigateurs Web. Il mémorise des informations liées à votre visite sur notre site Web, comme, par exemple, votre devise préférée et d’autres paramètres ; il nous aide à optimiser la navigation des utilisateurs sur le site Web. Les cookies nous permettent de vous fournir un service plus convivial et plus satisfaisant grâce à l’activation de fonctionnalités essentielles."
+
+msgid "general_information.text.2"
+msgstr "1.2	Nos cookies (et d’autres types de technologies que nous utilisons dans un but similaire à celui des cookies, également dénommées dans les présentes « cookies ») peuvent varier dans le temps car nous mettons à jour continuellement nos services afin de les améliorer. Nous utilisons les cookies nécessaires dès votre accès à notre Site. Toutefois, nous avons besoin de votre consentement pour utiliser des cookies analytiques. Vous trouverez de plus amples informations sur nos cookies dans notre liste des cookies les plus utilisés ci-dessous."
+
+msgid "th.category"
+msgstr "Catégorie d’utilisation"
+
+msgid "th.example"
+msgstr "Exemple"
+
+msgid "th.preferences.title"
+msgstr "Préférences"
+
+msgid "th.preferences.text"
+msgstr "Les cookies liés aux préférences activent les fonctionnalités de nos services, nous aidant ainsi à offrir à l’utilisateur une navigation personnalisée sur notre site. Ils mémorisent des informations comme, par exemple, la langue et la devise préférées, puis permettent au site de s’y adapter. "
+
+msgid "th.authentification.title"
+msgstr "Authentification et sécurité"
+
+msgid "th.authentication.subtitle.1"
+msgstr "Authentification"
+
+msgid "th.authentication.text.1"
+msgstr "Si vous possédez un compte sur le Site, nous utilisons des cookies pour le vérifier et, selon vos préférences, afin de vous garder connecté pour vous donner un accès plus facile à nos services. Les cookies nous permettent également de stocker des informations de sécurité pour pouvoir récupérer votre compte en cas de piratage ou d’oubli de mot de passe."
+
+msgid "th.authentication.subtitle.2"
+msgstr "Sécurité"
+
+msgid "th.authentication.text.2"
+msgstr "Si vous possédez un compte sur le Site, les cookies liés à la sécurité nous aident à protéger votre compte et les données des utilisateurs contre les parties non autorisées. Ces cookies préviennent l’utilisation frauduleuse d’identifiants de connexion grâce, par exemple, à des mesures de sécurité supplémentaires qui sont mises en œuvre lorsque quelqu’un tente d’accéder à votre compte sans autorisation appropriée."
+
+msgid "th.performance.title"
+msgstr "Performances"
+
+msgid "th.performance.text"
+msgstr "Les cookies liés aux performances permettent à toutes les fonctions de notre site Web de fonctionner correctement. Par exemple, vous ne pourrez pas vous servir de notre fonction de recherche ou avoir accès à notre page de connexion (si vous possédez un compte) sans ces cookies."
+
+msgid "th.analytics.title"
+msgstr "Analyse"
+
+msgid "th.analytics.text"
+msgstr "Ces cookies fournissent des informations sur la manière dont les visiteurs utilisent nos services et nous permettent de collecter des données sur les aspects à développer afin d’améliorer la navigation des utilisateurs."
+
+msgid "general_information.text.3"
+msgstr "1.3 Nous sommes susceptibles de recourir à des services tiers comme Google Analytics. Les cookies provenant de ces services servent à collecter des données en vue de compiler des rapports statistiques. "
+
+msgid "general_information.text.4"
+msgstr "1.4 Le Site utilise Google Analytics à des fins statistiques. L’application Google Analytics est configurée de sorte à ne pas collecter votre adresse IP ni aucune autre information personnelle permettant de vous identifier. Nous nous intéressons uniquement à la façon dont le Site est utilisé afin de pouvoir améliorer, modifier et adapter le Site et les Services pour répondre au mieux aux besoins des utilisateurs. Vous trouverez de plus amples informations sur le fonctionnement de Google Analytics et sur la manière dont vous pouvez vous opposer à son utilisation sur le site : https://policies.google.com/technologies/partner-sites."
+
+msgid "managing_cookie.title"
+msgstr "2. Gestion des cookies"
+
+#. 1: Site name
+msgid "managing_cookie.text.1"
+msgstr "2.1 Vous avez la possibilité de gérer vos préférences en matière de cookies à tout moment. Pour ce faire, ouvrez les paramètres de votre navigateur ou de votre appareil. Selon votre navigateur et votre appareil, vous pourrez décider quels cookies autoriser, quels cookies bloquer à l’avenir et quels cookies supprimer. Pour obtenir plus d’informations sur ces paramètres, consultez la page d’aide de votre navigateur ou de votre appareil. Notez que certains des Services de Trackerly peuvent ne pas fonctionner comme prévu si vous choisissez de désactiver des cookies."
+
+msgid "contact_information.title"
+msgstr "3. Coordonnées"
+
+#. 1: Email
+msgid "contact_information.text.1"
+msgstr "3.1 En cas de questions ou d’inquiétude à l’égard de notre politique sur les cookies et la manière dont les informations sont traitées, ou encore si vous souhaitez accéder à vos Informations, les récupérer, les modifier ou les mettre à jour, n’hésitez pas à nous contacter à l’adresse contact@trackerly.net"

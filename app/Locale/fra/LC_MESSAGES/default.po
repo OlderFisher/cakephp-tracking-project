@@ -1,0 +1,1339 @@
+msgid ""
+msgstr ""
+"Language: fr_FR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+
+msgid "cookies.text"
+msgstr "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de vos données personnelles (par des cookies ou technologies similaires) afin de vous proposer des contenus adaptés à vos centres d’intérêts."
+
+msgid "cookies.text.link"
+msgstr "Plus d'informations"
+
+msgid "email.subject.geolocalization.request"
+msgstr "Votre demande de géolocalisation sur %1$s pour le %2$s"
+
+msgid "email.subject.new_message"
+msgstr "Nouveau message sur %1$s"
+
+msgid "email.subject.new_claim"
+msgstr "Nouvelle réclamation sur %1$s"
+
+msgid "email.subject.paiement_confirmation"
+msgstr "Confirmation de commande"
+
+msgid "email.subject.retrieve_password"
+msgstr "Votre mot de passe %1$s"
+
+msgid "email.subject.thanks"
+msgstr "Merci pour votre confiance"
+
+#. 1: Tracking number
+msgid "email.subject.tracking_update"
+msgstr "Mise à jour de votre coli %1$s"
+
+msgid "email.application.thanks"
+msgstr "Merci pour votre confiance."
+
+msgid "email.application.contact"
+msgstr "Vous pouvez nous contacter à tout moment à cette adresse :"
+
+msgid "email.application.contact_next"
+msgstr "et par téléphone au :"
+
+msgid "email.application.login"
+msgstr "Connectez-vous sur votre compte pour avoir accès à vos documents en ligne avec les identifiants ci-dessous :"
+
+msgid "email.confirm.order_summary"
+msgstr "Résumé de commande"
+
+msgid "email.confirm.transaction_descriptor"
+msgstr "La transaction apparaitra sur votre compte sous le libellé :"
+
+msgid "email.contact.sent"
+msgstr "Votre message a été envoyé à notre service client :"
+
+msgid "email.footer.contact"
+msgstr "Veuillez nous contacter si vous avez des questions supplémentaires par email : %1$s et par téléphone au : %2$s"
+
+msgid "email.footer.disposal"
+msgstr "Nous restons à votre disposition pour toute question supplémentaire."
+
+msgid "email.footer.regards"
+msgstr "Cordialement,"
+
+msgid "email.footer.team"
+msgstr "L'équipe %1$s"
+
+msgid "email.hello"
+msgstr "Bonjour %1$s %2$s,"
+
+msgid "email.localization.failed"
+msgstr "Nous sommes désolé de vous apprendre que nous n'avons pas réussi à localiser le numéro de téléphone suivant :"
+
+msgid "email.localization.success"
+msgstr "Nous avons réussi à localiser le numéro de téléphone suivant :"
+
+msgid "email.password.new_credentials"
+msgstr "Voici vos nouveaux identifiants de connexion :"
+
+msgid "email.termination.subject"
+msgstr "Votre abonnement à %1$s a été résilié"
+
+msgid "email.termination.information"
+msgstr "Vous venez d’effectuer une demande de résiliation à votre abonnement."
+
+msgid "email.termination.confirm"
+msgstr "Nous accusons réception de votre demande de résiliation et nous vous confirmons que cette demande a bien été prise en compte. Vous ne serez plus prélevé."
+
+#. 1: Tracking number
+#. 2: Carrier name
+msgid "email.tracking_update.description"
+msgstr "The status of your parcel <b>%1$s</b> with the carrier <b>%2$s</b> has been updtated:"
+msgstr "Le statut de votre coli <b>%1$s</b> avec le transporteur <b>%2$s</b> a été mis à jour :"
+
+
+msgid "form.label.address"
+msgstr "Adresse :"
+
+msgid "form.label.city"
+msgstr "Ville :"
+
+msgid "form.label.date"
+msgstr "Date :"
+
+msgid "form.label.email"
+msgstr "Email :"
+
+msgid "form.label.email_used"
+msgstr "Email utilisé lors de l'inscription :"
+
+msgid "form.label.firstname"
+msgstr "Prénom :"
+
+msgid "form.label.id"
+msgstr "Identifiant :"
+
+msgid "form.label.lastname"
+msgstr "Nom :"
+
+msgid "form.label.message"
+msgstr "Message :"
+
+msgid "form.label.notification"
+msgstr "Notifiez-moi au :"
+
+msgid "form.label.npa"
+msgstr "Code postal :"
+
+msgid "form.label.operator"
+msgstr "Opérateur identifié :"
+
+msgid "form.label.order_number"
+msgstr "Numéro de commande :"
+
+msgid "form.label.password"
+msgstr "Mot de passe :"
+
+msgid "form.label.password.requirements"
+msgstr "Le mot de passe doit contenir plus de 8 caractères et au moins 1 majuscule."
+
+msgid "form.label.phone"
+msgstr "Téléphone :"
+
+msgid "form.label.policy"
+msgstr "En soumettant ce formulaire, j'accepte que les informations saisies soient utilisées pour me recontacter."
+
+msgid "form.label.reason"
+msgstr "Raison :"
+
+msgid "form.label.sent_by"
+msgstr "Envoyé par :"
+
+msgid "form.label.service"
+msgstr "Service :"
+
+msgid "form.label.subject"
+msgstr "Sujet :"
+
+msgid "form.label.tos"
+msgstr "Je déclare avoir lu et accepté les %1$s."
+
+msgid "form.label.total"
+msgstr "Total :"
+
+msgid "form.label.user"
+msgstr "Utilisateur :"
+
+msgid "form.label.vat"
+msgstr "TVA :"
+
+msgid "form.placeholder.cardholder"
+msgstr "Titulaire de la carte"
+
+msgid "form.placeholder.claim"
+msgstr "Réclamation"
+
+msgid "form.placeholder.cvv"
+msgstr "CVV"
+
+msgid "form.tooltip.cvv"
+msgstr "Le CVV est composé des 3 derniers chiffres du nombre au dos de votre carte"
+
+msgid "form.placeholder.trackpackage"
+msgstr "Entrez votre numéro de colis"
+
+msgid "form.placeholder.email"
+msgstr "Votre adresse email"
+
+msgid "form.placeholder.email_example"
+msgstr "adresse@mail.com"
+
+msgid "form.placeholder.expriation_date"
+msgstr "MM/AA"
+
+msgid "form.placeholder.firstname"
+msgstr "Votre prénom"
+
+msgid "form.placeholder.lastname"
+msgstr "Votre nom"
+
+msgid "form.placeholder.message"
+msgstr "Votre message"
+
+msgid "form.placeholder.message_example_localization"
+msgstr "Bonjour, un de vos proches vous cherche."
+
+msgid "form.placeholder.phone_localize"
+msgstr "Numéro à localiser"
+
+msgid "form.placeholder.phone"
+msgstr "Numéro de téléphone"
+
+msgid "form.placeholder.subject"
+msgstr "Votre sujet"
+
+msgid "form.submit.complete_purchase"
+msgstr "Valider et régler"
+
+msgid "form.submit.localize"
+msgstr "Localiser un téléphone"
+
+msgid "form.submit.login"
+msgstr "Se connecter"
+
+msgid "form.submit.send"
+msgstr "Envoyer"
+
+msgid "form.submit.save"
+msgstr "Enregistrer"
+
+msgid "form.title.claim"
+msgstr "Formulaire de réclamation"
+
+msgid "form.title.contact"
+msgstr "Formulaire de contact"
+
+msgid "header.description.faq"
+msgstr "Voici une FAQ créée par nos experts qui vous permettra de trouver la réponse que vous cherchez. Si malgré les efforts de nos experts cette FAQ ne vous satisfait pas, vous pouvez contacter nos équipes qui répondront rapidement à toutes vos questions."
+
+msgid "header.description.login"
+msgstr "Connectez vous à votre compte personnel"
+
+msgid "header.description.retrieve_password.request"
+msgstr "Créer un mot de passe pour vous connecter à votre espace personnel"
+
+msgid "header.description.sav"
+msgstr "Que vous soyez un client de %1$s ou bien un futur client, le service client a été mis en place pour vous venir en aide. %2$s a décidé de confier la gestion de son SAV à une plateforme professionnelle de SAV %3$s."
+
+msgid "header.description.termination"
+msgstr "La résiliation de votre abonnement est totalement gratuite et instantanée ! Pour résilier votre abonnement il vous suffit de renseigner l’adresse mail avec laquelle vous avez souscrit votre abonnement !"
+
+msgid "header.title.about"
+msgstr "Qui sommes-nous ?"
+
+msgid "header.title.claim"
+msgstr "Réclamation"
+
+msgid "header.title.contact"
+msgstr "Prendre contact"
+
+msgid "header.title.faq"
+msgstr "Vos questions"
+
+msgid "header.title.geolocalization.list"
+msgstr "Mes géolocalisations"
+
+msgid "header.title.geolocalization.new"
+msgstr "Nouvelle géolocalisation"
+
+msgid "header.title.geolocalization.request"
+msgstr "Localisation du téléphone"
+
+msgid "header.title.legal_notice"
+msgstr "Mentions Légales"
+
+msgid "header.title.login"
+msgstr "Connexion"
+
+msgid "header.title.paiement"
+msgstr "Confirmation de Commande"
+
+msgid "header.title.paiement_confirmation"
+msgstr "Confirmation de Paiement"
+
+msgid "header.title.paiement_noconfirmation"
+msgstr "Annulation du Paiement"
+
+msgid "header.title.profile"
+msgstr "Mon Profil"
+
+msgid "header.title.retrieve_password.confirm"
+msgstr "Nouveau mot de passe"
+
+msgid "header.title.retrieve_password.request"
+msgstr "Mot de passe oublié"
+
+msgid "header.title.retrieve_password.sent"
+msgstr "Nouveau mot de passe envoyé"
+
+msgid "header.title.sav"
+msgstr "Service Client"
+
+msgid "header.title.termination"
+msgstr "Résiliation de votre abonnement"
+
+msgid "header.title.tracking"
+msgstr "Suivi de colis"
+
+msgid "link.forgot_password"
+msgstr "Mot de passe oublié ?"
+
+msgid "link.localize_phone"
+msgstr "Localiser un téléphone"
+
+msgid "link.more_information"
+msgstr "En savoir plus"
+
+msgid "link.ok"
+msgstr "OK"
+
+msgid "link.policy"
+msgstr "politique de confidentialité"
+
+msgid "link.tos"
+msgstr "CGV"
+
+msgid "message.error.already_subscribed"
+msgstr "Vous avez déjà souscrit à notre offre. Connectez vous depuis l'espace personnel."
+
+msgid "message.error.browser_not_supporting"
+msgstr "La géolocalisation n'est pas prise en charge par ce navigateur."
+
+msgid "message.error.cannot_terminate"
+msgstr "Impossible de résilier votre abonnement, veuillez contacter notre service client"
+
+msgid "message.error.captcha"
+msgstr "Veuillez confirmer que vous n'êtes pas un robot"
+
+msgid "message.error.card_number_invalid"
+msgstr "Le numéro de carte est invalide"
+
+msgid "message.error.carrier_not_found"
+msgstr "Nous n'avons pas pu trouver la société de transport. Veuillez vérifier le numéro du colis."
+
+msgid "message.error.carrier_detect_unknown_error"
+msgstr "Une erreur inconue est survenue lors de la détection de la société de transport. Veuillez contacter notre service le client s'il vous plaît."
+
+msgid "message.error.credentials_not_match"
+msgstr "Identifiant ou mot de passe incorrect."
+
+msgid "message.error.geolocalization_declined"
+msgstr "L'utilisateur a refusé la demande de géolocalisation."
+
+msgid "message.error.geolocalization_expired"
+msgstr "La demande d'obtention de l'emplacement de l'utilisateur a expiré."
+
+msgid "message.error.geolocalization_unavailable"
+msgstr "Les informations de localisation sont indisponibles."
+
+msgid "message.error.geolocalization_no_request"
+msgstr "Il n'y a auncune demande de géolocalisation."
+
+msgid "message.error.geolocalization_unknown"
+msgstr "Une erreur inconnue est survenue."
+
+msgid "message.error.limit_exceeded"
+msgstr "Vous ne pouvez pas faire plus de 30 demandes par mois."
+
+msgid "message.error.no_subscription_found"
+msgstr "Impossible de retrouver votre abonnement, veuillez contacter notre service client."
+
+msgid "message.error.no_subscription_found_for_email"
+msgstr "Aucun abonnement n'a été trouvé pour cette adresse e-mail."
+
+msgid "message.error.paiement_already_done"
+msgstr "Votre paiement a déjà été effectué."
+
+msgid "message.error.paiement_declined"
+msgstr "Votre paiement a été refusé."
+
+msgid "message.error.password_invalid"
+msgstr "Votre mot de passe n'est pas conforme. Veuillez réessayer."
+
+msgid "message.error.unknown"
+msgstr "Une erreur est survenue. Veuillez réessayer."
+
+msgid "message.error.unknown_customer_service"
+msgstr "Une erreur est survenue. Veuillez contacter le service client."
+
+msgid "message.sms.someone_is_looking_for_you"
+msgstr "Bonjour, un de vos proches est à votre recherche. Cliquez sur le lien suivant pour le rassurer :"
+
+msgid "message.success.geolocalization_accepted"
+msgstr "Vous avez accepter la géolocalisation"
+
+msgid "message.success.geolocalization_found"
+msgstr "Nous avons trouvé votre proche ! Le numéro %1$s a été géolocalisé au %2$s."
+
+msgid "message.success.message_sent"
+msgstr "Votre message a bien été envoyé. Vous recevrez une réponse sous 24 heures. Merci."
+
+msgid "message.success.request_done"
+msgstr "Votre demande a été effectuée."
+
+#. 1: Site name
+msgid "meta.description.about"
+msgstr "%1$s est une plateforme en ligne qui met à disposition de ses clients un service de localisation de colis en se basant sur les informations des transporteurs."
+
+msgid "meta.description.claim"
+msgstr "Si vous souhaitez effectuer une réclamation à propos des services délivrés par %1$s vous pouvez contacter les équipes de %1$s qui prendront votre réclamation en compte."
+
+#. 1: Site name
+msgid "meta.description.contact"
+msgstr "Contactez les équipes de %1$s pour obtenir toutes les informations relatives à la livraison de votre colis ou bien au fonctionnement de la plateforme %1$s."
+
+msgid "meta.description.customer_service"
+msgstr "Le service client %1$s vous permet d’obtenir toutes les informations nécessaires concernant votre abonnement %1$s , nos conseillers sont réactifs et efficaces !"
+
+#. 1: Site name
+msgid "meta.description.faq"
+msgstr "Retrouvez toutes les réponses dont vous avez besoin concernant les services proposés par %1$s et la localisation de votre colis sur notre FAQ rédigée par les équipes de %1$s."
+
+#. 1: Site name
+msgid "meta.description.home"
+msgstr "%1$s est une plateforme sur laquelle vous pouvez suivre vos colis en temps réel grâce à leurs informations de localisation fournies par les transporteurs."
+
+#. 1: Site name
+msgid "meta.description.login"
+msgstr "Connectez-vous à votre espace personnel %1$s pour obtenir toutes les informations disponibles concernant la localisation de votre colis."
+
+msgid "meta.description.profile"
+msgstr ""
+
+msgid "meta.description.retrieve_password.request"
+msgstr "Vous avez oublié votre mot de passe pour vous connecter à votre espace personnel ? Pas de problèmes nos équipes vont vous en redonner un le plus rapidement possible!"
+
+msgid "meta.description.retrieve_password.sent"
+msgstr "Votre nouveau mot de passe %1$s."
+
+#. 1: Site name
+msgid "meta.description.termination"
+msgstr "%1$s a développé un système de résiliation qui vous permet de résilier votre abonnement %1$s en renseignant seulement l’adresse mail utilisée lors de votre inscription."
+
+msgid "meta.title.about"
+msgstr "Qui sommes-nous ?"
+
+msgid "meta.title.claim"
+msgstr "Réclamation"
+
+msgid "meta.title.contact"
+msgstr "Prendre Contact"
+
+msgid "meta.title.cookie"
+msgstr "Utilisation des cookies"
+
+msgid "meta.title.customer_service"
+msgstr "Service Client"
+
+msgid "meta.title.faq"
+msgstr "Foire aux questions"
+
+msgid "meta.title.geolocalization.list"
+msgstr "Mes géolocalisations"
+
+msgid "meta.title.geolocalization.new"
+msgstr "Nouvelle géolocalisation"
+
+msgid "meta.title.geolocalization.request"
+msgstr "Demande de localisation du téléphone"
+
+msgid "meta.title.home"
+msgstr "Tracker un colis"
+
+msgid "meta.title.legal_notice"
+msgstr "Mentions légales"
+
+msgid "meta.title.login"
+msgstr "Connectez-vous à votre compte"
+
+msgid "meta.title.paiement"
+msgstr "Paiement"
+
+msgid "meta.title.policy"
+msgstr "Politique de Confidentialité"
+
+msgid "meta.title.profile"
+msgstr "Personalisez votre profil"
+
+msgid "meta.title.retrieve_password.request"
+msgstr "Mot de passe oublié"
+
+msgid "meta.title.retrieve_password.sent"
+msgstr "Mot de passe oublié"
+
+msgid "meta.title.termination"
+msgstr "Résiliation de votre souscription"
+
+msgid "meta.title.tos"
+msgstr "Conditions Générales de Ventes et d'Utilisation"
+
+msgid "meta.title.tracking"
+msgstr "Suivis"
+
+
+msgid "nav.profil"
+msgstr "Mon profil"
+
+msgid "nav.geoloc"
+msgstr "Géolocalisation"
+
+msgid "nav.new_geoloc"
+msgstr "Nouvelle géolocalisation"
+
+msgid "nav.my_geoloc"
+msgstr "Mes géolocalisations"
+
+msgid "nav.request"
+msgstr "Assistance"
+
+msgid "nav.logout"
+msgstr "Déconnexion"
+
+msgid "nav.about"
+msgstr "Qui sommes-nous?"
+
+msgid "nav.faq"
+msgstr "FAQ"
+
+msgid "nav.contact"
+msgstr "Contact"
+
+msgid "nav.login"
+msgstr "Connexion"
+
+msgid "nav.customer_service"
+msgstr "Service client"
+
+msgid "nav.termination"
+msgstr "Résiliation"
+
+msgid "nav.tos"
+msgstr "Conditions Générales"
+
+msgid "nav.cookies"
+msgstr "Cookies"
+
+msgid "nav.legal_notice"
+msgstr "Mentions Légales"
+
+msgid "nav.contact_form"
+msgstr "Formulaire de contact"
+
+msgid "nav.claim"
+msgstr "Réclamation"
+
+
+msgid "section.claim.informations.text.p1"
+msgstr "Vous souhaitez effectuer une réclamation suite au service proposé par %1$s ? Ne vous inquiétez pas, un de nos conseillers va prendre en compte votre demande de réclamation !"
+
+msgid "section.claim.informations.text.p2"
+msgstr "Que cela concerne la mise en place de la géolocalisation mobile, l’accès à votre espace personnel %1$s ou bien le suivi du smartphone géolocalisé, vous pouvez nous faire parvenir une réclamation. Vous pouvez également vous rendre sur la page FAQ créé par les équipes de %1$s."
+
+msgid "section.claim.informations.text.p3"
+msgstr "Si vous souhaitez effectuer une réclamation par rapport aux services fournis par %1$s vous pouvez utiliser le formulaire présent sur cette page ou bien faire parvenir un mail avec pour objet « réclamation » à l’adresse suivante :"
+
+msgid "section.paiement.purchase.secure_paiement"
+msgstr "Paiement sécurisé"
+
+msgid "section.paiement.purchase.transaction_descriptor"
+msgstr "La transaction sur votre relevé bancaire apparaitra sous le descripteur :"
+
+
+
+msgid "section.paiement_confirmation.thanks.title"
+msgstr "Merci de votre confiance."
+
+msgid "section.paiement_noconfirmation.title"
+msgstr "Désolé le service n'est pas disponible"
+
+msgid "section.paiement_confirmation.thanks.text"
+msgstr "Un mail de confirmation vous sera envoyé dans quelques minutes. Vous pouvez maintenant vous connecter à votre espace personnel."
+
+msgid "section.paiement_noconfirmation.text"
+msgstr "Merci de réessayer plus tard"
+
+msgid "section.paiement_confirmation.contact.mail"
+msgstr "Pour toute demande contactez-nous à :"
+
+msgid "section.paiement_confirmation.contact.transaction_descriptor"
+msgstr "Votre débit apparaitra sur votre relevé de compte au nom de :"
+
+
+msgid "section.retrieve_password.sent.title"
+msgstr "Envoyé !"
+
+msgid "section.retrieve_password.sent.text"
+msgstr "Un nouveau mot de passe a été envoyé sur votre adresse e-mail. Pour le moindre problème, contacter notre service client"
+
+msgid "section.sav.delay.title"
+msgstr "Combien de temps va prendre la géolocalisation ?"
+
+msgid "section.sav.delay.p1"
+msgstr "Grâce à la mise en place de ce service client, vous aurez la possibilité d’obtenir l’ensemble des informations dont vous avez besoin concernant les services de %1$s. Sur %2$s il sera également possible d’entrer en contact avec un conseiller ou bien de gérer votre abonnement %1$s. Vous pouvez vous rendre sur la FAQ présente sur %1$s avant de vous rendre sur %2$s pour contacter un conseiller."
+
+msgid "section.sav.delay.p2"
+msgstr "Les conseillers de %1$s sont disponibles du lundi au dimanche de 8H à 20H."
+
+msgid "section.termination.sucess.title"
+msgstr "Votre requête à été acceptée"
+
+msgid "section.termination.sucess.text"
+msgstr "Vous êtes dersomais désabonné de notre offre"
+
+msgid "status.declined"
+msgstr "Refusé"
+
+msgid "status.localized"
+msgstr "Localisé"
+
+msgid "status.waiting"
+msgstr "En attente"
+
+msgid "validation.email"
+msgstr "Vous devez saisir une adresse email valide."
+
+msgid "validation.min.cvv"
+msgstr "Les numéros au dos de la carte doivent comporter 3 caractères."
+
+msgid "validation.min.firstname"
+msgstr "Le prénom doit au moins comporter {0} caractères."
+
+msgid "validation.min.lastname"
+msgstr "Le nom doit au moins comporter {0} caractères."
+
+msgid "validation.min.message"
+msgstr "Le message doit au moins comporter {0} caractères."
+
+msgid "validation.min.name"
+msgstr "Le nom doit au moins comporter 2 caractères."
+
+msgid "validation.min.subject"
+msgstr "Le sujet doit au moins comporter {0} caractères."
+
+msgid "validation.required.captcha"
+msgstr "Un customer est requis."
+
+msgid "validation.required.card_number"
+msgstr "Un numéro de carte est requis."
+
+msgid "validation.required.creation_date"
+msgstr "Une date de création est requise."
+
+msgid "validation.required.customer"
+msgstr "Le captcha ne peut être vide."
+
+msgid "validation.required.cvv"
+msgstr "Les numéros au dos de la carte sont requis."
+
+msgid "validation.required.email"
+msgstr "L'email ne peut être vide."
+
+msgid "validation.required.firstname"
+msgstr "Le prenom ne peut être vide."
+
+msgid "validation.required.firstname_and_lastname"
+msgstr "Votre nom et prénom ne peuvent pas être vide."
+
+msgid "message.success.data_saved"
+msgstr "Vos données ont bien été sauvegardé."
+
+msgid "validation.required.lastname"
+msgstr "Le nom ne peut être vide."
+
+msgid "validation.required.message"
+msgstr "Le message ne peut être vide."
+
+msgid "validation.required.name"
+msgstr "Un nom est requis."
+
+msgid "validation.required.password"
+msgstr "Le mot de passe ne peut être vide."
+
+msgid "validation.required.payment_status"
+msgstr "Un payment_status est requis."
+
+msgid "validation.required.phone"
+msgstr "Le téléphone ne peut être vide."
+
+msgid "validation.required.policy"
+msgstr "Les politiques doivents être acceptées."
+
+msgid "validation.required.product"
+msgstr "Un produit est requis."
+
+msgid "validation.required.subject"
+msgstr "Le sujet ne peut être vide."
+
+msgid "validation.required.tos"
+msgstr "Les CGV doivent être acceptés."
+
+msgid "validation.required.category"
+msgstr "La catégorie ne peut être vide."
+
+msgid "section.error.title"
+msgstr "Page non trouvée"
+
+msgid "section.error.btn"
+msgstr "Retour Accueil"
+
+msgid "meta.title.list.form"
+msgstr "Mes-requêtes"
+
+msgid "meta.title.request.form"
+msgstr "Assistance"
+
+msgid "meta.title.request.detail"
+msgstr "Détail requête"
+
+msgid "message.error.request.assistance"
+msgstr "Votre demande d'assistance a été prise en compte."
+
+msgid "message.error.request.ticket_not_exist"
+msgstr "Erreur ! Le ticket n'existe pas."
+
+msgid "message.error.request.ticket_already_closed"
+msgstr "Désoler ! Ce ticket a été fermé. Merci de créer un nouveau ticket."
+
+msgid "message.success.request.send"
+msgstr "Message envoyé."
+
+msgid "message.success.request.ticket_closed"
+msgstr "Le Ticket a été fermé."
+
+msgid "header.title.request_form"
+msgstr "Demande d'assistance"
+
+msgid "header.description.request_form"
+msgstr "Vous avez besoin d'aide ? Envoyez nous un message."
+
+msgid "section.list_request.title"
+msgstr "Liste de vos demandes"
+
+msgid "table.label.category_subject"
+msgstr "Catégorie / Sujet"
+
+msgid "table.label.date"
+msgstr "Date"
+
+msgid "table.label.status"
+msgstr "Statut"
+
+msgid "table.label.action"
+msgstr "Action"
+
+msgid "table.see_detail"
+msgstr "Voir détail"
+
+msgid "section.create_request.title"
+msgstr "Créer une demande"
+
+msgid "form.label.categories"
+msgstr "Catégories :"
+
+msgid "form.placeholder.request_subject"
+msgstr "Ex : Problème de connexion"
+
+msgid "form.placeholder.request_message"
+msgstr "Détailler votre problème ou besoin"
+
+msgid "header.title.request_detail"
+msgstr "Ticket #%1$s"
+
+msgid "request.category.info"
+msgstr "Informations"
+
+msgid "request.category.termination"
+msgstr "Résiliation / Abonnement"
+
+msgid "request.status.open"
+msgstr "Ouvert"
+
+msgid "request.status.wait_customer"
+msgstr "En attente client"
+
+msgid "request.status.wait_sav"
+msgstr "En attent SAV"
+
+msgid "request.status.close"
+msgstr "Fermé"
+
+msgid "section.request_detail.back_ticket"
+msgstr "Retour à la liste des tickets"
+
+msgid "section.request_detail.ask_close_ticket"
+msgstr "Êtes-vous sur de vouloir fermer le ticket ? Cette action est irréversible"
+
+msgid "section.request_detail.close_ticket"
+msgstr "Fermer le ticket"
+
+msgid "form.submit.reply"
+msgstr "Répondre"
+
+msgid "section.comments.title"
+msgstr "Tous les commentaires"
+
+msgid "section.comments.wait_answer"
+msgstr "En attente d'une réponse"
+
+msgid "message.success.paiement_already_done"
+msgstr "Votre paiement a déjà été effectué."
+
+msgid "captcha.error"
+msgstr "Captcha invalide"
+
+
+msgid "header.link.home"
+msgstr "Accueil"
+
+msgid "header.link.about"
+msgstr "Qui sommes-nous ?"
+
+msgid "header.link.faq"
+msgstr "FAQ"
+
+msgid "header.link.contact"
+msgstr "Contact"
+
+msgid "header.link.login"
+msgstr "Connexion"
+
+msgid "header.link.profile"
+msgstr "Profil"
+
+msgid "header.link.tracking"
+msgstr "Suivis"
+
+msgid "header.link.assistance"
+msgstr "Assistance"
+
+msgid "header.link.createrequest"
+msgstr "Créer une requête"
+
+msgid "header.link.requestlist"
+msgstr "Liste des requêtes"
+
+msgid "header.link.logout"
+msgstr "Déconnexion"
+
+
+msgid "footer.title.aboutus"
+msgstr "À propos de %1$s"
+
+msgid "footer.title.quicklinks"
+msgstr "Liens rapide"
+
+msgid "footer.title.legalinfo"
+msgstr "Informations légales"
+
+msgid "footer.title.getintouch"
+msgstr "Contactez-nous"
+
+msgid "footer.text.aboutus"
+msgstr "Chez %1$s nous avons décidé de propose une solution de suivi de colis depuis son point de départ jusqu’à son arrivé chez vous."
+
+msgid "footer.link.aboutus"
+msgstr "Qui sommes-nous ?"
+
+msgid "footer.link.faq"
+msgstr "FAQ"
+
+msgid "footer.link.unsubscribe"
+msgstr "Résiliation"
+
+msgid "footer.link.tandc"
+msgstr "Conditions Générales"
+
+msgid "footer.link.cookies"
+msgstr "Cookies"
+
+msgid "footer.link.legal"
+msgstr "Mentions Légales"
+
+msgid "footer.link.privacy"
+msgstr "Confidentialité"
+
+msgid "footer.link.contactform"
+msgstr "Contact"
+
+
+msgid "home.title.parceltrack"
+msgstr "Suivi de Colis"
+
+msgid "home.title.easytrack"
+msgstr "Trouvez votre Colis facilement"
+
+msgid "home.title.trackpackage"
+msgstr "Localisez votre Colis"
+
+msgid "home.button.findpackage"
+msgstr "Trouver mon Colis"
+
+msgid "home.title.searching"
+msgstr "Nous recherchons actuellement votre colis"
+
+msgid "home.text.modalstepone"
+msgstr "Recherche de votre colis"
+
+msgid "home.text.modalsteptwo"
+msgstr "Colis localisé"
+
+msgid "home.text.modalstepthree"
+msgstr "Transmission de sa position"
+
+msgid "home.text.foundpackage"
+msgstr "Nous avons trouvé votre colis!"
+
+msgid "home.text.redirect"
+msgstr "Redirection vers la page de paiement"
+
+msgid "home.text.search"
+msgstr "Recherche..."
+
+msgid "home.title.track"
+msgstr "Localisation"
+
+msgid "home.text.track"
+msgstr "Suivez votre colis en temps réel !"
+
+msgid "home.title.packages"
+msgstr "Transporteurs"
+
+msgid "home.text.packages"
+msgstr "Une solution compatible avec tous les transporteurs!"
+
+msgid "home.title.globally"
+msgstr "Mondial"
+
+msgid "home.text.globally"
+msgstr "Trouvez votre colis où qu'il soit dans le monde!"
+
+msgid "home.title.subscription"
+msgstr "Notre <span class="primary-color">formule</span> d’abonnement"
+
+#. 1: Trial offer price
+msgid "home.text.offer"
+msgstr "Bénéficiez de notre <span class="primary-color">offre d’essai </span>pour seulement <span class="font-weight-bold">%1$s</span> pendant 48H*"
+
+msgid "home.text.subscription"
+msgstr "%1$s par mois pour profiter de nos services en illimités"
+
+msgid "home.text.30tracking"
+msgstr "30 suivis / mois"
+
+msgid "home.text.globalcoverage"
+msgstr "Couverture mondiale"
+
+msgid "home.text.networkcompatible"
+msgstr "Espace connecté et sécurisé"
+
+msgid "home.text.mobilecompatible"
+msgstr "Données fournies par les transporteurs"
+
+msgid "home.text.realtimetracking"
+msgstr "Informations de suivi en temps réel"
+
+msgid "home.text.24customerservice"
+msgstr "Service client 24H/24 et 7J/7"
+
+msgid "home.text.offerinfo"
+msgstr "*Après ces 48 heures et sans une résiliation de votre part, votre offre d’essai deviendra un abonnement sans engagement à durée illimitée au montant de %1$s par mois."
+
+msgid "home.button.signup"
+msgstr "S'inscrire"
+
+msgid "home.title.howitworks"
+msgstr "Comment ça <span class="primary-color">marche ?</span>"
+
+msgid "home.title.parcelid"
+msgstr "Entrez votre numéro de colis"
+
+msgid "home.text.fillparcelnumber"
+msgstr "Renseignez votre numéro de colis et nous vous donnerons les dernières informations disponibles. Grâce à nos partenariats avec de nombreux transporteurs les informations de localisation de votre colis sont régulièrement mises à jour."
+
+msgid "home.title.email"
+msgstr "Entrez votre adresse mail"
+
+msgid "home.text.fillemail"
+msgstr "Indiquez-nous votre adresse mail pour que l’on puisse vous transmettre rapidement la position de votre colis. Une fois que nous recevons la position de votre colis nous vous la transmettons tout de suite par email."
+
+msgid "home.title.track"
+msgstr "Localisation"
+
+msgid "home.text.trackyourparcel"
+msgstr "Suivez votre colis grâce aux dernières informations disponibles ! Nous vous donnons la position de votre colis en temps réels en nous basant sur les informations des transporteurs!"
+
+msgid "home.title.havingtrouble"
+msgstr "Bénéficiez d’une <span class="primary-color">assistance</span> téléphonique"
+
+msgid "home.text.havingtrouble"
+msgstr "Vous rencontrez un problème avec le suivi de votre colis ? Votre numéro de colis n’est pas le bon ? Pas de problème, nous avons un service d’assistance prêt à vous aider du lundi au samedi de 8H à 20H."
+
+msgid "home.title.whychooseus"
+msgstr "Pourquoi <span class="primary-color">nous choisir</span>?"
+
+msgid "home.text.usingservice"
+msgstr "En utilisant notre service, nous vous garantissons un accès simple et rapide à la localisation de vos colis. Plus besoin de vous rendre sur de nombreux sites avant de trouver comment suivre votre colis, il vous suffit d’utiliser le système de suivi que nous avons mis en place."
+
+msgid "home.text.provideinformation"
+msgstr "Pour vous fournir les informations de localisation de votre colis, nous avons mis en place un lien direct avec les services des transporteurs les plus connus. Ainsi nous bénéficions des données de localisation de vos colis en temps réel. De plus la localisation de votre colis est mise à jour régulièrement par les services des transporteurs."
+
+msgid "home.text.usingsite"
+msgstr "L’utilisation de trackerly.net c’est l’assurance de localiser son colis et de recevoir ses informations rapidement ! En plus de cela, si vous avez des questions concernant la localisation de votre colis, vous aurez la possibilité de contacter notre service d’assistance 24/24 et 7/7."
+
+msgid "home.text.donthesitate"
+msgstr "N’hésitez plus et renseignez vite votre numéro de colis !"
+
+msgid "home.text.theobjective"
+msgstr "Notre service d’assistance a pour objectif de vous aider à suivre vos colis. Il se peut parfois que la localisation de votre colis soit imprécise ou que vous ne possédiez pas toutes les informations pour utiliser notre outil de suivi de colis. Nos équipes sont là pour vous venir en aide !"
+
+msgid "home.title.lovetohear"
+msgstr "Nous aimerions avoir votre avis"
+
+msgid "home.link.getintouch"
+msgstr "Contactez-nous"
+
+
+msgid "section.about.product.text.pl"
+msgstr "%1$s is a mobile geolocation solution developed by a young team that makes mobile geolocation its priority! Today we know that mobile geolocation in a professional or private context is at the heart of our concerns. That's why we decided to make our state-of-the-art mobile geolocation solution available to you!"
+
+msgid "about.title.whywerehere"
+msgstr "Pourquoi nous sommes ici"
+
+msgid "about.text.nowadays"
+msgstr "Aujourd’hui il est courant de commander des articles sur internet et il arrive souvent que ces articles traversent le monde avant d’arriver chez nous. Chez %1$s nous avons décidé de propose une solution de suivi de colis depuis son point de départ jusqu’à son arrivé chez vous."
+
+msgid "about.text.ourtrackingsolution"
+msgstr "Notre solution de suivi de colis est internationale, il est donc possible de suivre vos colis où qu’ils se trouvent dans le monde. C’est principalement grâce à nos partenariats avec les transporteurs que nous pouvons vous proposer un tel service !"
+
+msgid "about.text.team"
+msgstr "%1$s est composé d’une jeune équipe qui a pour objectif de facilité le suivi de colis dans le but d’éviter toutes les mauvaises surprises liées à la livraison internationale. Grâce à notre solution de suivi de colis vous pourrez savoir si votre colis a réellement été envoyé, s’il est bloqué quelque part ou bien s’il est proche d’arriver chez vous."
+
+msgid "faq.title.faq"
+msgstr "FAQ"
+
+msgid "faq.text.theteams"
+msgstr "Les équipes de %1$s ont créé cette FAQ pour vous permettre de rapidement trouver les réponses à vos questions. Si la lecture de notre FAQ n’a pas permis de répondre à vos questions, vous pouvez contacter les équipes de %1$s qui vous viendront en aide."
+
+msgid "faq.title.whereis"
+msgstr "1. Où se trouve mon colis ? Je l’ai commandé il y a un mois."
+
+msgid "faq.text.whereis"
+msgstr "Pour vous aider à comprendre le délai de livraison de votre colis vous trouverez le temps nécessaire à chacune des étapes que votre colis va effectuer :"
+
+msgid "faq.text.day1"
+msgstr "Jour 1-2 Acceptation de la livraison."
+
+msgid "faq.text.day2"
+msgstr "Jour 2-3 Livraison du colis au bureau d'exportation."
+
+msgid "faq.text.day2_4"
+msgstr "Jour 2-4 Règlement des procédures administratives liées à l'exportation et à l'envoi du colis."
+
+msgid "faq.text.oncepackage"
+msgstr "Une fois que votre colis a quitté le bureau d'exportation de son pays d'origine, aucune information ne sera mise à jour jusqu'à ce que votre colis arrive au bureau d'importation du pays de l'adresse de livraison."
+
+msgid "faq.text.day4_10"
+msgstr "Jour 4-10 Arrivée au bureau d'importation du pays de l'adresse de livraison."
+
+msgid "faq.text.day10_15"
+msgstr "Jour 10-15 Règlement des procédures administratives liées à l'importation d'un colis."
+
+msgid "faq.text.day15_30"
+msgstr "Jour 15-30 Le colis est pris en charge par un transporteur national et vous est livré."
+
+msgid "faq.text.day60"
+msgstr "Jour 60 En cas d'échec de la livraison, le colis peut être retourné à l'expéditeur où le colis est considéré comme manquant à ce moment."
+
+msgid "faq.text.oncepackagearrived"
+msgstr "Une fois que votre colis est arrivé dans son pays de destination, vous pouvez contacter votre transporteur national pour obtenir de plus amples informations sur la livraison de votre colis."
+
+msgid "faq.title.whatislocation"
+msgstr "2. Quel est l'emplacement exact de mon colis ?"
+
+msgid "faq.text.internationalpackages"
+msgstr "Pour la majorité des colis internationaux, en raison des faibles coûts d'expédition, les transporteurs n'ont jamais de date d'arrivée garantie ou prévue. Il arrive donc que le délai d'expédition soit plus long que prévu, principalement en raison des procédures douanières mises en place par les compagnies aériennes. Pour ces raisons, les envois internationaux sont différents des envois nationaux."
+
+msgid "faq.text.packagescanned"
+msgstr "Votre colis est scanné à plusieurs endroits pendant son transport, ainsi, entre ces points nous ne pourrons pas vous donner d'informations précises sur la localisation exacte de votre colis. À chaque nouvelle information disponible auprès du transporteur, nous mettons à jour les informations de suivi de votre colis."
+
+msgid "faq.text.later"
+msgstr "Ainsi, si vous ne pouvez pas trouver l'emplacement précis de votre colis, vous pouvez essayer de le suivre un peu plus tard en espérant qu'il ait été scanné à un nouveau point."
+
+msgid "faq.title.statusnotfound"
+msgstr "3. Le statut de mon colis est "non trouvé", que puis-je faire ?"
+
+msgid "faq.text.statusnotfound"
+msgstr ""Non trouvé" signifie que nous n'avons pas d'informations concernant ce numéro de suivi. Nous vous conseillons de vérifier votre numéro de suivi ou de contacter l'expéditeur (si vous ne connaissez pas votre numéro de suivi, vous pouvez contacter le vendeur) pour le vérifier."
+
+msgid "faq.text.wait1_2days"
+msgstr "Si votre numéro de suivi est correct, nous vous conseillons d'attendre 1 ou 2 jours après l'envoi de votre colis pour obtenir les informations de suivi."
+
+msgid "faq.title.notreceive"
+msgstr "4. Je n'ai pas reçu mon colis, puis-je demander un remboursement ?"
+
+msgid "faq.text.refund"
+msgstr "Si vous souhaitez obtenir un remboursement suite à la non-réception de votre colis, nous vous conseillons de soumettre votre demande au vendeur."
+
+msgid "faq.text.trackingwebsite"
+msgstr "%1$s est uniquement un site de suivi des colis, c'est-à-dire que nous ne sommes pas liés aux vendeurs. Nous disposons uniquement des informations transmises par les sociétés de transport, nous ne sommes donc pas en mesure de vous donner plus de détails sur votre commande."
+
+msgid "faq.title.changeaddress"
+msgstr "5. Comment puis-je modifier mon adresse de livraison ?"
+
+msgid "faq.text.changeaddress"
+msgstr "Si votre colis a déjà été expédié, il est impossible de modifier l'adresse de livraison qui lui a été attribuée. La seule solution est d'attendre que votre colis arrive dans votre pays et de demander un changement d'adresse à votre transporteur local. Chaque transporteur étant différent, nous vous conseillons de vous rendre sur le site officiel du transporteur pour plus d'informations concernant la possibilité d'un changement d'adresse de livraison."
+
+msgid "faq.title.packagestuck"
+msgstr "6. Mon colis est coincé quelque part, pouvez-vous me donner plus d'informations ?"
+
+msgid "faq.text.packagestuck_p1"
+msgstr "Nous comprenons parfaitement que vous souhaitiez recevoir des informations sur le suivi de votre colis en temps réel. Toutefois, il est impossible d'obtenir une date d'arrivée garantie pour les envois internationaux."
+
+msgid "faq.text.packagestuck_p2"
+msgstr "Si les informations de suivi de votre colis n'ont pas été mises à jour depuis longtemps, cela signifie que votre colis est toujours en route vers son pays de destination ou que le transporteur n'a pas mis à jour les informations de suivi de votre colis. Il est également possible que le mode d'expédition que vous avez choisi ne dispose pas de toutes les informations de suivi, auquel cas nous vous conseillons de contacter directement l'expéditeur de votre colis."
+
+msgid "faq.text.packagestuck_p3"
+msgstr "Si l'expéditeur dispose de toutes les informations de suivi, il peut également contacter son transporteur local pour obtenir plus d'informations sur la localisation de votre colis."
+
+msgid "faq.title.whichcarriers"
+msgstr "7. Quels sont les transporteurs que je peux suivre ?"
+
+msgid "faq.text.whichcarriers"
+msgstr "Nous essayons chaque jour d'augmenter le nombre de transporteurs qui peuvent être suivis sur notre site. Actuellement, il est possible de suivre plus de XXX transporteurs. Si vous voulez nous envoyer le nom d'un transporteur que vous souhaitez pouvoir suivre, vous pouvez vous rendre sur notre page de contact pour envoyer votre demande à nos équipes."
+
+msgid "faq.title.cainiao"
+msgstr "8. Pourquoi le mode de livraison Cainiao (Aliexpress) ne peut-il pas être suivi ?"
+
+msgid "faq.text.cainiao_p1"
+msgstr "Les informations de livraison AliExpress sont fournies par "Cainiao" utilisant un système différent de celui utilisé par nos équipes. Cainiao crée ses propres numéros d'expédition, mais nous ne pouvons suivre que les numéros de suivi originaux du transporteur officiel."
+
+msgid "faq.text.cainiao_p2"
+msgstr "De plus, le transporteur ne sera pas en mesure d'identifier les numéros de suivi fournis par Cainiao, donc nous ne pourrons suivre votre colis que si vous obtenez un numéro de suivi original."
+
+msgid "faq.title.statement"
+msgstr "9. Pourquoi %1$s figure-t-il sur mon relevé de compte ?"
+
+msgid "faq.text.statement"
+msgstr "Si vous voyez %1$s apparaître sur votre relevé de compte, c'est sans doute parce que vous avez souscrit aux services de %1$s. Votre abonnement à %1$s peut être résilié à tout moment."
+
+msgid "faq.title.cancel"
+msgstr "10. Comment puis-je résilier mon abonnement à %1$s ? "
+
+msgid "faq.text.cancel_part1"
+msgstr "Votre abonnement %1$s est sans engagement et peut être résilié à tout moment. Pour résilier votre abonnement %1$s, il vous suffit de vous rendre sur notre"
+
+msgid "faq.text.cancel_part2"
+msgstr "et d'indiquer l'adresse électronique avec laquelle vous avez souscrit votre abonnement %1$s. Votre abonnement %1$s sera alors automatiquement résilié."
+
+msgid "faq.link.cancel"
+msgstr "Page de résiliation"
+
+
+msgid "contact.title.contactus"
+msgstr "Nous contacter"
+
+msgid "contact.title.getintouch"
+msgstr "Prendre contact"
+
+msgid "contact.text.getintouch"
+msgstr "Besoin d’aide pour utiliser notre outil de suivi de colis ? Pas de problème, les équipes de %1$s sont là pour vous aider. Contactez nos équipes par e-mail, téléphone ou bien via le formulaire présent sur cette page."
+
+msgid "contact.title.email"
+msgstr "Email"
+
+msgid "contact.title.phone"
+msgstr "Phone"
+
+msgid "contact.title.contactform"
+msgstr "Contact Form"
+
+
+msgid "login.title.login"
+msgstr "Connexion"
+
+msgid "login.text.login"
+msgstr "Connectez-vous à votre espace personnel"
+
+msgid "login.link.forgotpassword"
+msgstr "Forgotten password?"
+
+msgid "login.text.notregistered"
+msgstr "Pas encore inscrit?"
+
+msgid "login.link.track"
+msgstr "Localisez votre colis"
+
+
+msgid "termination.title.termination"
+msgstr "Résiliation"
+
+msgid "termination.text.termination"
+msgstr " Vous souhaitez annuler votre abonnement ? Pas de problème, il vous suffit d'entrer l'adresse électronique que vous avez utilisée lors de votre inscription."
+
+msgid "termination.title.unsubscribe"
+msgstr "Unsubscribe"
+
+
+msgid "payment.title.signup"
+msgstr "Localisez votre colis"
+
+msgid "payment.text.signup"
+msgstr "Inscrivez-vous à votre abonnement premium"
+
+msgid "payment.title.securepay"
+msgstr "Paiement sécurisé"
+
+msgid "payment.title.total"
+msgstr "Total :"
+
+msgid "payment.button.pay"
+msgstr "Valider l'achat"
+
+msgid "payment.title.ordersum"
+msgstr "Récapitulatif de la Commande"
+
+msgid "payment.text.premiumsubone"
+msgstr "Couverture Mondiale : Localisez votre colis même à l’étranger"
+
+msgid "payment.text.customerservice"
+msgstr "24/7 service client par email et par téléphone"
+
+msgid "payment.text.offerperiod"
+msgstr "30 suivis/mois pour %1$s pendant 48 heures, puis %2$s/mois"
+
+msgid "payment.text.unsubscribeservice"
+msgstr "Résiliation instantanée et sans justificatif"
+
+msgid "payment.text.descriptor"
+msgstr "La transaction sur votre relevé bancaire apparaîtra sous le descripteur:"
+
+
+msgid "section.legal_notice.site_edition.title"
+msgstr "Le présent site Web est fourni par"
+
+#. 1: Company name
+#. 2: Registration number
+#. 3: Company address
+msgid "section.legal_notice.site_edition.company"
+msgstr "%1$s,<br/> Société à responsabilité limitée de droit irlandais immatriculée au registre du commerce et des sociétés irlandais sous le numéro n.%2$s,<br/>dont le siège social est situé au %3$s."
+
+msgid "section.legal_notice.site_edition.vat"
+msgstr "Numéro de TVA:"
+
+msgid "section.legal_notice.host.title"
+msgstr "Le site Web est hébergé par:"
+
+msgid "section.legal_notice.host.company"
+msgstr "Le site %1$s est hébergé par 1&1 IONOS Cloud Gmb"
+
+msgid "section.legal_notice.address"
+msgstr "Address: Greifswalder Str. 207, 10405 Berlin, Allemagne"
+
+msgid "section.legal_notice.contact.title"
+msgstr "Vous pouvez nous contacter à l’adresse suivante :"
+
+
+msgid "tracking.status.pending"
+msgstr "En attente"
+
+msgid "tracking.status.notfound"
+msgstr "Introuvable"
+
+msgid "tracking.status.transit"
+msgstr "En transit"
+
+msgid "tracking.status.pickup"
+msgstr "À récupérer"
+
+msgid "tracking.status.delivered"
+msgstr "Livré"
+
+msgid "tracking.status.undelivered"
+msgstr "Non délivré"
+
+msgid "tracking.status.exception"
+msgstr "Problème"
+
+msgid "tracking.status.expired"
+msgstr "Expiré"
+
+msgid "tracking.status.loading"
+msgstr "Chargement"
+
+msgid "tracking.label.carrier"
+msgstr "Transporteur :"
+
+msgid "tracking.label.origin"
+msgstr "Départ :"
+
+msgid "tracking.label.destination"
+msgstr "Destination :"
+
+msgid "tracking.filter"
+msgstr "Filtre"
+
+msgid "tracking.filter.all"
+msgstr "Tous"
+
+msgid "tracking.filter.pending"
+msgstr "En attente"
+
+msgid "tracking.filter.notfound"
+msgstr "Introuvable"
+
+msgid "tracking.filter.transit"
+msgstr "En transit"
+
+msgid "tracking.filter.pickup"
+msgstr "Pickup"
+
+msgid "tracking.filter.delivered"
+msgstr "Livré"
+
+msgid "tracking.filter.undelivered"
+msgstr "Non livré"
+
+msgid "tracking.filter.exception"
+msgstr "Exception"
+
+msgid "tracking.filter.expired"
+msgstr "Expiré"
