@@ -83,6 +83,8 @@ if($this->params['controller'] == 'payments') {
                     </button>
 
                     <div class="collapse navbar-collapse flex-grow-0 justify-content-end ml-auto" id="navbarSupportedContent">
+                        <?php if ($this->Session->Read('Auth.User') != ''): ?>
+                        <?php else: ?>
                          <ul class="navbar-nav d-flex justify-content-start">
                              <li class="nav-item align-self-center">
                                  <a class="nav-link" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'pages', 'action' => 'about', 'language' => $this->Session->read('Config.language'))); ?>"><?= __('header.link.about') ?></a>
@@ -100,6 +102,7 @@ if($this->params['controller'] == 'payments') {
                         <div class="nav-item align-self-center d-none d-xl-block">
                             <a  class="btn" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'users', 'action' => 'login', 'language' => $this->Session->read('Config.language'))); ?>" class="btn btn-nav nav-link"><?= __('header.link.login') ?></a>
                         </div>
+                        <?php endif; ?>
                     </div>
 
                 </div>
@@ -107,65 +110,6 @@ if($this->params['controller'] == 'payments') {
         </nav>
 
 
-
-<!------------------------------>
-<!--        <nav id="navbar" class="navbar navbar-expand-lg bg-white m-auto fixed-top navbar-light">-->
-<!--            <div class="container">-->
-<!--                <a target="--><?//= $option_link; ?><!--" href="--><?php //echo $this->Html->url(array('controller' => 'customers', 'action' => 'home', 'language' => $this->Session->read('Config.language'))); ?><!--" --><?//= __('header.link.home') ?><!-->-->
-<!--                  <img src="/img/delivery_logo.png" alt="delivery tracker logo" class="nav-logo text-dark" width="80px">-->
-<!--                  --><?//= Configure::read('Site.name2'); ?>
-<!--                </a>-->
-<!--                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--                  <span class="icon-bar"></span>-->
-<!--                  <span class="icon-bar"></span>-->
-<!--                  <span class="icon-bar"></span>-->
-<!--              </button>-->
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-<!--                  --><?php //if ($this->Session->Read('Auth.User') != ''): ?>
-<!--                      <li class="nav-item">-->
-<!--                        <a href="--><?//= $this->Html->url(array('controller' => 'users', 'action' => 'index', 'language' => $this->Session->read('Config.language'))); ?><!--" class="nav-link">--><?//= __('header.link.profile') ?><!--</a>-->
-<!--                      </li>-->
-<!--                      <li class="nav-item">-->
-<!--                        <a href="--><?//= $this->Html->url(array('controller' => 'tracking', 'action' => 'dashboard', 'language' => $this->Session->read('Config.language'))); ?><!--" class="nav-link">--><?//= __('header.link.tracking') ?><!--</a>-->
-<!--                      </li>-->
-<!--                      <div class="dropdown">-->
-<!--                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-<!--                          --><?//= __('header.link.assistance') ?>
-<!--                        </a>-->
-<!--                        <div class="dropdown-menu mb-2" href="#" aria-labelledby="dropdownMenuButton">-->
-<!--                          <li>-->
-<!--                            <a class="dropdown-item" href="--><?//= $this->Html->url(array('controller' => 'requests', 'action' => 'formRequest', 'language' => $this->Session->read('Config.language'))); ?><!--">Create Request</a>-->
-<!--                          </li>-->
-<!--                          <li>-->
-<!--                           <a class="dropdown-item" href="--><?//= $this->Html->url(array('controller' => 'requests', 'action' => 'listRequest', 'language' => $this->Session->read('Config.language'))); ?><!--">Requests List</a>-->
-<!--                          </li>-->
-<!--                        </div>-->
-<!--                      </div>-->
-<!--                      <li class="nav-item text-white">-->
-<!--                        <a href="--><?//= $this->Html->url(array('controller' => 'users', 'action' => 'logout', 'language' => $this->Session->read('Config.language'))); ?><!--" class="btn btn-nav nav-link">--><?//= __('header.link.logout') ?><!--</a>-->
-<!--                      </li>-->
-<!--                  --><?php //else: ?>
-<!--                      <li class="nav-item">-->
-<!--                        <a target="--><?//= $option_link; ?><!--" href="--><?php //echo $this->Html->url(array('controller' => 'customers', 'action' => 'home', 'language' => $this->Session->read('Config.language'))); ?><!--" class="nav-link">--><?//= __('header.link.home') ?><!--</a>-->
-<!--                      </li>-->
-<!--                      <li class="nav-item">-->
-<!--                        <a target="--><?//= $option_link; ?><!--" href="--><?//= $this->Html->url(array('controller' => 'pages', 'action' => 'about', 'language' => $this->Session->read('Config.language'))); ?><!--" class="nav-link">--><?//= __('header.link.about') ?><!--</a>-->
-<!--                      </li>-->
-<!--                      <li class="nav-item">-->
-<!--                        <a target="--><?//= $option_link; ?><!--" href="--><?//= $this->Html->url(array('controller' => 'pages', 'action' => 'faq', 'language' => $this->Session->read('Config.language'))); ?><!--" class="nav-link">--><?//= __('header.link.faq') ?><!--</a>-->
-<!--                      </li>-->
-<!--                      <li class="nav-item">-->
-<!--                        <a target="--><?//= $option_link; ?><!--" href="--><?//= $this->Html->url(array('controller' => 'contacts', 'action' => 'index', 'language' => $this->Session->read('Config.language'))); ?><!--" class="nav-link">--><?//= __('header.link.contact') ?><!--</a>-->
-<!--                      </li>-->
-<!--                      <li class="nav-item text-white">-->
-<!--                        <a target="--><?//= $option_link; ?><!--" href="--><?//= $this->Html->url(array('controller' => 'users', 'action' => 'login', 'language' => $this->Session->read('Config.language'))); ?><!--" class="btn btn-nav nav-link">--><?//= __('header.link.login') ?><!--</a>-->
-<!--                      </li>-->
-<!--                  --><?php //endif; ?>
-<!--                </ul>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--        </nav>-->
 
     <?php echo $this->Session->flash(); ?>
 
