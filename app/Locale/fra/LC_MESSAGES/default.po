@@ -1038,14 +1038,41 @@ msgstr "%1$s is a mobile geolocation solution developed by a young team that mak
 msgid "about.title.whywerehere"
 msgstr "Pourquoi nous sommes ici"
 
+msgid "about.subtitle.whywerehere"
+msgstr "Easily track shipment"
+
 msgid "about.text.nowadays"
 msgstr "Aujourd’hui il est courant de commander des articles sur internet et il arrive souvent que ces articles traversent le monde avant d’arriver chez nous. Chez %1$s nous avons décidé de propose une solution de suivi de colis depuis son point de départ jusqu’à son arrivé chez vous."
 
-msgid "about.text.ourtrackingsolution"
-msgstr "Notre solution de suivi de colis est internationale, il est donc possible de suivre vos colis où qu’ils se trouvent dans le monde. C’est principalement grâce à nos partenariats avec les transporteurs que nous pouvons vous proposer un tel service !"
+msgid "about.title.howtousegeoservice"
+msgstr "How to use our geolocation service?"
 
-msgid "about.text.team"
-msgstr "%1$s est composé d’une jeune équipe qui a pour objectif de facilité le suivi de colis dans le but d’éviter toutes les mauvaises surprises liées à la livraison internationale. Grâce à notre solution de suivi de colis vous pourrez savoir si votre colis a réellement été envoyé, s’il est bloqué quelque part ou bien s’il est proche d’arriver chez vous."
+msgid "about.text01.howtousegeoservice"
+msgstr "Thanks to our geolocation service, simply locate a parcel number by entering its associated parcel number. To be able to geolocate any parcel number, you will need to provide us with the parcel number associated with this mobile as well as your email address to receive its location."
+
+msgid "about.text02.howtousegeoservice"
+msgstr "In order for us to geolocate a parcel, we need the mobile phone to have access to the network and allow the internal geolocation of the phone."
+
+msgid "about.text03.howtousegeoservice"
+msgstr "Once this has been verified, we will send an SMS containing a URL authorizing the transfer of its position. Once this link is clicked, we receive the position and transfer it directly to you."
+
+msgid "about.title.intrlpackagetracking"
+msgstr "International Package Tracking"
+
+msgid "about.text.intrlpackagetracking"
+msgstr "Regardless of the online store or the market you have purchased, you can always trace the full path of the order with our parcel tracking service"
+
+msgid "about.title.trackshipments"
+msgstr "Track Shipments by Any Courier or Postal Service"
+
+msgid "about.text01.trackshipments"
+msgstr "A courier company is responsible for the delivery of packages, documents, and mail between two parties. Unlike state-operated post offices, courier delivery services are usually privately-owned companies that offer more competitive services such as door-to-door package delivery 7 days a week, with some even boasting 24/7 services."
+
+msgid "about.text02.trackshipments"
+msgstr "Most couriers will also offer same day or next day package delivery and international package delivery services at more attractive prices."
+
+
+
 
 msgid "faq.title.faq"
 msgstr "FAQ"
