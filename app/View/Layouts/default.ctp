@@ -237,15 +237,6 @@ if($this->params['controller'] == 'payments') {
             </div>
           </div>
           <?php endif; ?>
-<!--      <div class="footer-bottom">-->
-<!--        <div class="row">-->
-<!--          <div class="col pt-4 text-center">-->
-<!--            --><?php //if ($this->params['controller'] == 'payments' && $this->params['action'] == 'index'): ?>
-<!--              <p>Copyright &copy; --><?//= Configure::read('Company.name_ltd')." - ".Configure::read('Company.address'); ?><!--</p>-->
-<!--            --><?php //endif; ?>
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
     </div>
     </footer>
 

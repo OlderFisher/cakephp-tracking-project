@@ -205,7 +205,7 @@ msgid "form.placeholder.email"
 msgstr "Your email address"
 
 msgid "form.placeholder.email_example"
-msgstr "address@mail.com"
+msgstr "Your email"
 
 msgid "form.placeholder.expriation_date"
 msgstr "MM/YY"
@@ -245,6 +245,9 @@ msgstr "Login"
 
 msgid "form.submit.send"
 msgstr "Send"
+
+msgid "form.termination.submit.send"
+msgstr "Cancellation"
 
 msgid "form.submit.save"
 msgstr "Save"
@@ -936,10 +939,10 @@ msgid "footer.link.faq"
 msgstr "FAQ"
 
 msgid "footer.link.unsubscribe"
-msgstr "Cancellation"
+msgstr "Termination"
 
 msgid "footer.link.tandc"
-msgstr "General Terms and Conditions"
+msgstr "General Terms"
 
 msgid "footer.link.cookies"
 msgstr "Cookies"
@@ -1234,11 +1237,21 @@ msgstr "Track a parcel"
 msgid "termination.title.termination"
 msgstr "Termination"
 
+msgid "termination.subtitle.termination"
+msgstr "Would you like to cancel your subscription? "
+
 msgid "termination.text.termination"
-msgstr "Would you like to cancel your subscription? No problem, just enter the email address you used when you subscribed."
+msgstr "No problem, just enter the email address you used when you subscribed."
 
 msgid "termination.title.unsubscribe"
 msgstr "Unsubscribe"
+
+msgid "termination.title.intrlpackagetracking"
+msgstr "International Package Tracking"
+
+msgid "termination.text.intrlpackagetracking"
+msgstr "Regardless of the online store or the market you have purchased, you can always trace the full path of the order with our parcel tracking service"
+
 
 
 msgid "payment.title.signup"

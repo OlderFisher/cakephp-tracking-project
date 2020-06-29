@@ -195,7 +195,7 @@ msgid "form.placeholder.email"
 msgstr "Votre adresse email"
 
 msgid "form.placeholder.email_example"
-msgstr "adresse@mail.com"
+msgstr "Votre email"
 
 msgid "form.placeholder.expriation_date"
 msgstr "MM/AA"
@@ -232,6 +232,9 @@ msgstr "Se connecter"
 
 msgid "form.submit.send"
 msgstr "Envoyer"
+
+msgid "form.termination.submit.send"
+msgstr "Annulation"
 
 msgid "form.submit.save"
 msgstr "Enregistrer"
@@ -1182,11 +1185,21 @@ msgstr "Localisez votre colis"
 msgid "termination.title.termination"
 msgstr "Résiliation"
 
+msgid "termination.subtitle.termination"
+msgstr "Vous souhaitez annuler votre abonnement ? "
+
 msgid "termination.text.termination"
-msgstr " Vous souhaitez annuler votre abonnement ? Pas de problème, il vous suffit d'entrer l'adresse électronique que vous avez utilisée lors de votre inscription."
+msgstr "Pas de problème, il vous suffit d'entrer l'adresse électronique que vous avez utilisée lors de votre inscription."
 
 msgid "termination.title.unsubscribe"
 msgstr "Unsubscribe"
+
+msgid "termination.title.intrlpackagetracking"
+msgstr "International Package Tracking"
+
+msgid "termination.text.intrlpackagetracking"
+msgstr "Regardless of the online store or the market you have purchased, you can always trace the full path of the order with our parcel tracking service"
+
 
 
 msgid "payment.title.signup"
