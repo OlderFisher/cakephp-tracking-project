@@ -1116,55 +1116,43 @@ msgid "faq.text.whereis"
 msgstr "To help you understand the delivery time of your package here are the delivery times for packages ordered online with a registered mail excluding delivery in rural areas."
 
 msgid "faq.text.day1"
-msgstr "Day 1-2: Acceptance of delivery."
+msgstr "<strong>Day 1-2</strong> : Acceptance of delivery."
 
 msgid "faq.text.day2"
-msgstr "Day 2-3: Delivery of the package to the export office"
+msgstr "<strong>Day 2-3</strong> : Delivery of the package to the export office"
 
 msgid "faq.text.day2_4"
-msgstr "Day 2-4: Completion of the administrative procedures related to the export and sending of the parcel."
+msgstr "<strong>Day 2-4</strong> : Completion of the administrative procedures related to the export and sending of the parcel."
 
 msgid "faq.text.oncepackage"
 msgstr "Once your parcel has left the export office in its country of origin, no information will be updated until your parcel reaches the import office in the country of the delivery address."
 
 msgid "faq.text.day4_10"
-msgstr "Day 4-10: Arrival at the import office of the delivery address country."
+msgstr "<strong>Day 4-10</strong> : Arrival at the import office of the delivery address country."
 
 msgid "faq.text.day10_15"
-msgstr "Day 10-15: Completion of the administrative procedures related to parcel import."
+msgstr "<strong>Day 10-15</strong> : Completion of the administrative procedures related to parcel import."
 
 msgid "faq.text.day15_30"
-msgstr "Day 15-30: The parcel is picked up by a national carrier and delivered to you."
+msgstr "<strong>Day 15-30</strong> : The parcel is picked up by a national carrier and delivered to you."
 
 msgid "faq.text.day60"
-msgstr "Day 60: In case of failure of the delivery, the parcel may be returned to the sender where the parcel is considered missing at that time."
+msgstr "<strong>Day 60</strong> : In case of failure of the delivery, the parcel may be returned to the sender where the parcel is considered missing at that time."
 
 msgid "faq.text.oncepackagearrived"
 msgstr "Once your parcel has arrived in its country of destination, you can contact your national carrier for more information about the delivery of your shipment."
 
-msgid "faq.title.whatislocation"
-msgstr "2. What is the exact location of my parcel?"
-
-msgid "faq.text.internationalpackages"
-msgstr "For a majority of international packages, due to low shipping costs, carriers never have a guaranteed or expected arrival date. Thus it happens that the shipping time may be longer than expected mainly because of customs procedures and arrangements put in place by airlines. For these reasons, international shipments are different from domestic shipments."
-
-msgid "faq.text.packagescanned"
-msgstr "Your parcel is scanned at several points during its transport, so between these points we will not be able to give you precise information about the exact location of your parcel. With each new update provided by the carrier, we update the tracking information of your parcel."
-
-msgid "faq.text.later"
-msgstr "So, if you can't find the precise location of your parcel, you can try to track it a little later hoping that it has been scanned at a new point."
-
 msgid "faq.title.statusnotfound"
-msgstr "3. The status of my shipment is "not found", what can I do?"
+msgstr "2. The status of my shipment is 'not found', what can I do?"
 
 msgid "faq.text.statusnotfound"
-msgstr ""Not found" means that we do not have any information about this tracking number. We advise you to check your tracking number or contact the sender to check it (if you don't know your tracking number you can contact the seller)."
+msgstr "'Not found' means that we do not have any information about this tracking number. We advise you to check your tracking number or contact the sender to check it (if you don't know your tracking number you can contact the seller)."
 
 msgid "faq.text.wait1_2days"
 msgstr "If your tracking number is correct we advise you to wait 1 or 2 days after sending your parcel to get the tracking information."
 
 msgid "faq.title.notreceive"
-msgstr "4. I did not receive my parcel, can I ask for a refund?"
+msgstr "3. I did not receive my parcel, can I ask for a refund?"
 
 msgid "faq.text.refund"
 msgstr "If you wish to obtain a refund following non-receipt of your parcel, we advise you to submit your request to the seller."
@@ -1173,55 +1161,16 @@ msgid "faq.text.trackingwebsite"
 msgstr "%1$s is only a parcel tracking site, i.e. we are not linked to the sellers. We only have the information transmitted by the carrier companies so we are not able to give you more details about your order."
 
 msgid "faq.title.changeaddress"
-msgstr "5. How can I change my delivery address?"
+msgstr "4. How can I change my delivery address?"
 
 msgid "faq.text.changeaddress"
 msgstr "If your parcel has already been shipped, then it's impossible to change the delivery address assigned to it. The only solution is to wait for your package to arrive in your country and request a change of address from your local carrier. Since each carrier is different, we advise you to go to the carrier's official website for more information regarding the possibility of a change of delivery address."
 
-msgid "faq.title.packagestuck"
-msgstr "6. My parcel is stuck somewhere, can you give me more information?"
-
-msgid "faq.text.packagestuck_p1"
-msgstr "We fully understand that you would like to receive tracking information for your parcel in real time. However, it is impossible to obtain a guaranteed arrival date for international shipments."
-
-msgid "faq.text.packagestuck_p2"
-msgstr "If your parcel's tracking information has not been updated for a long time, it means that your parcel is still on its way to its destination country or that the carrier has not updated our parcel's tracking information. It is also possible that the shipping method you have chosen does not have all the tracking information available, in which case we advise you to contact the sender of your parcel directly."
-
-msgid "faq.text.packagestuck_p3"
-msgstr "If the sender has all the tracking information available, they can also contact their local carrier for more information about the location of your parcel."
-
 msgid "faq.title.whichcarriers"
-msgstr "7. Which carriers can I track?"
+msgstr "5. Which carriers can I track?"
 
 msgid "faq.text.whichcarriers"
 msgstr "We're working every day to expand the number of carriers that can be tracked on our site. Currently it is possible to track more than XXX carriers. If you want to send us the name of a carrier that you would like to be able to track, go to our contact page to send your request to our team."
-
-msgid "faq.title.cainiao"
-msgstr "8. Why can't the Cainiao (Aliexpress) delivery method be tracked?"
-
-msgid "faq.text.cainiao_p1"
-msgstr "AliExpress shipping information is provided by "Cainiao" using a different system than the one used by our team. Cainiao creates its own shipping numbers; however, we can only track the original tracking numbers of the official carrier."
-
-msgid "faq.text.cainiao_p2"
-msgstr "Furthermore, the carrier will not be able to identify the tracking numbers provided by Cainiao, so we will only be able to track your package if you obtain an original tracking number."
-
-msgid "faq.title.statement"
-msgstr "9. Why does %1$s appear on my account statement?"
-
-msgid "faq.text.statement"
-msgstr "If you see %1$s appearing on your account statement, it is because you have subscribed to the services of %1$s. Your %1$s subscription can be cancelled at any time."
-
-msgid "faq.title.cancel"
-msgstr "10. How do I cancel my %1$s subscription?"
-
-msgid "faq.text.cancel_part1"
-msgstr "Your %1$s subscription is non-binding and can be cancelled at any time. To cancel your %1$s subscription, simply go to our cancellation page (link to cancellation page) and indicate the email address you used when you subscribed to %1$s. Your %1$s subscription will then be automatically cancelled. Visit our"
-
-msgid "faq.link.cancel"
-msgstr "Cancellation page"
-
-msgid "faq.text.cancel_part2"
-msgstr "and indicate the email address with which you have taken out your %1$s subscription. Your %1$s subscription will then be automatically cancelled."
 
 
 msgid "contact.title.contactus"

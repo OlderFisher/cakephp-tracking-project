@@ -83,9 +83,13 @@ if($this->params['controller'] == 'payments') {
                     </button>
 
                     <div class="collapse navbar-collapse flex-grow-0 justify-content-end ml-auto" id="navbarSupportedContent">
+                        <ul class="navbar-nav d-flex justify-content-start">
+
                         <?php if ($this->Session->Read('Auth.User') != ''): ?>
+
+
                         <?php else: ?>
-                         <ul class="navbar-nav d-flex justify-content-start">
+
                              <li class="nav-item align-self-center">
                                  <a class="nav-link" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'pages', 'action' => 'about', 'language' => $this->Session->read('Config.language'))); ?>"><?= __('header.link.about') ?></a>
                              </li>

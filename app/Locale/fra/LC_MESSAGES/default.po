@@ -1060,55 +1060,43 @@ msgid "faq.text.whereis"
 msgstr "Pour vous aider à comprendre le délai de livraison de votre colis vous trouverez le temps nécessaire à chacune des étapes que votre colis va effectuer :"
 
 msgid "faq.text.day1"
-msgstr "Jour 1-2 Acceptation de la livraison."
+msgstr "<strong>Jour 1-2</strong> : Acceptation de la livraison."
 
 msgid "faq.text.day2"
-msgstr "Jour 2-3 Livraison du colis au bureau d'exportation."
+msgstr "<strong>Jour 2-3</strong> :  Livraison du colis au bureau d'exportation."
 
 msgid "faq.text.day2_4"
-msgstr "Jour 2-4 Règlement des procédures administratives liées à l'exportation et à l'envoi du colis."
+msgstr "<strong>Jour 2-4</strong> :  Règlement des procédures administratives liées à l'exportation et à l'envoi du colis."
 
 msgid "faq.text.oncepackage"
 msgstr "Une fois que votre colis a quitté le bureau d'exportation de son pays d'origine, aucune information ne sera mise à jour jusqu'à ce que votre colis arrive au bureau d'importation du pays de l'adresse de livraison."
 
 msgid "faq.text.day4_10"
-msgstr "Jour 4-10 Arrivée au bureau d'importation du pays de l'adresse de livraison."
+msgstr "<strong>Jour 4-10</strong> :  Arrivée au bureau d'importation du pays de l'adresse de livraison."
 
 msgid "faq.text.day10_15"
-msgstr "Jour 10-15 Règlement des procédures administratives liées à l'importation d'un colis."
+msgstr "<strong>Jour 10-15</strong> :  Règlement des procédures administratives liées à l'importation d'un colis."
 
 msgid "faq.text.day15_30"
-msgstr "Jour 15-30 Le colis est pris en charge par un transporteur national et vous est livré."
+msgstr "<strong>Jour 15-30</strong> :  Le colis est pris en charge par un transporteur national et vous est livré."
 
 msgid "faq.text.day60"
-msgstr "Jour 60 En cas d'échec de la livraison, le colis peut être retourné à l'expéditeur où le colis est considéré comme manquant à ce moment."
+msgstr "<strong>Jour 60</strong> :  En cas d'échec de la livraison, le colis peut être retourné à l'expéditeur où le colis est considéré comme manquant à ce moment."
 
 msgid "faq.text.oncepackagearrived"
 msgstr "Une fois que votre colis est arrivé dans son pays de destination, vous pouvez contacter votre transporteur national pour obtenir de plus amples informations sur la livraison de votre colis."
 
-msgid "faq.title.whatislocation"
-msgstr "2. Quel est l'emplacement exact de mon colis ?"
-
-msgid "faq.text.internationalpackages"
-msgstr "Pour la majorité des colis internationaux, en raison des faibles coûts d'expédition, les transporteurs n'ont jamais de date d'arrivée garantie ou prévue. Il arrive donc que le délai d'expédition soit plus long que prévu, principalement en raison des procédures douanières mises en place par les compagnies aériennes. Pour ces raisons, les envois internationaux sont différents des envois nationaux."
-
-msgid "faq.text.packagescanned"
-msgstr "Votre colis est scanné à plusieurs endroits pendant son transport, ainsi, entre ces points nous ne pourrons pas vous donner d'informations précises sur la localisation exacte de votre colis. À chaque nouvelle information disponible auprès du transporteur, nous mettons à jour les informations de suivi de votre colis."
-
-msgid "faq.text.later"
-msgstr "Ainsi, si vous ne pouvez pas trouver l'emplacement précis de votre colis, vous pouvez essayer de le suivre un peu plus tard en espérant qu'il ait été scanné à un nouveau point."
-
 msgid "faq.title.statusnotfound"
-msgstr "3. Le statut de mon colis est "non trouvé", que puis-je faire ?"
+msgstr "2. Le statut de mon colis est 'non trouvé', que puis-je faire ?"
 
 msgid "faq.text.statusnotfound"
-msgstr ""Non trouvé" signifie que nous n'avons pas d'informations concernant ce numéro de suivi. Nous vous conseillons de vérifier votre numéro de suivi ou de contacter l'expéditeur (si vous ne connaissez pas votre numéro de suivi, vous pouvez contacter le vendeur) pour le vérifier."
+msgstr "'Non trouvé' signifie que nous n'avons pas d'informations concernant ce numéro de suivi. Nous vous conseillons de vérifier votre numéro de suivi ou de contacter l'expéditeur (si vous ne connaissez pas votre numéro de suivi, vous pouvez contacter le vendeur) pour le vérifier."
 
 msgid "faq.text.wait1_2days"
 msgstr "Si votre numéro de suivi est correct, nous vous conseillons d'attendre 1 ou 2 jours après l'envoi de votre colis pour obtenir les informations de suivi."
 
 msgid "faq.title.notreceive"
-msgstr "4. Je n'ai pas reçu mon colis, puis-je demander un remboursement ?"
+msgstr "3. Je n'ai pas reçu mon colis, puis-je demander un remboursement ?"
 
 msgid "faq.text.refund"
 msgstr "Si vous souhaitez obtenir un remboursement suite à la non-réception de votre colis, nous vous conseillons de soumettre votre demande au vendeur."
@@ -1117,55 +1105,16 @@ msgid "faq.text.trackingwebsite"
 msgstr "%1$s est uniquement un site de suivi des colis, c'est-à-dire que nous ne sommes pas liés aux vendeurs. Nous disposons uniquement des informations transmises par les sociétés de transport, nous ne sommes donc pas en mesure de vous donner plus de détails sur votre commande."
 
 msgid "faq.title.changeaddress"
-msgstr "5. Comment puis-je modifier mon adresse de livraison ?"
+msgstr "4. Comment puis-je modifier mon adresse de livraison ?"
 
 msgid "faq.text.changeaddress"
 msgstr "Si votre colis a déjà été expédié, il est impossible de modifier l'adresse de livraison qui lui a été attribuée. La seule solution est d'attendre que votre colis arrive dans votre pays et de demander un changement d'adresse à votre transporteur local. Chaque transporteur étant différent, nous vous conseillons de vous rendre sur le site officiel du transporteur pour plus d'informations concernant la possibilité d'un changement d'adresse de livraison."
 
-msgid "faq.title.packagestuck"
-msgstr "6. Mon colis est coincé quelque part, pouvez-vous me donner plus d'informations ?"
-
-msgid "faq.text.packagestuck_p1"
-msgstr "Nous comprenons parfaitement que vous souhaitiez recevoir des informations sur le suivi de votre colis en temps réel. Toutefois, il est impossible d'obtenir une date d'arrivée garantie pour les envois internationaux."
-
-msgid "faq.text.packagestuck_p2"
-msgstr "Si les informations de suivi de votre colis n'ont pas été mises à jour depuis longtemps, cela signifie que votre colis est toujours en route vers son pays de destination ou que le transporteur n'a pas mis à jour les informations de suivi de votre colis. Il est également possible que le mode d'expédition que vous avez choisi ne dispose pas de toutes les informations de suivi, auquel cas nous vous conseillons de contacter directement l'expéditeur de votre colis."
-
-msgid "faq.text.packagestuck_p3"
-msgstr "Si l'expéditeur dispose de toutes les informations de suivi, il peut également contacter son transporteur local pour obtenir plus d'informations sur la localisation de votre colis."
-
 msgid "faq.title.whichcarriers"
-msgstr "7. Quels sont les transporteurs que je peux suivre ?"
+msgstr "5. Quels sont les transporteurs que je peux suivre ?"
 
 msgid "faq.text.whichcarriers"
 msgstr "Nous essayons chaque jour d'augmenter le nombre de transporteurs qui peuvent être suivis sur notre site. Actuellement, il est possible de suivre plus de XXX transporteurs. Si vous voulez nous envoyer le nom d'un transporteur que vous souhaitez pouvoir suivre, vous pouvez vous rendre sur notre page de contact pour envoyer votre demande à nos équipes."
-
-msgid "faq.title.cainiao"
-msgstr "8. Pourquoi le mode de livraison Cainiao (Aliexpress) ne peut-il pas être suivi ?"
-
-msgid "faq.text.cainiao_p1"
-msgstr "Les informations de livraison AliExpress sont fournies par "Cainiao" utilisant un système différent de celui utilisé par nos équipes. Cainiao crée ses propres numéros d'expédition, mais nous ne pouvons suivre que les numéros de suivi originaux du transporteur officiel."
-
-msgid "faq.text.cainiao_p2"
-msgstr "De plus, le transporteur ne sera pas en mesure d'identifier les numéros de suivi fournis par Cainiao, donc nous ne pourrons suivre votre colis que si vous obtenez un numéro de suivi original."
-
-msgid "faq.title.statement"
-msgstr "9. Pourquoi %1$s figure-t-il sur mon relevé de compte ?"
-
-msgid "faq.text.statement"
-msgstr "Si vous voyez %1$s apparaître sur votre relevé de compte, c'est sans doute parce que vous avez souscrit aux services de %1$s. Votre abonnement à %1$s peut être résilié à tout moment."
-
-msgid "faq.title.cancel"
-msgstr "10. Comment puis-je résilier mon abonnement à %1$s ? "
-
-msgid "faq.text.cancel_part1"
-msgstr "Votre abonnement %1$s est sans engagement et peut être résilié à tout moment. Pour résilier votre abonnement %1$s, il vous suffit de vous rendre sur notre"
-
-msgid "faq.text.cancel_part2"
-msgstr "et d'indiquer l'adresse électronique avec laquelle vous avez souscrit votre abonnement %1$s. Votre abonnement %1$s sera alors automatiquement résilié."
-
-msgid "faq.link.cancel"
-msgstr "Page de résiliation"
 
 
 msgid "contact.title.contactus"
