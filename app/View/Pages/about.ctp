@@ -98,7 +98,7 @@
         <div class="row">
             <div class="col-lg-6 mb-4">
                 <p><?= __('about.text01.trackshipments'); ?></p>
-                <p><?= __('about.text01.trackshipments'); ?></p>
+                <p><?= __('about.text02.trackshipments'); ?></p>
             </div>
             <div class="col-lg-6">
                 <img src="/img/OBJECTS.svg" alt="">

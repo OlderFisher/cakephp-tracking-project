@@ -987,8 +987,46 @@ msgstr "Don't hesitate any longer and fill in your parcel number quickly!"
 msgid "home.title.searching"
 msgstr "We are currently searching for your package"
 
+msgid "home.title.steps"
+msgstr "Just follow these 4 steps"
+
+msgid "home.text01.steps"
+msgstr "Enter the <b>parcel <br>number</b> to locate"
+
+msgid "home.text02.steps"
+msgstr "Enter your <b>email <br>address</b>"
+
+msgid "home.text03.steps"
+msgstr "<b>Enter your parcel number</b> <br>if you want to receive the position by SMS"
+
+msgid "home.text04.steps"
+msgstr "Receive the position of the parcel number you are <br><b>looking for by email or SMS</b>"
+
 msgid "home.title.subscription"
 msgstr "Our <span class="primary-color">Premium</span> Subscription"
+
+#. New premium subscription texts
+msgid "home.subscription.text01"
+msgstr "<strong>30 geolocations</strong> / month"
+
+msgid "home.subscription.text02"
+msgstr "<strong>Global coverage:</strong> Locate a parcel even abroad"
+
+msgid "home.subscription.text03"
+msgstr "<strong>Real-time</strong> tracking information on the map"
+
+msgid "home.subscription.text04"
+msgstr "<strong>24/7 customer service</strong> by email and telephone"
+
+msgid "home.subscription.text05"
+msgstr "<strong>Instant termination</strong >without proof"
+
+msgid "home.subscription.text06"
+msgstr "Enjoy the advantages of our <b>Premium offer for only £1.00 for 48 hours</b>. At the end of the 48 hours and without termination on your part, the subscription will be extended without any commitment of duration at the rate <b>of £29.90 per month.</b>"
+
+msgid "home.subscription.locate"
+msgstr "Locate a parcel"
+
 
 #. 1: Trial offer price
 msgid "home.text.offer"
