@@ -202,7 +202,7 @@ msgid "form.tooltip.cvv"
 msgstr "The CVV is made up of the last 3 digits of the number on the back of your card"
 
 msgid "form.placeholder.email"
-msgstr "Your email address"
+msgstr "E-mail"
 
 msgid "form.placeholder.email_example"
 msgstr "Your email"
@@ -211,13 +211,13 @@ msgid "form.placeholder.expriation_date"
 msgstr "MM/YY"
 
 msgid "form.placeholder.firstname"
-msgstr "Your first name"
+msgstr "First Name"
 
 msgid "form.placeholder.lastname"
 msgstr "Your last name"
 
 msgid "form.placeholder.message"
-msgstr "Your message"
+msgstr "Message"
 
 msgid "form.placeholder.message_example_localization"
 msgstr "Hello, someone close to you is looking for you."
@@ -1205,8 +1205,17 @@ msgstr "Contact Us"
 msgid "contact.title.getintouch"
 msgstr "Get In Touch"
 
-msgid "contact.text.getintouch"
-msgstr "Need help tracking your shipment? The %1$s teams are here to help you! Contact us by email, phone or using the form on this page!"
+msgid "contact.text01.getintouch"
+msgstr "You can contact our advisors who are available from <strong>Monday to Saturday from 8 a.m. to 8 p.m. :</strong>"
+
+msgid "contact.text02.getintouch"
+msgstr "By email to <b><a class="color" href="mailto:contact@mobi-tracker.net">contact@mobi-tracker.net</a></b> <br>By phone at <b><a class="color" href="tel:442033182332">+44 2 033 182 332</a></b> <br> Via the form on this <b>contact page</b> <br> Our advisors are responsive and can provide you with a useful and quick answer so don't hesitate!"
+
+msgid "contact.text03.getintouch"
+msgstr "To know and exercise your rights, including the right to withdraw your consent to the use of the data collected by this form, please consult our <span class="color">privacy policy</span>."
+
+msgid "contact.title.banner"
+msgstr "Join tens of thousands of people tracking their packages with us!"
 
 msgid "contact.title.email"
 msgstr "Email"
