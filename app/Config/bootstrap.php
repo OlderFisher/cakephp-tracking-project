@@ -355,7 +355,7 @@ Configure::write(
 
 		'trackingmore.logo_url' => 'https://s.trackingmore.com/images/icons/express/{code}.png',
 
-		'aftership.key' => '',
+		'aftership.key' => '9e445345-09f5-4a1a-a34a-775bb9211079',
 		'aftership.logo_url' => 'https://assets.aftership.com/couriers/svg/{code}.svg'
 	)
 );
