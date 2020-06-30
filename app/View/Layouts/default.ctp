@@ -1,7 +1,7 @@
 <?php
 $option_link = '';
-if($this->params['controller'] == 'payments') {
-  $option_link = '_blank';
+if ($this->params['controller'] == 'payments') {
+    $option_link = '_blank';
 }
 ?>
 <!DOCTYPE html>
@@ -22,12 +22,13 @@ if($this->params['controller'] == 'payments') {
 
   <title><?php echo $this->fetch('title'); ?></title>
 
-  <meta name="description" content="<?php echo empty($meta_description) ? NULL : $meta_description ; ?>">
+  <meta name="description" content="<?php echo empty($meta_description) ? null : $meta_description ; ?>">
 
   <script src="https://kit.fontawesome.com/1d8cb88fe1.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/additional.css">
 
   <?php
 //      echo $this->Html->css('bootstrap.min.css?x='.Configure::read('Variable.css_js'));
@@ -39,8 +40,8 @@ if($this->params['controller'] == 'payments') {
       echo $this->fetch('css');
       echo $this->fetch('script');
 
-      if(isset($noRobot) && $noRobot) {
-        echo '<meta name="robots" content="noindex,nofollow" />';
+      if (isset($noRobot) && $noRobot) {
+          echo '<meta name="robots" content="noindex,nofollow" />';
       }
   ?>
   <script src="https://www.google.com/recaptcha/api.js?hl=<?= $this->Session->read('Config.language') ?>"  async defer></script>
@@ -114,11 +115,8 @@ if($this->params['controller'] == 'payments') {
         </nav>
 
 
-
-    <?php echo $this->Session->flash(); ?>
-
     </header>
-
+    <div class="session_flash"><?php echo $this->Session->flash(); ?></div>
     <?php echo $this->fetch('content'); ?>
 
     <!-- Footer -->
