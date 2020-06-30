@@ -197,6 +197,9 @@ msgstr "E-mail"
 msgid "form.placeholder.email_example"
 msgstr "Votre email"
 
+msgid "form.placeholder.username_example"
+msgstr "Nom d'utilisateur"
+
 msgid "form.placeholder.expriation_date"
 msgstr "MM/AA"
 
@@ -966,7 +969,7 @@ msgstr "Receive the position of the parcel number you are <br><b>looking for by 
 
 
 msgid "home.title.subscription"
-msgstr "Notre <span class="primary-color">formule</span> d’abonnement"
+msgstr "Notre formule d’abonnement"
 
 #. New premium subscription texts
 msgid "home.subscription.text01"
@@ -993,7 +996,7 @@ msgstr "Locate a parcel"
 
 #. 1: Trial offer price
 msgid "home.text.offer"
-msgstr "Bénéficiez de notre <span class="primary-color">offre d’essai </span>pour seulement <span class="font-weight-bold">%1$s</span> pendant 48H*"
+msgstr "Bénéficiez de notre offre d’essai >pour seulement %1$s pendant 48H*"
 
 msgid "home.text.subscription"
 msgstr "%1$s par mois pour profiter de nos services en illimités"
@@ -1023,7 +1026,7 @@ msgid "home.button.signup"
 msgstr "S'inscrire"
 
 msgid "home.title.howitworks"
-msgstr "Comment ça <span class="primary-color">marche ?</span>"
+msgstr "Comment ça marche ?"
 
 msgid "home.title.parcelid"
 msgstr "Entrez votre numéro de colis"
@@ -1044,13 +1047,13 @@ msgid "home.text.trackyourparcel"
 msgstr "Suivez votre colis grâce aux dernières informations disponibles ! Nous vous donnons la position de votre colis en temps réels en nous basant sur les informations des transporteurs!"
 
 msgid "home.title.havingtrouble"
-msgstr "Bénéficiez d’une <span class="primary-color">assistance</span> téléphonique"
+msgstr "Bénéficiez d’une assistance téléphonique"
 
 msgid "home.text.havingtrouble"
 msgstr "Vous rencontrez un problème avec le suivi de votre colis ? Votre numéro de colis n’est pas le bon ? Pas de problème, nous avons un service d’assistance prêt à vous aider du lundi au samedi de 8H à 20H."
 
 msgid "home.title.whychooseus"
-msgstr "Pourquoi <span class="primary-color">nous choisir</span>?"
+msgstr "Pourquoi nous choisir ?"
 
 msgid "home.text.usingservice"
 msgstr "En utilisant notre service, nous vous garantissons un accès simple et rapide à la localisation de vos colis. Plus besoin de vous rendre sur de nombreux sites avant de trouver comment suivre votre colis, il vous suffit d’utiliser le système de suivi que nous avons mis en place."

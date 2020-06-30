@@ -207,6 +207,9 @@ msgstr "E-mail"
 msgid "form.placeholder.email_example"
 msgstr "Your email"
 
+msgid "form.placeholder.username_example"
+msgstr "Username"
+
 msgid "form.placeholder.expriation_date"
 msgstr "MM/YY"
 
@@ -967,10 +970,10 @@ msgid "home.button.findpackage"
 msgstr "Find my Parcel"
 
 msgid "home.title.havingtrouble"
-msgstr "Get <span class="primary-color">Professional</span> Assistance"
+msgstr "Get Professional Assistance"
 
 msgid "home.title.whychooseus"
-msgstr "Why <span class="primary-color">Choose</span> Us?"
+msgstr "Why Choose Us?"
 
 msgid "home.text.usingservice"
 msgstr "By using our service, we guarantee you a simple and fast access to the location of your packages. No more need to visit many sites before finding out how to track your package, just use the tracking system we have set up."
@@ -1003,7 +1006,7 @@ msgid "home.text04.steps"
 msgstr "Receive the position of the parcel number you are <br><b>looking for by email or SMS</b>"
 
 msgid "home.title.subscription"
-msgstr "Our <span class="primary-color">Premium</span> Subscription"
+msgstr "Our Premium Subscription"
 
 #. New premium subscription texts
 msgid "home.subscription.text01"
@@ -1030,7 +1033,7 @@ msgstr "Locate a parcel"
 
 #. 1: Trial offer price
 msgid "home.text.offer"
-msgstr "%1$s take advantage of our <span class="primary-color">trial offer</span> for 48 hours*"
+msgstr "%1$s take advantage of our trial offer for 48 hours*"
 
 #. 1: Monthly offer price
 msgid "home.text.offerinfo"
@@ -1098,7 +1101,7 @@ msgid "home.button.signup"
 msgstr "Sign up"
 
 msgid "home.title.howitworks"
-msgstr "How it <span class="primary-color">Works</span>"
+msgstr "How it Works"
 
 msgid "home.text.howitworks"
 msgstr "Thanks to our parcel tracking service, simply locate a parcel by entering its associated Identification number. To be able to geolocate and track, you will need to provide us with the associated email address to receive updates on its whereabouts."
