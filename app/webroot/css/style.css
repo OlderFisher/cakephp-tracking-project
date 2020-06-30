@@ -216,7 +216,7 @@ section {
 }
 .track-form button.btn {
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   height: 100%;
   border-radius: 0 5px 5px 0;
@@ -1020,4 +1020,12 @@ footer h4 {
   .p-sm {
     padding: 24px 16px 32px
   }
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #ed3232;
+    background-color: #ed3232;
+}
+.home-customer-cgv{
+    margin-top: 10px;
 }

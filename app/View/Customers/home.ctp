@@ -41,7 +41,7 @@
                         'value' => NULL
                     )
                 );
-                ?>
+                ?></div>
                     <div class="form-group" id="secondInput">
                         <?php
                         echo $this->Form->input(
@@ -70,12 +70,12 @@
                                     'style' => 'font-size:11px;'
                                 ),
                                 'div' => array(
-                                    'class' => 'custom-control custom-checkbox'
+                                    'class' => 'custom-control custom-checkbox home-customer-cgv'
                                 )
                             )
                         );
                         ?>
-                    </div>
+                    
 
 
                 <button id="submitBtn" type="submit" class="btn"><img src="/img/tools-and-utensils.svg" alt=""></button>
