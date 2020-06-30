@@ -116,10 +116,10 @@ Configure::write(
 		'Site.id' => 23,
 		'Variable.css_js' => 49,
 
-		'recaptcha.site' => '6LeQNc4UAAAAAJwB93_Fy52t5lUaZ8DAWcwM3ZdL',
-		'recaptcha.secret' => '6LeQNc4UAAAAAK-LGkP_4oBwv3nl13h37qMTkwMu',
-		'recaptcha.checkbox.site' => '6Lcjb9IUAAAAAFmII3jwZMyLL3tOdWGziaU55ylj',
-		'recaptcha.checkbox.secret' => '6Lcjb9IUAAAAALgXPTrPUyjUYbYj_ZMnu8eJFSZa',
+		'recaptcha.site' => '6LegXqsZAAAAACRS4rHRWDwqJbPExEx8S_Q1bK2u',
+		'recaptcha.secret' => '6LegXqsZAAAAAJgL52G3YISQoz9j7Ue7d7edunbv',
+		'recaptcha.checkbox.site' => '6LegXqsZAAAAACRS4rHRWDwqJbPExEx8S_Q1bK2u',
+		'recaptcha.checkbox.secret' => '6LegXqsZAAAAAJgL52G3YISQoz9j7Ue7d7edunbv',
 
 		'Site.name' => 'Trackerly',
 		'Site.name2' => 'Trackerly',
