@@ -190,7 +190,7 @@ msgid "form.label.vat"
 msgstr "VAT:"
 
 msgid "form.placeholder.cardholder"
-msgstr "Cardholder of the card"
+msgstr "John Smith"
 
 msgid "form.placeholder.claim"
 msgstr "Complaint"
@@ -1314,7 +1314,7 @@ msgid "payment.title.securepay"
 msgstr "Secure Payment"
 
 msgid "payment.title.total"
-msgstr "Amount:"
+msgstr "Total: <b>"
 
 msgid "payment.button.pay"
 msgstr "Confirm Payment"

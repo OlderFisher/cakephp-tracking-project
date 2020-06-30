@@ -177,7 +177,7 @@ msgid "form.label.vat"
 msgstr "TVA :"
 
 msgid "form.placeholder.cardholder"
-msgstr "Titulaire de la carte"
+msgstr "John Smith"
 
 msgid "form.placeholder.claim"
 msgstr "Réclamation"
@@ -1263,7 +1263,7 @@ msgid "payment.title.securepay"
 msgstr "Paiement sécurisé"
 
 msgid "payment.title.total"
-msgstr "Total :"
+msgstr "Total : <b>"
 
 msgid "payment.button.pay"
 msgstr "Valider l'achat"
