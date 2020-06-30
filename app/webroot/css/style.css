@@ -181,14 +181,14 @@ section {
 #home h1 {
   color: #303030
 }
-#track-form {
+.track-form {
   margin-top: 42px
 }
-#track-form .form-group {
+.track-form .form-group {
   position: relative;
   max-width: 520px
 }
-#track-form input.form-control {
+.track-form input.form-control {
   width: 100%;
   border: 1px solid #ededed;
   border-radius: 5px;
@@ -198,23 +198,23 @@ section {
   line-height: 24px;
   color: #303030
 }
-#track-form input::-webkit-input-placeholder {
+.track-form input::-webkit-input-placeholder {
   color: #303030;
   opacity: .5
 }
-#track-form input:-ms-input-placeholder {
+.track-form input:-ms-input-placeholder {
   color: #303030;
   opacity: .5
 }
-#track-form input::-ms-input-placeholder {
+.track-form input::-ms-input-placeholder {
   color: #303030;
   opacity: .5
 }
-#track-form input::placeholder {
+.track-form input::placeholder {
   color: #303030;
   opacity: .5
 }
-#track-form button.btn {
+.track-form button.btn {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -884,13 +884,20 @@ footer h4 {
     font-size: 20px;
     line-height: 30px
   }
-  #track-form {
+  #TrackParcelHomeForm {
     margin-top: 28px
   }
-  #track-form input.form-control {
-    padding: 24px 104px 24px 24px
+  #TrackParcelHomeForm input.form-control {
+    width: 100%;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    padding: 28px 144px 28px 34px;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303030;
   }
-  #track-form button.btn {
+  #TrackParcelHomeForm button.btn {
     padding: 18px 24px;
     max-height: 75px
   }

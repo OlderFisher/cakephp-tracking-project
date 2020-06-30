@@ -5,15 +5,95 @@
         <div class="row h-100">
             <div class="col-xl-6 col-lg-7 col-md-12 d-flex flex-column justify-content-center h-100">
                 <h1><?= __('home.title.parceltrack') ?></h1>
-                <p class="strong color"><?= __('home.title.parceltrack') ?></p>
-                <form id="track-form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Enter your parcel number" name="search" id="search">
-                        <button type="submit" class="btn">
-                            <img src="/img/tools-and-utensils.svg" alt="">
-                        </button>
+                <p class="strong color"><?= __('home.title.easytrack') ?></p>
+                <?php
+                echo $this->Form->create(
+                    'TrackParcel',
+                    array(
+                        'type' => 'POST',
+                        'class' => 'track-form',
+                        'inputDefaults' => array(
+                            'format' => array('before', 'label', 'input', 'between', 'error', 'after'),
+                            'class' => '',
+                            'div' => false,
+                            'label' => false,
+                            'error' => array('attributes' => array('wrap' => 'span', 'class' => 'text-danger'))
+                        )
+                    )
+                );
+
+                ?>
+
+                <div class="form-group">
+
+                <?php
+                echo $this->Form->input(
+                    'num_parcel',
+                    array(
+                        'type' => 'text',
+                        'class' => 'form-control',
+                        'id' => 'search',
+                        'oninput' => "myDisplay()",
+                        'placeholder' => __('form.placeholder.trackpackage'),
+                        'required' => true,
+                        'autofocus' => false,
+                        'pattern' => "^[A-Za-z0-9]{1,30}$",
+                        'value' => NULL
+                    )
+                );
+                ?>
+                    <div class="form-group" id="secondInput">
+                        <?php
+                        echo $this->Form->input(
+                            'Customer.email',
+                            array(
+                                'type' => 'text',
+                                'class' => 'form-control',
+                                'placeholder' => __('form.placeholder.email'),
+                                'required' => true,
+                                'pattern' => "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            )
+                        );
+                        ?>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback"></div>
+
+                        <?php
+                        echo $this->Form->input(
+                            'Customer.cgv',
+                            array(
+                                'format' => array('before','input','between', 'label', 'error', 'after'),
+                                'class' => 'custom-control-input',
+                                'label' => array(
+                                    'text' => __('form.label.tos', '<a href="'.$this->Html->url(array('controller' => 'pages', 'action' => 'cgv', 'language' => $this->Session->read('Config.language'))).'" target="_blank">'.__('link.tos').'</a>'),
+                                    'class' => 'custom-control-label',
+                                    'style' => 'font-size:11px;'
+                                ),
+                                'div' => array(
+                                    'class' => 'custom-control custom-checkbox'
+                                )
+                            )
+                        );
+                        ?>
                     </div>
-                </form>
+
+
+                <button id="submitBtn" type="submit" class="btn"><img src="/img/tools-and-utensils.svg" alt=""></button>
+                </div>
+
+
+                <?=
+                $this->Form->input(
+                    'carrier',
+                    array(
+                        'type' => 'hidden',
+                        'value' => NULL
+                    )
+                )
+                ?>
+
+                <?php echo $this->Form->end(); ?>
+
             </div>
             <div class="col-xl-6 col-lg-5 col-md-8 offset-md-2 offset-lg-0 home-img d-flex flex-column justify-content-center h-100">
                 <img src="/img/home.svg" alt="">
@@ -121,7 +201,7 @@
             </div>
             <div class="col-xl-5 col-lg-6">
                 <p class="mt-5"><?= __('home.subscription.text06') ;?></p>
-                <a href="#" class="btn">Locate a parcel</a>
+                <a href="#" class="btn"><?= __('home.subscription.locate') ;?></a>
             </div>
         </div>
     </div>

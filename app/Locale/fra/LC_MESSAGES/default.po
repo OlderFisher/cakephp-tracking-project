@@ -953,19 +953,19 @@ msgid "home.text.globally"
 msgstr "Trouvez votre colis où qu'il soit dans le monde!"
 
 msgid "home.title.steps"
-msgstr "Just follow these 4 steps"
+msgstr "Pour localiser votre colis suivez ces 4 étapes :"
 
 msgid "home.text01.steps"
-msgstr "Enter the <b>parcel <br>number</b> to locate"
+msgstr "Renseignez votre <b>numéro</b> de colis"
 
 msgid "home.text02.steps"
-msgstr "Enter your <b>email <br>address</b>"
+msgstr "Renseignez votre <b>adresse mail</b>"
 
 msgid "home.text03.steps"
-msgstr "<b>Enter your parcel number</b> <br>if you want to receive the position by SMS"
+msgstr "Profitez de <b>notre offre d’essai</b>"
 
 msgid "home.text04.steps"
-msgstr "Receive the position of the parcel number you are <br><b>looking for by email or SMS</b>"
+msgstr "Suivez votre colis depuis votre <b>espace personnel</b>"
 
 
 msgid "home.title.subscription"
@@ -973,25 +973,25 @@ msgstr "Notre formule d’abonnement"
 
 #. New premium subscription texts
 msgid "home.subscription.text01"
-msgstr "<strong>30 geolocations</strong> / month"
+msgstr "<strong>30 suivis </strong> par mois"
 
 msgid "home.subscription.text02"
-msgstr "<strong>Global coverage:</strong> Locate a parcel even abroad"
+msgstr "Couverture <strong>mondiale</strong>"
 
 msgid "home.subscription.text03"
-msgstr "<strong>Real-time</strong> tracking information on the map"
+msgstr "Suivez votre colis en <strong>temps-réel</strong> "
 
 msgid "home.subscription.text04"
-msgstr "<strong>24/7 customer service</strong> by email and telephone"
+msgstr "Service d’assistance <strong>24/24 et 7/7</strong>"
 
 msgid "home.subscription.text05"
-msgstr "<strong>Instant termination</strong >without proof"
+msgstr "<strong>Espace personnel sécurisé</strong> Données fiables fournies par les transporteurs"
 
 msgid "home.subscription.text06"
-msgstr "Enjoy the advantages of our <b>Premium offer for only £1.00 for 48 hours</b>. At the end of the 48 hours and without termination on your part, the subscription will be extended without any commitment of duration at the rate <b>of £29.90 per month.</b>"
+msgstr "Profitez de notre offre d’essai pour <b>1.49€ pendant 48H</b>. Suite à ces 48H et sans une résiliation de votre part, votre offre d’essai se transformera en abonnement sans engagement à durée indéterminée au prix de <b>29.90€</b> par mois."
 
 msgid "home.subscription.locate"
-msgstr "Locate a parcel"
+msgstr "Localisez votre colis"
 
 
 #. 1: Trial offer price
@@ -1090,31 +1090,31 @@ msgid "about.text.nowadays"
 msgstr "Aujourd’hui il est courant de commander des articles sur internet et il arrive souvent que ces articles traversent le monde avant d’arriver chez nous. Chez %1$s nous avons décidé de propose une solution de suivi de colis depuis son point de départ jusqu’à son arrivé chez vous."
 
 msgid "about.title.howtousegeoservice"
-msgstr "How to use our geolocation service?"
+msgstr "Comment utiliser notre service de suivi de colis ?"
 
 msgid "about.text01.howtousegeoservice"
-msgstr "Thanks to our geolocation service, simply locate a parcel number by entering its associated parcel number. To be able to geolocate any parcel number, you will need to provide us with the parcel number associated with this mobile as well as your email address to receive its location."
+msgstr "Notre service de suivi de colis est vraiment simple d’utilisation et vous permettra de localiser un colis peu importe sa position du moment que les transporteurs y ont accès."
 
 msgid "about.text02.howtousegeoservice"
-msgstr "In order for us to geolocate a parcel, we need the mobile phone to have access to the network and allow the internal geolocation of the phone."
+msgstr "Il vous suffit de vous munir de votre numéro de colis, attention à ne pas confondre avec votre numéro de commande, et de l’inscrire dans le champ prévu à cet effet en haut de la page. Il ne vous restera plus qu’à renseigner votre adresse mail et à profiter de notre offre d’essai pour pouvoir utiliser nos services."
 
 msgid "about.text03.howtousegeoservice"
-msgstr "Once this has been verified, we will send an SMS containing a URL authorizing the transfer of its position. Once this link is clicked, we receive the position and transfer it directly to you."
+msgstr "Lors de votre inscription vous recevrez un mail contenant vos identifiants pour vous connecter à votre espace personnel sur lequel vous pourrez accéder à la localisation de vos colis. Grâce à notre offre vous avez la possibilité de localiser 30 colis par mois !"
 
 msgid "about.title.intrlpackagetracking"
-msgstr "International Package Tracking"
+msgstr "Suivi de colis international"
 
 msgid "about.text.intrlpackagetracking"
-msgstr "Regardless of the online store or the market you have purchased, you can always trace the full path of the order with our parcel tracking service"
+msgstr "Aujourd’hui il n’est pas rare de recevoir un colis provenant de l’international au vu du nombre de boutique en ligne existante. Grâce à la solution que nous proposons vous n’aurez aucun mal à suivre un colis provenant de l’étranger."
 
 msgid "about.title.trackshipments"
-msgstr "Track Shipments by Any Courier or Postal Service"
+msgstr "Un large réseau de transporteur"
 
 msgid "about.text01.trackshipments"
-msgstr "A courier company is responsible for the delivery of packages, documents, and mail between two parties. Unlike state-operated post offices, courier delivery services are usually privately-owned companies that offer more competitive services such as door-to-door package delivery 7 days a week, with some even boasting 24/7 services."
+msgstr "Chez XXXXX nous faisons en sorte d’agrandir le plus possible notre réseau de transporteur pour nous permettre de vous proposer un service toujours plus complet. Aujourd’hui nous avons à notre disposition les informations de suivis de colis de plusieurs centaines de transporteur."
 
 msgid "about.text02.trackshipments"
-msgstr "Most couriers will also offer same day or next day package delivery and international package delivery services at more attractive prices."
+msgstr "Grâce à ce grand réseau de transporteur nous pouvons presque vous assurer que vous trouverez la position de votre colis en utilisant notre solution !"
 
 
 
@@ -1193,19 +1193,20 @@ msgid "contact.title.contactus"
 msgstr "Nous contacter"
 
 msgid "contact.title.getintouch"
-msgstr "Get In Touch"
+msgstr "Contactez-nous !"
 
 msgid "contact.text01.getintouch"
-msgstr "You can contact our advisors who are available from <strong>Monday to Saturday from 8 a.m. to 8 p.m. :</strong>"
+msgstr "Vous pouvez contacter nos conseillers professionnels du <b>lundi au samedi de 8h à 20h !</b><br> Nos conseillers seront ravis de vous venir en aide et de vous apporter toutes les informations dont vous avez besoin concernant la localisation de votre colis ! "
 
 msgid "contact.text02.getintouch"
-msgstr "By email to <b><a class="color" href="mailto:contact@mobi-tracker.net">contact@mobi-tracker.net</a></b> <br>By phone at <b><a class="color" href="tel:442033182332">+44 2 033 182 332</a></b> <br> Via the form on this <b>contact page</b> <br> Our advisors are responsive and can provide you with a useful and quick answer so don't hesitate!"
+msgstr "Par mail à  <b><a class="color" href="mailto:contact@mobi-tracker.net">contact@mobi-tracker.net</a></b> <br>Par téléphone au  <b><a class="color" href="tel:442033182332">+44 2 033 182 332</a></b> <br>Via le formulaire présent sur cette <b>page contact</b> "
 
 msgid "contact.text03.getintouch"
 msgstr "To know and exercise your rights, including the right to withdraw your consent to the use of the data collected by this form, please consult our <span class="color">privacy policy</span>."
 
 msgid "contact.title.banner"
-msgstr "Join tens of thousands of people tracking their packages with us!"
+msgstr "Connectez vous dès maintenant à votre espace personnel !"
+
 msgid "contact.title.email"
 msgstr "Email"
 
@@ -1236,19 +1237,19 @@ msgid "termination.title.termination"
 msgstr "Résiliation"
 
 msgid "termination.subtitle.termination"
-msgstr "Vous souhaitez annuler votre abonnement ? "
+msgstr "Vous souhaitez résilier votre abonnement ?"
 
 msgid "termination.text.termination"
-msgstr "Pas de problème, il vous suffit d'entrer l'adresse électronique que vous avez utilisée lors de votre inscription."
+msgstr "Pas de problème il vous suffit de nous indiquer l’adresse mail utilisée lors de la souscription de votre abonnement."
 
 msgid "termination.title.unsubscribe"
-msgstr "Unsubscribe"
+msgstr "Se désabonner"
 
 msgid "termination.title.intrlpackagetracking"
-msgstr "International Package Tracking"
+msgstr "Suivi de colis international"
 
 msgid "termination.text.intrlpackagetracking"
-msgstr "Regardless of the online store or the market you have purchased, you can always trace the full path of the order with our parcel tracking service"
+msgstr "Aujourd’hui il n’est pas rare de recevoir un colis provenant de l’international au vu du nombre de boutique en ligne existante. Grâce à la solution que nous proposons vous n’aurez aucun mal à suivre un colis provenant de l’étranger."
 
 
 
