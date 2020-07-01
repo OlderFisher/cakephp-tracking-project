@@ -660,7 +660,7 @@ footer h4 {
   color: #646d75
 }
 #login .d-flex .form-control, #order .d-flex .form-control {
-  width: calc(50% - 10px)
+  width: calc(50% - 10px);
 }
 #login input[type=checkbox], #order input[type=checkbox] {
   position: absolute;
@@ -941,6 +941,9 @@ footer h4 {
   #order .d-flex .form-control:first-child {
     margin-bottom: 20px
   }
+  .white-bg .cvv-grid  img {
+    margin-bottom: 36px;
+}
   #order .d-flex, footer .d-flex {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -1035,4 +1038,12 @@ footer h4 {
 }
 .fade:not(.show) {
     top: -99999px;
+}
+.cvv-grid{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+#order .cvv-grid  .form-control{
+    width:100%;
 }

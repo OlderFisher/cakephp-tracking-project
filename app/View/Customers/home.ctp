@@ -281,10 +281,10 @@
 <div class="modal fade d-flex " id="loadMe" tabindex="-1" role="dialog" aria-labelledby="modalLoading" aria-hidden="false">
     <div class="modal-dialog" role="document">
       <div class="modal-content p-big text-center">
-        <h4 class="mb-4">We are currenly searching for your parcel</h4>
+        <h4 class="mb-4"><?= __('home.title.searching') ?></h4>
         <img class="loading-animation mb-4" src="img/loading.svg" alt="">
-        <p>Re-directing to payment page</p>
-        <small>Searching...</small>
+        <p><?= __('home.text.redirect') ?></p>
+        <small><?= __('home.text.search') ?>...</small>
       </div>
     </div>
   </div>
