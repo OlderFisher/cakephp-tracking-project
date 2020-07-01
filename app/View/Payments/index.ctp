@@ -133,7 +133,7 @@
                     </div>
                     <hr>
                     <div class="p-sm pt-3">
-                        <p> <?= __('payment.text.descriptor'); ?> <strong><?php echo Configure::read('Site.name'); ?></p>
+                        <p> <?= __('payment.text.descriptor'); ?> <strong><?php echo Configure::read('Site.name'); ?></strong></p>
                     </div>
                 </div>
             </div>
