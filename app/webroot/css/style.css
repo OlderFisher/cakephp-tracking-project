@@ -1047,3 +1047,6 @@ footer h4 {
 #order .cvv-grid  .form-control{
     width:100%;
 }
+.collapsing>div.nav-item{
+    display:none !important;
+}
