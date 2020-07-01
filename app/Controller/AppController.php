@@ -32,7 +32,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
-	public $components = array('Cookie', 'RequestHandler', 'Session',
+	public $components = array('Cookie', 'RequestHandler', 'Session', 'DebugKit.Toolbar',
 		'Auth' => array(
 			'loginAction' => array('controller' => 'tracking', 'action' => 'dashboard'),
 			'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),

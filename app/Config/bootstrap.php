@@ -72,7 +72,7 @@ Cache::config('default', array('engine' => 'File'));
  *
  * Configure::write('I18n.preferApp', true);
  */
-
+CakePlugin::load('DebugKit'); // Loads a single plugin named DebugKit
 /**
  * You can attach event listeners to the request lifecycle as Dispatcher Filter. By default CakePHP bundles two filters:
  *
@@ -91,8 +91,8 @@ Cache::config('default', array('engine' => 'File'));
  * ));
  */
 Configure::write('Dispatcher.filters', array(
-	'AssetDispatcher',
-	'CacheDispatcher'
+    'AssetDispatcher',
+    'CacheDispatcher'
 ));
 
 /**
@@ -100,262 +100,262 @@ Configure::write('Dispatcher.filters', array(
  */
 App::uses('CakeLog', 'Log');
 CakeLog::config('debug', array(
-	'engine' => 'File',
-	'types' => array('notice', 'info', 'debug'),
-	'file' => 'debug',
+    'engine' => 'File',
+    'types' => array('notice', 'info', 'debug'),
+    'file' => 'debug',
 ));
 CakeLog::config('error', array(
-	'engine' => 'File',
-	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
-	'file' => 'error',
+    'engine' => 'File',
+    'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
+    'file' => 'error',
 ));
 
 
 Configure::write(
-  array(
-		'Site.id' => 23,
-		'Variable.css_js' => 49,
+    array(
+        'Site.id' => 23,
+        'Variable.css_js' => 49,
 
-		'recaptcha.site' => '6LegXqsZAAAAACRS4rHRWDwqJbPExEx8S_Q1bK2u',
-		'recaptcha.secret' => '6LegXqsZAAAAAJgL52G3YISQoz9j7Ue7d7edunbv',
-		'recaptcha.checkbox.site' => '6LegXqsZAAAAACRS4rHRWDwqJbPExEx8S_Q1bK2u',
-		'recaptcha.checkbox.secret' => '6LegXqsZAAAAAJgL52G3YISQoz9j7Ue7d7edunbv',
+        'recaptcha.site' => '6LegXqsZAAAAACRS4rHRWDwqJbPExEx8S_Q1bK2u',
+        'recaptcha.secret' => '6LegXqsZAAAAAJgL52G3YISQoz9j7Ue7d7edunbv',
+        'recaptcha.checkbox.site' => '6LegXqsZAAAAACRS4rHRWDwqJbPExEx8S_Q1bK2u',
+        'recaptcha.checkbox.secret' => '6LegXqsZAAAAAJgL52G3YISQoz9j7Ue7d7edunbv',
 
-		'Site.name' => 'Trackerly',
-		'Site.name2' => 'Trackerly',
-		'Site.name_upper' => 'TRACKERLY',
-		'Site.url' => 'trackerly.net',
-		'Site.url2' => 'trackerly.net',
-		'Site.wurl' => 'www.trackerly.net',
-		'Contact.link_site' => 'https://trackerly.net/',
-		'Contact.link_login' => 'https://trackerly.net/en/login',
+        'Site.name' => 'Trackerly',
+        'Site.name2' => 'Trackerly',
+        'Site.name_upper' => 'TRACKERLY',
+        'Site.url' => 'trackerly.net',
+        'Site.url2' => 'trackerly.net',
+        'Site.wurl' => 'www.trackerly.net',
+        'Contact.link_site' => 'https://trackerly.net/',
+        'Contact.link_login' => 'https://trackerly.net/en/login',
 
-		'Site.pxp_name' => 'PXP-trackerly',
-		'Site.pxp_url' => 'PXP-trackerly.net',
-		'Site.pxp_name2' => 'PX-trackerly',
-		'Site.pxp_url2' => 'PX-trackerly.net',
+        'Site.pxp_name' => 'PXP-trackerly',
+        'Site.pxp_url' => 'PXP-trackerly.net',
+        'Site.pxp_name2' => 'PX-trackerly',
+        'Site.pxp_url2' => 'PX-trackerly.net',
 
-		'Company.name' => '',
-		'Company.name_ltd' => '',
-		'Company.vat_number' => ' ',
-		'Company.address' => '',
-		'Company.inc_number' => '',
+        'Company.name' => '',
+        'Company.name_ltd' => '',
+        'Company.vat_number' => ' ',
+        'Company.address' => '',
+        'Company.inc_number' => '',
 
-		'Contact.email_site' => 'contact@trackerly.net',
+        'Contact.email_site' => 'contact@trackerly.net',
 
-		'Contact.link_sav' => 'https://trackerly.net',
-		'Contact.url_resil' => 'https://trackerly.net/termination',
-		'Contact.name_sav' => 'TRACKERLY.net',
-		'Contact.email' => 'contact@trackerly.net',
+        'Contact.link_sav' => 'https://trackerly.net',
+        'Contact.url_resil' => 'https://trackerly.net/termination',
+        'Contact.name_sav' => 'TRACKERLY.net',
+        'Contact.email' => 'contact@trackerly.net',
 
-		'Site.denied_legal_countries' => array('FR', 'BE'),
+        'Site.denied_legal_countries' => array('FR', 'BE'),
 
-		'languages' => [
-			'en' => 'English',
-			'fr' => 'Français',
-			//'es' => 'Español',
-			//'it' => 'Italiano',
-			// 'pl' => 'Polski',
-			// 'pt' => 'Português'
-		],
+        'languages' => [
+            'en' => 'English',
+            'fr' => 'Français',
+            //'es' => 'Español',
+            //'it' => 'Italiano',
+            // 'pl' => 'Polski',
+            // 'pt' => 'Português'
+        ],
 
-		'Tab_vad' => [
-			'eurit' => [
-				'vad_payxpert_a_verisav_bnp_3ds' => [
-					'name' => 'PayxpertAVerisavBnp3DS',
-					'posProductXML' => 0,
-					'3DS' => 1
-				],
-				'vad_vikingpay_mwm_mobitracker_korta' => [
-					'name' => 'VikingpayMWMMobitrackerKorta',
-					'posProductXML' => 1,
-					'3DS' => null
-				]
-			],
-			'gbp' => [
-				'vad_vikingpay_mwm_mobitracker_korta_gbp' => [
-					'name' => 'VikingpayMWMMobitrackerKortaGBP',
-					'posProductXML' => 0,
-					'3DS' => null
-				]
-			],
-			'cad' => [
-				'vad_vikingpay_mwm_mobitracker_korta_cad' => [
-					'name' => 'VikingpayMWMMobitrackerKortaCAD',
-					'posProductXML' => 0,
-					'3DS' => null
-				],
-				'vad_payxpert_test_cad' => [
-					'name' => 'PayxpertTestCAD',
-					'posProductXML' => 1,
-					'3DS' => 1
-				],
-				'vad_payxpert_sw_kioskmanual_sab_3ds_cad' => [
-					'name' => 'PayxpertSWKioskmanualSab3DSCAD',
-					'posProductXML' => 2,
-					'3DS' => 1
-				]
-			],
-			'aud' => [
-				'vad_vikingpay_mwm_mobitracker_korta_aud' => [
-					'name' => 'VikingpayMWMMobitrackerKortaAUD',
-					'posProductXML' => 0,
-					'3DS' => null
-				]
-			],
-			'usd' => [
-				'vad_vikingpay_mwm_mobitracker_korta_usd' => [
-					'name' => 'VikingpayMWMMobitrackerKortaUSD',
-					'posProductXML' => 0,
-					'3DS' => null
-				]
-			],
-		],
+        'Tab_vad' => [
+            'eurit' => [
+                'vad_payxpert_a_verisav_bnp_3ds' => [
+                    'name' => 'PayxpertAVerisavBnp3DS',
+                    'posProductXML' => 0,
+                    '3DS' => 1
+                ],
+                'vad_vikingpay_mwm_mobitracker_korta' => [
+                    'name' => 'VikingpayMWMMobitrackerKorta',
+                    'posProductXML' => 1,
+                    '3DS' => null
+                ]
+            ],
+            'gbp' => [
+                'vad_vikingpay_mwm_mobitracker_korta_gbp' => [
+                    'name' => 'VikingpayMWMMobitrackerKortaGBP',
+                    'posProductXML' => 0,
+                    '3DS' => null
+                ]
+            ],
+            'cad' => [
+                'vad_vikingpay_mwm_mobitracker_korta_cad' => [
+                    'name' => 'VikingpayMWMMobitrackerKortaCAD',
+                    'posProductXML' => 0,
+                    '3DS' => null
+                ],
+                'vad_payxpert_test_cad' => [
+                    'name' => 'PayxpertTestCAD',
+                    'posProductXML' => 1,
+                    '3DS' => 1
+                ],
+                'vad_payxpert_sw_kioskmanual_sab_3ds_cad' => [
+                    'name' => 'PayxpertSWKioskmanualSab3DSCAD',
+                    'posProductXML' => 2,
+                    '3DS' => 1
+                ]
+            ],
+            'aud' => [
+                'vad_vikingpay_mwm_mobitracker_korta_aud' => [
+                    'name' => 'VikingpayMWMMobitrackerKortaAUD',
+                    'posProductXML' => 0,
+                    '3DS' => null
+                ]
+            ],
+            'usd' => [
+                'vad_vikingpay_mwm_mobitracker_korta_usd' => [
+                    'name' => 'VikingpayMWMMobitrackerKortaUSD',
+                    'posProductXML' => 0,
+                    '3DS' => null
+                ]
+            ],
+        ],
 
-		'currencies' => [
-			'eurit' => [
-				'code' => 'eur',
-				'product_id' => 7,
-				'vat' => 20,
-				'symbol' => '€',
-				'name' => 'Euro',
-				'price' => [
-					'month' => '24,90€',
-					'trial' => '0,35€'
-				],
-				'xml_config' => ''
-			],
-			'cad' => [
-				'code' => 'cad',
-				'product_id' => 8,
-				'vat' => 5,
-				'symbol' => '$',
-				'name' => 'Canadian Dollar',
-				'price' => [
-					'month' => 'CA$32.90',
-					'trial' => 'CA$1.49'
-				],
-				'xml_config' => ''
-			],
-			'aud' => [
-				'code' => 'aud',
-				'product_id' => 9,
-				'vat' => 10,
-				'symbol' => '$',
-				'name' => 'Australian Dollar',
-				'price' => [
-					'month' => 'AU$34.90',
-					'trial' => 'AU$1.49'
-				],
-				'xml_config' => ''
-			],
-			'usd' => [
-				'code' => 'usd',
-				'product_id' => 3,
-				'vat' => 0,
-				'symbol' => '$',
-				'name' => 'United States Dollar',
-				'price' => [
-					'month' => '$29.90',
-					'trial' => '$1.49'
-				],
-				'xml_config' => ''
-			],
-			'gbp' => [
-				'code' => 'gbp',
-				'product_id' => 6,
-				'vat' => 20,
-				'symbol' => '£',
-				'name' => 'Pound sterling',
-				'price' => [
-					'month' => '£24.90',
-					'trial' => '£1.00'
-				],
-				'xml_config' => ''
-			]
-		],
+        'currencies' => [
+            'eurit' => [
+                'code' => 'eur',
+                'product_id' => 7,
+                'vat' => 20,
+                'symbol' => '€',
+                'name' => 'Euro',
+                'price' => [
+                    'month' => '24,90€',
+                    'trial' => '0,35€'
+                ],
+                'xml_config' => ''
+            ],
+            'cad' => [
+                'code' => 'cad',
+                'product_id' => 8,
+                'vat' => 5,
+                'symbol' => '$',
+                'name' => 'Canadian Dollar',
+                'price' => [
+                    'month' => 'CA$32.90',
+                    'trial' => 'CA$1.49'
+                ],
+                'xml_config' => ''
+            ],
+            'aud' => [
+                'code' => 'aud',
+                'product_id' => 9,
+                'vat' => 10,
+                'symbol' => '$',
+                'name' => 'Australian Dollar',
+                'price' => [
+                    'month' => 'AU$34.90',
+                    'trial' => 'AU$1.49'
+                ],
+                'xml_config' => ''
+            ],
+            'usd' => [
+                'code' => 'usd',
+                'product_id' => 3,
+                'vat' => 0,
+                'symbol' => '$',
+                'name' => 'United States Dollar',
+                'price' => [
+                    'month' => '$29.90',
+                    'trial' => '$1.49'
+                ],
+                'xml_config' => ''
+            ],
+            'gbp' => [
+                'code' => 'gbp',
+                'product_id' => 6,
+                'vat' => 20,
+                'symbol' => '£',
+                'name' => 'Pound sterling',
+                'price' => [
+                    'month' => '£24.90',
+                    'trial' => '£1.00'
+                ],
+                'xml_config' => ''
+            ]
+        ],
 
-		'countries' => [
-			'fr' => [
-				'name' => 'France',
-				'default_currency' => 'eurit',
-				// 'default_currency' => 'eur',
-				'phone' => '+33 805 081 904',
-				'vat' => 20
-			],
-			'ie' => [
-				'name' => 'Ireland',
-				'default_currency' => 'eurit',
-				// 'default_currency' => 'eur',
-				'phone' => '+44 2 039 910 387',
-				'vat' => 23
-			],
-			'gb' => [
-				'name' => 'United Kingdom',
-				'default_currency' => 'gbp',
-				'phone' => '+44 2 039 910 387',
-				'vat' => 20
-			],
-			'au' => [
-				'name' => 'Australia',
-				'default_currency' => 'aud',
-				'phone' => '+44 2 039 910 387',
-				'vat' => 10
-			],
-			'ca' => [
-				'name' => 'Canada',
-				'default_currency' => 'cad',
-				'phone' => '+44 2 039 910 387',
-				'vat' => 5
-			],
-			'it' => [
-				'name' => 'Italia',
-				'default_currency' => 'eurit',
-				// 'default_currency' => 'eur',
-				'phone' => '+44 2 039 910 387',
-				'vat' => 22
-			],
-			/*'es' => [
-				'name' => 'España',
-				'default_currency' => 'eur',
-				'phone' => '+0 000 000 00 00',
-				'vat' => 21
-			]*/
-		],
+        'countries' => [
+            'fr' => [
+                'name' => 'France',
+                'default_currency' => 'eurit',
+                // 'default_currency' => 'eur',
+                'phone' => '+33 805 081 904',
+                'vat' => 20
+            ],
+            'ie' => [
+                'name' => 'Ireland',
+                'default_currency' => 'eurit',
+                // 'default_currency' => 'eur',
+                'phone' => '+44 2 039 910 387',
+                'vat' => 23
+            ],
+            'gb' => [
+                'name' => 'United Kingdom',
+                'default_currency' => 'gbp',
+                'phone' => '+44 2 039 910 387',
+                'vat' => 20
+            ],
+            'au' => [
+                'name' => 'Australia',
+                'default_currency' => 'aud',
+                'phone' => '+44 2 039 910 387',
+                'vat' => 10
+            ],
+            'ca' => [
+                'name' => 'Canada',
+                'default_currency' => 'cad',
+                'phone' => '+44 2 039 910 387',
+                'vat' => 5
+            ],
+            'it' => [
+                'name' => 'Italia',
+                'default_currency' => 'eurit',
+                // 'default_currency' => 'eur',
+                'phone' => '+44 2 039 910 387',
+                'vat' => 22
+            ],
+            /*'es' => [
+                'name' => 'España',
+                'default_currency' => 'eur',
+                'phone' => '+0 000 000 00 00',
+                'vat' => 21
+            ]*/
+        ],
 
-		'default_country' => 'gb',
-		'default_language' => 'en',
+        'default_country' => 'gb',
+        'default_language' => 'en',
 
-		'Url.key' => 'test',
+        'Url.key' => 'test',
 
-		'Card.test_number' => '',
-		'Card.cvv' => '',
-		'Card.hash_card' => '',
-		'Payment.taux_tva' => 20,
+        'Card.test_number' => '',
+        'Card.cvv' => '',
+        'Card.hash_card' => '',
+        'Payment.taux_tva' => 20,
 
-		'Payment.description' => 'Trackerly.net',
-		'Payment.periodical_description' => 'Trackerly.net',
+        'Payment.description' => 'Trackerly.net',
+        'Payment.periodical_description' => 'Trackerly.net',
 
-		'Payment.description2' => 'PXP-Trackerly.net',
-		'Payment.description3' => 'PXP*Trackerly.net',
+        'Payment.description2' => 'PXP-Trackerly.net',
+        'Payment.description3' => 'PXP*Trackerly.net',
 
-		'Payment.status_en_cours' => 1,
-		'Payment.status_echoue' => 2,
-		'Payment.status_paye' => 3,
-		'Payment.status_abonne' => 4,
-		'Payment.status_non_abonne' => 5,
-		'Payment.status_resilie' => 6,
-		'Payment.status_sans_choix' => 7,
+        'Payment.status_en_cours' => 1,
+        'Payment.status_echoue' => 2,
+        'Payment.status_paye' => 3,
+        'Payment.status_abonne' => 4,
+        'Payment.status_non_abonne' => 5,
+        'Payment.status_resilie' => 6,
+        'Payment.status_sans_choix' => 7,
 
-		'ApplicationType.oneShot' => 1,
-		'ApplicationType.abonnement' => 2,
+        'ApplicationType.oneShot' => 1,
+        'ApplicationType.abonnement' => 2,
 
-		'Maxmind.id' => '',
-		'Maxmind.key' => '',
+        'Maxmind.id' => '',
+        'Maxmind.key' => '',
 
-		'trackingmore.logo_url' => 'https://s.trackingmore.com/images/icons/express/{code}.png',
+        'trackingmore.logo_url' => 'https://s.trackingmore.com/images/icons/express/{code}.png',
 
-		'aftership.key' => '9e445345-09f5-4a1a-a34a-775bb9211079',
-		'aftership.logo_url' => 'https://assets.aftership.com/couriers/svg/{code}.svg'
-	)
+        'aftership.key' => '9e445345-09f5-4a1a-a34a-775bb9211079',
+        'aftership.logo_url' => 'https://assets.aftership.com/couriers/svg/{code}.svg'
+    )
 );
