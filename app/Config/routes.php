@@ -44,6 +44,8 @@
 	 Router::connect('/:language/annulation-du-paiement/*', array('controller' => 'payments', 'action' => 'noconfirm'), ['language' => 'fr']);
 
 	 Router::connect('/:language/resiliation', array('controller' => 'terminations', 'action' => 'index'), ['language' => 'fr']);
+	 
+	 Router::connect('/:language/serviceclient', array('controller' => 'pages', 'action' => 'serviceclient'), ['language' => 'fr']);
 
 	 Router::connect('/:language/connexion/*', array('controller' => 'users', 'action' => 'login'), ['language' => 'fr']);
 	 Router::connect('/:language/deconnexion', array('controller' => 'users', 'action' => 'logout'), ['language' => 'fr']);
@@ -74,7 +76,9 @@
 	 Router::connect('/:language/paiement-confirm/*', array('controller' => 'payments', 'action' => 'confirm'), $languages);
 	 Router::connect('/:language/paiement-cancel/*', array('controller' => 'payments', 'action' => 'noconfirm'), $languages);
 
-	 Router::connect('/:language/termination', array('controller' => 'terminations', 'action' => 'index'), $languages);
+	 Router::connect('/:language/termination', array('controller' => 'terminations', 'action' => 'index'), $languages); 
+	 
+	 Router::connect('/:language/serviceclient', array('controller' => 'pages', 'action' => 'serviceclient'), $languages);
 
 	 Router::connect('/:language/login/*', array('controller' => 'users', 'action' => 'login'), $languages);
 	 Router::connect('/:language/logout', array('controller' => 'users', 'action' => 'logout'), $languages);

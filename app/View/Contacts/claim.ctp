@@ -1,4 +1,5 @@
-<div class="section-header bg-avantages inv">
+
+<div class="head reclamation-head section-header bg-avantages inv">
   <div class="container">
 
     <div class="row">
@@ -114,3 +115,4 @@
     </div>
   </div>
 </div>
+<section></section>

@@ -876,6 +876,12 @@ msgstr "Contactez-nous"
 msgid "footer.text.aboutus"
 msgstr "Chez %1$s nous avons décidé de propose une solution de suivi de colis depuis son point de départ jusqu’à son arrivé chez vous."
 
+msgid "footer.link.complaint"
+msgstr "Reclamation"
+
+msgid "footer.link.serviceclient"
+msgstr "Service client"
+
 msgid "footer.link.aboutus"
 msgstr "Qui sommes-nous ?"
 
@@ -1377,3 +1383,15 @@ msgstr "Exception"
 
 msgid "tracking.filter.expired"
 msgstr "Expiré"
+
+msgid "servicecustomer.description1"
+msgstr "Que vous fassiez partis des clients de %1$s ou bien que vous soyez un futur client, le service client a été mis en place pour vous venir en aide. Ainsi Seresilier.com a décidé de confier la gestion de son service client à sa plateforme partenair e%1$sm."
+
+msgid "servicecustomer.description2"
+msgstr "%1$s a décidé de mettre en place un service client professionnel pour permettre à nos clients et à nos futurs clients d’obtenir l’aide dont ils ont besoins. Il était impératif pour %1$s de confier la gestion de notre service client à des conseillers formés et professionnels."
+
+msgid "servicecustomer.description3"
+msgstr "Grâce au service client mis en place, vous pourrez obtenir l’ensemble des informations nécessaires pour la localiser votre colis, pour la gestion de votre abonnement ou bien sur le fonctionnement de %1$s. Les conseillers de %1$s sont formés pour pouvoir vous répondre le plus rapidement et le plus précisément possible, ainsi vous obtiendrez toujours une réponse de qualité. Avant de contacter les équipes de %1$s, vous pouvez vous rendre sur la page FAQ où les équipes de %1$s ont recensé les questions les plus souvent posées."
+
+msgid "servicecustomer.description4"
+msgstr "Il est possible de joindre les conseillers de %1$s de 8h00 à 20h00 du lundi au samedi, ils feront en sorte de prendre votre appel le plus rapidement possible !"

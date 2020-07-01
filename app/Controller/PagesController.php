@@ -136,4 +136,11 @@ class PagesController extends AppController {
 		$this->set(compact('meta_description'));
 
 	}
+	
+	public function serviceclient(){
+	    $title_for_layout = __('footer.link.serviceclient');
+		$this->set('title_for_layout', $title_for_layout.' - '.Configure::read('Site.name'));
+		$meta_description = __('meta.description.about', Configure::read('Site.name'));
+		$this->set(compact('meta_description'));
+	}
 }

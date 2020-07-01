@@ -944,6 +944,12 @@ msgstr "FAQ"
 msgid "footer.link.unsubscribe"
 msgstr "Termination"
 
+msgid "footer.link.complaint"
+msgstr "Complaint"
+
+msgid "footer.link.serviceclient"
+msgstr "Customer service"
+
 msgid "footer.link.tandc"
 msgstr "General Terms"
 
@@ -1428,3 +1434,15 @@ msgstr "Exception"
 
 msgid "tracking.filter.expired"
 msgstr "Expired"
+
+msgid "servicecustomer.description1"
+msgstr "Whether you are one of %1$s's customers or you are a future customer, customer service has been set up to help you. So Seresilier.com has decided to entrust the management of its customer service to its partner platform PXP-Seresilier.com."
+
+msgid "servicecustomer.description2"
+msgstr "%1$s has decided to set up a professional customer service to allow our customers and our future customers to get the help they need. It was imperative for %1$s to entrust the management of our customer service to trained and professional advisers."
+
+msgid "servicecustomer.description3"
+msgstr "Thanks to the customer service in place, you will be able to obtain all the information necessary to locate your package, to manage your subscription or even on the operation of %1$s. %1$s advisers are trained to be able to respond to you as quickly and accurately as possible, so you will always get a quality response. Before contacting the %1$s teams, you can go to the FAQ page where the %1$s teams have listed the most frequently asked questions."
+
+msgid "servicecustomer.description4"
+msgstr "It is possible to reach %1$s advisers from 8:00 am to 8:00 pm Monday to Saturday, they will make sure to answer your call as quickly as possible!"

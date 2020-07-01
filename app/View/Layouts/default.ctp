@@ -173,7 +173,7 @@ if ($this->params['controller'] == 'payments') {
               <a target="" href="<?= $this->Html->url(array('controller' => 'pages', 'action' => 'faq', 'language' => $this->Session->read('Config.language'))); ?>"><?= __('footer.link.faq') ?></a>
             </li>
             <li>
-                <a href="#">Customer Service</a>
+                <a href="<?= $this->Html->url(array('controller' => 'pages', 'action' => 'serviceclient', 'language' => $this->Session->read('Config.language'))); ?>"> <?= __('footer.link.serviceclient') ?></a>
             </li>
             <li>
               <a target="<?= $option_link ?>" href="<?= $this->Html->url(array('controller' => 'terminations', 'action' => 'index', 'language' => $this->Session->read('Config.language'))); ?>"><?= __('footer.link.unsubscribe') ?></a>
@@ -214,7 +214,7 @@ if ($this->params['controller'] == 'payments') {
               <a target="<?= $option_link ?>" href="<?= $this->Html->url(array('controller' => 'contacts', 'action' => 'index', 'language' => $this->Session->read('Config.language'))); ?>"><?= __('footer.link.contactform') ?></a>
             </li>
             <li>
-              <a href="#">Complaint</a>
+              <a target="<?= $option_link ?>" href="<?= $this->Html->url(array('controller' => 'contacts', 'action' => 'claim', 'language' => $this->Session->read('Config.language'))); ?>"><?= __('footer.link.complaint') ?></a>
             </li>
           </ul>
         </div>
