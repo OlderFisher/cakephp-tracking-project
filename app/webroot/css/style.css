@@ -1033,3 +1033,6 @@ footer h4 {
     height:auto;
     overflow: visible;
 }
+.fade:not(.show) {
+    top: -99999px;
+}
