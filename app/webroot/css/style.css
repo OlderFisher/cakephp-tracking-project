@@ -1029,3 +1029,7 @@ footer h4 {
 .home-customer-cgv{
     margin-top: 10px;
 }
+.home-dropdown{
+    height:auto;
+    overflow: visible;
+}

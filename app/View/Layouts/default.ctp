@@ -88,6 +88,38 @@ if ($this->params['controller'] == 'payments') {
 
                         <?php if ($this->Session->Read('Auth.User') != ''): ?>
 
+                        <li class="nav-item align-self-center">
+                           <a class="nav-link" target="<?= $option_link; ?>" href="<?= $this->Html->url( array('controller' => 'users', 'action' => 'index', 'language' => $this->Session->read('Config.language'))); ?>"> 
+                           <?= __('header.link.profile') ?></a>
+                        </li>
+                        <li class="nav-item align-self-center">
+                           <a class="nav-link" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'tracking', 'action' => 'dashboard', 'language' => $this->Session->read('Config.language'))); ?>"><?= __('header.link.tracking') ?></a>
+                        </li>
+                        <li class="nav-item align-self-center">
+                           <a class="nav-link" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'pages', 'action' => 'faq', 'language' => $this->Session->read('Config.language'))); ?>"><?= __('header.link.faq') ?></a>
+                        </li>                       
+                        
+                        <div class="nav-item dropdown align-self-center home-dropdown">
+                        <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <?= __('header.link.assistance') ?>
+                        </a>
+                        <div class="dropdown-menu mb-2" href="#" aria-labelledby="dropdownMenuButton">
+                          <li>
+                            <a class="dropdown-item" href="<?= $this->Html->url(array('controller' => 'requests', 'action' => 'formRequest', 'language' => $this->Session->read('Config.language'))); ?>">Create Request</a>
+                          </li>
+                          <li>
+                           <a class="dropdown-item" href="<?= $this->Html->url(array('controller' => 'requests', 'action' => 'listRequest', 'language' => $this->Session->read('Config.language'))); ?>">Requests List</a>
+                          </li>
+                        </div>
+                      </div>
+                      
+                        <div class="nav-item contact-item align-self-center d-none d-sm-block">
+                            <a href="tel:442033182332"><img src="../img/t-mobile.svg" alt="">+44 2 033 182 332</a>
+                        </div>
+                        <div class="nav-item align-self-center d-none d-xl-block">
+                            <a  class="btn" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'users', 'action' => 'logout', 'language' => $this->Session->read('Config.language'))); ?>" class="btn btn-nav nav-link"><?= __('header.link.logout') ?></a>
+                        </div>
+
 
                         <?php else: ?>
 

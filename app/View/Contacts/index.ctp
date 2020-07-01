@@ -40,6 +40,21 @@
                           <div class="form-group">
                               <?php
                               echo $this->Form->input(
+                                  'first_name',
+                                  array(
+                                      'type' => 'text',
+                                      'name' => 'lasttName',
+                                      'id' => 'lasttName',
+                                      'class' => 'form-control',
+                                      'placeholder' => __('form.placeholder.lastname'),
+                                      'value' => isset($this->request->data['Contact']['last_name']) ? $this->request->data['Contact']['last_name'] : null
+                                  )
+                              );
+                              ?>
+                          </div>
+                          <div class="form-group">
+                              <?php
+                              echo $this->Form->input(
                                   'email',
                                   array(
                                       'type' => 'text',
