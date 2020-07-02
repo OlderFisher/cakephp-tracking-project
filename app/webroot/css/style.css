@@ -614,7 +614,13 @@ footer h4 {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  margin-bottom: 14px
+  margin-bottom: 14px;
+  transition: all 1s ease;
+  opacity: 1;
+}
+.modal-dialog p.p-hidden{
+  opacity:0;
+  line-height:0;  
 }
 .modal-dialog small {
   font-weight: 300;

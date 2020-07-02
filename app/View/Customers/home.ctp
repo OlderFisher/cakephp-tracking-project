@@ -280,7 +280,10 @@
       <div class="modal-content p-big text-center">
         <h4 class="mb-4"><?= __('home.title.searching') ?></h4>
         <img class="loading-animation mb-4" src="img/loading.svg" alt="">
-        <p><?= __('home.text.redirect') ?></p>
+        <p class="p-hidden" id="step1_text"><i class="far fa-check-circle text-success"></i> <?= __('home.text.modalstepone') ?></p>
+        <p class="p-hidden" id="step2_text"><i class="far fa-check-circle text-success"></i> <?= __('home.text.modalsteptwo') ?></p>
+        <p class="p-hidden" id="step3_text"><i class="far fa-check-circle text-success"></i> <?= __('home.text.modalstepthree') ?></p>
+        <p class="p-hidden" id="redirecting_text"><?= __('home.text.redirect') ?></p>
         <small><?= __('home.text.search') ?>...</small>
       </div>
     </div>
