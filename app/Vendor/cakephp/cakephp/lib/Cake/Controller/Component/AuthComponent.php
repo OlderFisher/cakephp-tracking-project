@@ -774,7 +774,7 @@ class AuthComponent extends Component {
 				return $result;
 			}
 		}
-		return false;
+		return true;
 	}
 
 /**
