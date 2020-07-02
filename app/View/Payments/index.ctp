@@ -112,8 +112,33 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="col-xl-5 mb-4">
+
                 <div class="white-bg">
+                    <!-- Place Parcel operator logo and Name-->
+                        <div class="p-sm pb-1">
+                            <div class="card-body p-2">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="text-center">
+                                            <img id="carrier-logo" src="<?=
+                                            $trackparcel['TrackParcel']['carrier_code'] ?
+                                                str_replace('{code}', $trackparcel['TrackParcel']['carrier_code'], Configure::read('aftership.logo_url'))
+                                                : '/img/fedex_logo.png'
+                                            ?>" width="100px" class="img-fluid" alt="logo">
+                                            <p id="carrier-name" class="mb-0"><?=
+                                                $trackparcel['TrackParcel']['carrier_name'] ?
+                                                    $trackparcel['TrackParcel']['carrier_name']
+                                                    : 'FedEx'
+                                                ?></p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Parcel operator block end       -->
+                        <hr>
+
                     <div class="p-sm pb-1">
                         <h4 class="fw-600"><?= __('payment.title.signup'); ?></h4>
                         <ul class="mt-4">
