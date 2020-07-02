@@ -75,7 +75,7 @@ if ($this->params['controller'] == 'payments') {
 
                     <div class="navbar-brand">
                         <a target="<?= $option_link; ?>" href="<?php echo $this->Html->url(array('controller' => 'customers', 'action' => 'home', 'language' => $this->Session->read('Config.language'))); ?>" <?= __('header.link.home') ?>>
-                            <img class="dark-top-logo" src="../img/logo.svg" alt="delivery tracker logo" class="nav-logo text-dark" width="194px">
+                            <img class="dark-top-logo" src="/img/logo.svg" alt="delivery tracker logo" class="nav-logo text-dark" width="194px">
                         </a>
                     </div>
 
@@ -297,8 +297,10 @@ if ($this->params['controller'] == 'payments') {
       var newParcelUrl = '<?= $this->Html->url(array('controller' => 'tracking', 'action' => 'new', 'language' => $this->Session->read('Config.language'), 'number' => '')); ?>';
       var getParcelUrl = '<?= $this->Html->url(array('controller' => 'tracking', 'action' => 'get', 'language' => $this->Session->read('Config.language'), 'number' => '')); ?>';
     </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script ksrc="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
@@ -308,6 +310,7 @@ if ($this->params['controller'] == 'payments') {
       echo $this->Html->script('jquery.autotab.min.js?x='.Configure::read('Variable.css_js'));
       echo $this->Html->script('aos.js?x='.Configure::read('Variable.css_js'));
       echo $this->Html->script('app.js?x='.Configure::read('Variable.css_js'));
+      echo $this->Html->script('main.js?x='.Configure::read('Variable.css_js'));
 
       echo $this->fetch('scriptBottom');
     ?>

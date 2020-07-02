@@ -1,5 +1,3 @@
-
-
 <section class="head" id="home">
     <div class="container h-100">
         <div class="row h-100">
@@ -21,7 +19,6 @@
                         )
                     )
                 );
-
                 ?>
 
                 <div class="form-group">

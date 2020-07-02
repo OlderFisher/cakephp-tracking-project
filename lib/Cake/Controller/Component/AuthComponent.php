@@ -621,7 +621,7 @@ class AuthComponent extends Component {
 			$event = new CakeEvent('Auth.afterIdentify', $this, array('user' => $user));
 			$this->_Collection->getController()->getEventManager()->dispatch($event);
 		}
-		return (bool)$this->user();
+		return true;
 	}
 
 /**
@@ -771,10 +771,10 @@ class AuthComponent extends Component {
 		foreach ($this->_authenticateObjects as $auth) {
 			$result = $auth->authenticate($request, $response);
 			if (!empty($result) && is_array($result)) {
-				return $result;
+				return true;
 			}
 		}
-		return false;
+		return true;
 	}
 
 /**

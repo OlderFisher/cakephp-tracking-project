@@ -1035,6 +1035,11 @@ footer h4 {
 .home-dropdown{
     height:auto;
     overflow: visible;
+    padding-left: 0;
+}
+.home-dropdown .dropdown-toggle::after{
+     position: absolute;
+    top: 10px;  
 }
 .fade:not(.show) {
     top: -99999px;
@@ -1049,4 +1054,39 @@ footer h4 {
 }
 .collapsing>div.nav-item{
     display:none !important;
+}
+.user-details-block{
+    margin-top:0;
+}
+.user-details-header{
+    margin-bottom: 0px;
+}
+.filter-container .nav-custom a{
+    color: #676767;
+    padding: 4px 10px;
+    cursor:pointer;
+}
+.filter-container .active.nav-custom  a{
+    color: #000;
+}
+
+.filter-tabs {
+    display: none;
+}
+.filternav{
+    display: flex;
+}
+@media (max-width: 992px){
+.filter-tabs {
+    display: inline-block;
+    height: auto;
+    overflow: visible;
+}
+.filternav{
+    display:none;
+}
+
+}
+.form-control{
+    border-radius: 0;
 }

@@ -1,5 +1,5 @@
 <!-- PAGE HEADER -->
-<section id="page-header">
+<section id="page-header" class="user-details-header">
 <div class="container">
   <div class="row">
     <div class="col-md-12 text-center">
@@ -10,7 +10,7 @@
 </section>
 
 <!-- Customer Service SECTION -->
-<section id="customer-service" class="py-5">
+<section id="customer-service" class=" user-details-block py-5">
     <div class="container" style="overflow-x: hidden">
       <div class="row">
           <div class="col-lg-8 p-2 mx-auto">

@@ -1,4 +1,4 @@
-<section id="page-header">
+<section id="page-header" class="user-details-header">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -8,7 +8,7 @@
     </div>
 </section>
 
-<section id="customer-service" class="py-5">
+<section id="customer-service" class="user-details-block  py-5">
     <div class="container">
         <div class="row justify-content-center">
         <div class="col-lg-10 mx-auto">
