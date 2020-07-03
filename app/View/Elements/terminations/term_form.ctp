@@ -15,10 +15,14 @@
 				)
 		);
 	?>
-        <input type="text" name="email" id="email" class="form-control" placeholder="<?php echo __('form.placeholder.email_example') ; ?>">
+        <input type="text" name="email" required id="email" class="form-control" placeholder="<?php echo __('form.placeholder.email_example') ; ?>">
         <button class="btn" type="submit"><?php echo __('form.termination.submit.send') ; ?></button>
-
-        <div class="g-recaptcha d-flex justify-content-center mb-3" data-sitekey="<?= Configure::read('recaptcha.checkbox.site') ?>"></div>
+        <div class="g-recaptcha" data-size="invisible" data-sitekey="<?= Configure::read('recaptcha.checkbox.site') ?>"  data-callback="v2_invisible_callback"></div>
+        <script type="text/javascript">
+            function v2_invisible_onload() { console.log('v2 invisible loaded'); }
+            function v2_invisible_callback(token) { console.log('v2 invisible token: ' + token); }
+            function v2_invisible_get_token() { grecaptcha.execute(); }
+        </script>
 
 	<?php
 		echo $this->Form->end();

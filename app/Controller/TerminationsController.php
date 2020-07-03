@@ -43,6 +43,11 @@ class TerminationsController extends AppController {
 		$reCaptcha = new ReCaptcha($secret);
 
 		if($this->request->isPost()){
+		    debug([
+				$_SERVER["REMOTE_ADDR"],
+				$_POST["g-recaptcha-response"]
+			]);
+			
 			$response = $reCaptcha->verifyResponse(
 				$_SERVER["REMOTE_ADDR"],
 				$_POST["g-recaptcha-response"]
