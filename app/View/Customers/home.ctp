@@ -4,6 +4,37 @@
             <div class="col-xl-6 col-lg-7 col-md-12 d-flex flex-column justify-content-center h-100">
                 <h1><?= __('home.title.parceltrack') ?></h1>
                 <p class="strong color"><?= __('home.title.easytrack') ?></p>
+                <?php if ($this->Session->Read('Auth.User') != ''){ ?>
+                <?php $formparams = [
+                  'type'=>'POST',
+                  'url' => $this->Html->url(array('controller' => 'tracking', 'action' => 'dashboard', 'language' => $this->Session->read('Config.language'))).'/#nav-tab',
+                  'class'=>'track-form todashboard',
+                  'inputDefaults'=>[
+                    'format'=>['before','label','input','between','error','after'],
+                    'class'=>'form-control',
+                    'div'=>false,
+                    'label'=>false,
+                    'error'=>[
+                      'attributes'=>[
+                        'wrap'=>'span',
+                        'class'=>'text-danger'
+                        ]
+                      ]
+                    ]
+                  ];
+                echo $this->Form->create('TrackParcel',$formparams); ?>
+                <div class="form-group">
+                  <?php echo $this->Form->input('num_parcel',[
+                    'type'=>'text',
+                    'class'=>'form-control',
+                    'placeholder'=>__('form.placeholder.trackpackage'),
+                    'required'=>true,'autofocus'=>true,
+                    'pattern'=>"^[A-Za-z0-9]{1,30}$",
+                    'value'=>NULL
+                  ]); ?>
+                <button class="btn"id="submitBtn"type="submit"><img alt=""src="/img/tools-and-utensils.svg"></button></div>
+                <?=$this->Form->input('carrier',['type'=>'hidden','value'=>NULL])?><?php echo $this->Form->end(); ?>
+                <?php } else{ ?>
                 <?php
                 echo $this->Form->create(
                     'TrackParcel',
@@ -90,6 +121,7 @@
                 ?>
 
                 <?php echo $this->Form->end(); ?>
+                <?php } ?>
 
             </div>
             <div class="col-xl-6 col-lg-5 col-md-8 offset-md-2 offset-lg-0 home-img d-flex flex-column justify-content-center h-100">
@@ -283,7 +315,9 @@
         <p class="p-hidden" id="step1_text"><i class="far fa-check-circle text-success"></i> <?= __('home.text.modalstepone') ?></p>
         <p class="p-hidden" id="step2_text"><i class="far fa-check-circle text-success"></i> <?= __('home.text.modalsteptwo') ?></p>
         <p class="p-hidden" id="step3_text"><i class="far fa-check-circle text-success"></i> <?= __('home.text.modalstepthree') ?></p>
+        <?php if ($this->Session->Read('Auth.User') == ''){ ?>
         <p class="p-hidden" id="redirecting_text"><?= __('home.text.redirect') ?></p>
+        <?php } ?>
         <small><?= __('home.text.search') ?>...</small>
       </div>
     </div>

@@ -69,11 +69,16 @@ $(document).ready(function() {
     });
 
 	jQuery('#submitBtn').on('click', function() {
+	    var trigger = $('#TrackParcelHomeForm').hasClass('todashboard');
+	    var delay = 1200;
+	    if (trigger){
+	        delay = 400; 
+	    }
 		for (let i = 1; i < 5; i++) {
 			setTimeout(function timer() {
 				console.log(i + 'suuuu');
 				jQuery('.p-hidden').first().removeClass('p-hidden');
-			}, i * 1200 - Math.random() * 300);
+			}, i * delay - Math.random() * 200);
 		}
 	});
 
@@ -89,16 +94,20 @@ $(document).ready(function() {
 				$(element).removeClass('is-invalid');
 			},
 			submitHandler: function(form) {
-				$("#loadMe").modal({
-					backdrop: "static", //remove ability to close modal with click
-					keyboard: false, //remove option to close with keyboard
-					show: true //Display loader!
-				});
-				$("#loadMe").on("show", function() {
-					$("body").addClass("modal-open");
-				}).on("hidden", function() {
-					$("body").removeClass("modal-open")
-				});
+			    var trigger = $('#TrackParcelHomeForm').hasClass('todashboard');
+			    
+			    if(!trigger){
+    				$("#loadMe").modal({
+    					backdrop: "static", //remove ability to close modal with click
+    					keyboard: false, //remove option to close with keyboard
+    					show: true //Display loader!
+    				});
+    				$("#loadMe").on("show", function() {
+    					$("body").addClass("modal-open");
+    				}).on("hidden", function() {
+    					$("body").removeClass("modal-open")
+    				});
+			    }
 
 				$('#complete-txt').hide(0);
 				$('#complete-error').hide(0);
@@ -123,6 +132,14 @@ $(document).ready(function() {
 						}
 
 						$('#complete-txt').delay(5500).slideToggle().show(0);
+						
+						var trigger = $('#TrackParcelHomeForm').hasClass('todashboard');
+						
+						var overaldelay = 7500;
+						
+						if(trigger){
+						    overaldelay = 4000;
+						}
 
 						setTimeout(function() {
 							if (typeof data.code !== 'undefined' && typeof data.name !== 'undefined') {
@@ -132,7 +149,7 @@ $(document).ready(function() {
 								}));
 							}
 							form.submit();
-						}, 7500);
+						}, overaldelay);
 					}
 				})
 			},

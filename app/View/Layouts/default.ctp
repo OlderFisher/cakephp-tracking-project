@@ -80,7 +80,7 @@ if ($this->params['controller'] == 'payments') {
                     </div>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="../img/menu.svg" alt="">
+                        <img src="/img/menu.svg" alt="">
                     </button>
 
                     <div class="collapse navbar-collapse flex-grow-0 justify-content-end ml-auto" id="navbarSupportedContent">
@@ -114,7 +114,7 @@ if ($this->params['controller'] == 'payments') {
                       </div>
                       
                         <div class="nav-item contact-item align-self-center d-none d-sm-block">
-                            <a href="tel:442033182332"><img src="../img/t-mobile.svg" alt="">+44 2 033 182 332</a>
+                            <a href="tel:442033182332"><img src="/img/t-mobile.svg" alt="">+44 2 033 182 332</a>
                         </div>
                         <div class="nav-item align-self-center d-none d-xl-block">
                             <a  class="btn" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'users', 'action' => 'logout', 'language' => $this->Session->read('Config.language'))); ?>" class="btn btn-nav nav-link"><?= __('header.link.logout') ?></a>
@@ -134,7 +134,7 @@ if ($this->params['controller'] == 'payments') {
                              </li>
                          </ul>
                         <div class="nav-item contact-item align-self-center d-none d-sm-block">
-                            <a href="tel:442033182332"><img src="../img/t-mobile.svg" alt="">+44 2 033 182 332</a>
+                            <a href="tel:442033182332"><img src="/img/t-mobile.svg" alt="">+44 2 033 182 332</a>
                         </div>
                         <div class="nav-item align-self-center d-none d-xl-block">
                             <a  class="btn" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'users', 'action' => 'login', 'language' => $this->Session->read('Config.language'))); ?>" class="btn btn-nav nav-link"><?= __('header.link.login') ?></a>
