@@ -122,20 +122,20 @@ a.color:hover {
 h1 {
   font-family: Poppins, sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 90px;
   margin-bottom: 0;
   color: #303030
 }
 h3 {
   font-weight: 600;
-  font-size: 39px;
+  font-size: 36px;
   line-height: 67px;
   color: #303030;
   margin-bottom: 40px
 }
 h3.sm {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 160%;
   color: #303030;
@@ -1036,7 +1036,7 @@ footer h4 {
     background-color: #ed3232;
 }
 .home-customer-cgv{
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .home-dropdown{
     height:auto;
@@ -1083,10 +1083,10 @@ footer h4 {
     display: flex;
 }
 #login .text-warning {
-    color: #071affc4!important;
+    color: #007bff!important;
 }
 #login .text-warning:hover{
-    color: #0011d8!important;
+    color: #0056b3!important;
 }
 @media (max-width: 992px){
 .filter-tabs {
@@ -1106,4 +1106,31 @@ footer h4 {
     color: #dc3545!important;
     font-size: 13px;
 }
- 
+#home .form-group {
+    margin-bottom: 8px;
+}
+#home .last-group #CustomerEmail{
+    transition: all 1s ease;
+}
+#home .hidden-last-input .last-group #CustomerEmail{
+    padding: 0 0 0 30px;
+    opacity: 0;
+}
+#home .last-group #submitBtn{
+    transition: all 1s ease;
+    background: #ed3232;
+}
+#home .hidden-last-input .last-group #submitBtn{
+    height: 26px;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #ffffff;
+}
+#home .home-customer-cgv{
+    opacity: 1;
+    transition: all 1s ease;
+}
+#home .hidden-last-input .home-customer-cgv{
+    opacity: 0;
+}

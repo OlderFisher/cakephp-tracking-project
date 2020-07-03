@@ -9,7 +9,7 @@
                     'TrackParcel',
                     array(
                         'type' => 'POST',
-                        'class' => 'track-form',
+                        'class' => 'track-form hidden-last-input',
                         'inputDefaults' => array(
                             'format' => array('before', 'label', 'input', 'between', 'error', 'after'),
                             'class' => '',
@@ -21,7 +21,7 @@
                 );
                 ?>
 
-                <div class="form-group">
+                <div class="form-group first-group">
 
                 <?php
                 echo $this->Form->input(
@@ -39,7 +39,7 @@
                     )
                 );
                 ?></div>
-                    <div class="form-group" id="secondInput">
+                    <div class="form-group last-group" id="secondInput">
                         <?php
                         echo $this->Form->input(
                             'Customer.email',

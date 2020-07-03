@@ -62,6 +62,11 @@ $(document).on('keypress', '#TrackParcelNumParcel', function(e) {
 });
 
 $(document).ready(function() {
+    
+    $('#home #search').on('change', function(){
+        console.log('added class');
+        $('#TrackParcelHomeForm').removeClass('hidden-last-input');
+    });
 
 	jQuery('#submitBtn').on('click', function() {
 		for (let i = 1; i < 5; i++) {
