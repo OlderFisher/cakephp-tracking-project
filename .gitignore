@@ -5,3 +5,8 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+app/webroot/error_log
+app/webroot/adminer.php
+app/Vendor/
+production/
+app/webroot/node_modules/
