@@ -1102,3 +1102,8 @@ footer h4 {
 .form-control{
     border-radius: 0;
 }
+.form-group.required label.error{
+    color: #dc3545!important;
+    font-size: 13px;
+}
+ 
