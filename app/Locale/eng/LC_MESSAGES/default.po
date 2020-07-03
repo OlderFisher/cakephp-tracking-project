@@ -1351,7 +1351,7 @@ msgstr "This website is provided by"
 #. 2: Registration number
 #. 3: Company address
 msgid "section.legal_notice.site_edition.company"
-msgstr "%1$s,<br/> Limited Company under Irish law registered with the Irish Trade and Companies Registry under company number no.%2$s,<br/>having its registered office at %3$s"
+msgstr "%1$s<br/> Limited Company under Irish law registered with the Irish Trade and Companies Registry under company number no.%2$s,<br/>having its registered office at %3$s"
 
 msgid "section.legal_notice.site_edition.vat"
 msgstr "Intracommunity VAT number:"

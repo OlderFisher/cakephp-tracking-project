@@ -1300,7 +1300,7 @@ msgstr "Le présent site Web est fourni par"
 #. 2: Registration number
 #. 3: Company address
 msgid "section.legal_notice.site_edition.company"
-msgstr "%1$s,<br/> Société à responsabilité limitée de droit irlandais immatriculée au registre du commerce et des sociétés irlandais sous le numéro n.%2$s,<br/>dont le siège social est situé au %3$s."
+msgstr "%1$s<br/> Société à responsabilité limitée de droit irlandais immatriculée au registre du commerce et des sociétés irlandais sous le numéro n.%2$s,<br/>dont le siège social est situé au %3$s."
 
 msgid "section.legal_notice.site_edition.vat"
 msgstr "Numéro de TVA:"

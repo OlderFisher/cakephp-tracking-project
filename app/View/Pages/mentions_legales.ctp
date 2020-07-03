@@ -1,20 +1,14 @@
-  <!-- PAGE HEADER -->
-  <section id="page-header">
-    <div class="container" style="overflow-x: hidden">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2 class="my-4"><span class="secondary-color"><?= __('header.title.legal_notice'); ?></span></h2>
+<section class="head">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3><?= __('header.title.legal_notice'); ?></h3>
         </div>
-      </div>
     </div>
-  </section>
-
-  <!-- TERMS SECTION -->
-  <section id="terms" class="py-4">
     <div class="container" style="overflow-x: hidden">
       <div class="row">
         <div class="col-md-12">
-          <div class="col-md-12 pt-4 pb-4" data-aos="fade-right">
+          <div class="col-md-12 pt-4 pb-4" dataa-aos="fade-right">
             <h4> <?= __('section.legal_notice.site_edition.title'); ?></h4>
             <p><?= __('section.legal_notice.site_edition.company', Configure::read('Company.name_ltd'), Configure::read('Company.inc_number'), Configure::read('Company.address')); ?> </p>
             <p><?= __('section.legal_notice.site_edition.vat'); ?> <?php echo Configure::read('Company.vat_number');?></p>
