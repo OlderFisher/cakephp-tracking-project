@@ -61,11 +61,62 @@ $(document).on('keypress', '#TrackParcelNumParcel', function(e) {
 	}
 });
 
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
 $(document).ready(function() {
     
-    $('#home #search').on('change', function(){
-        console.log('added class');
-        $('#TrackParcelHomeForm').removeClass('hidden-last-input');
+    $("#home #search").attr("autocomplete", "off");
+    $("#home #CustomerEmail").attr("autocomplete", "off")
+    
+    $('#locate-home-btn').on('click', function(e){
+        e.preventDefault();
+        //$(window).scrollTop(jQuery('#search').position().top);
+        document.querySelector('#search').scrollIntoView({
+            behavior: 'smooth'
+        });
+        $('#search').focus()
+    });
+    
+    $('#home  #homesearchcheckbutton').on('click', function(){
+        if($('#search').val().length > 4 ){
+            $('#TrackParcelHomeForm').removeClass('hidden-last-input');
+            $('#track-invalid').hide();
+        }
+        else{
+            $('#TrackParcelHomeForm').addClass('hidden-last-input');
+            $('#track-invalid').show();
+        }
+    })
+    
+    $('#home #search, #TrackParcelNumParcel').on('input', function(){
+        if($(this).val().length > 4 ){
+            $('#TrackParcelHomeForm').removeClass('hidden-last-input');
+            $('#track-invalid').hide();
+        }
+        else{
+            $('#TrackParcelHomeForm').addClass('hidden-last-input');
+            $('#track-invalid').show();
+        }
+    });
+    
+    $('#CustomerEmail, #email').on('input', function(){
+        var str = $(this).val();
+        var validemail = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}/.test(str);
+        if(validemail){
+            $('#email-invalid').hide();
+        }
+        else{
+            $('#email-invalid').show();
+        }
     });
 
 	jQuery('#submitBtn').on('click', function() {
@@ -74,9 +125,10 @@ $(document).ready(function() {
 	    if (trigger){
 	        delay = 400; 
 	    }
+	    
 		for (let i = 1; i < 5; i++) {
 			setTimeout(function timer() {
-				console.log(i + 'suuuu');
+				//console.log(i + ':cycle');
 				jQuery('.p-hidden').first().removeClass('p-hidden');
 			}, i * delay - Math.random() * 200);
 		}

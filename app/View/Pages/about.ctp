@@ -87,11 +87,10 @@
         </div>
     </div>
 </section>
-
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 text-center">
+            <div class="col-12 text-center">
                 <h3><?= __('about.title.trackshipments'); ?></h3>
             </div>
         </div>

@@ -32,6 +32,7 @@
                     'value'=>NULL
                   ]); ?>
                 <button class="btn"id="submitBtn"type="submit"><img alt=""src="/img/tools-and-utensils.svg"></button></div>
+                <span style="display:none" id="track-invalid" class="text-danger"><?=__('validation.track')?></span>
                 <?=$this->Form->input('carrier',['type'=>'hidden','value'=>NULL])?><?php echo $this->Form->end(); ?>
             </div>
             <div class="col-xl-6 col-lg-5 col-md-8 offset-md-2 offset-lg-0 home-img d-flex flex-column justify-content-center h-100">

@@ -62,10 +62,23 @@
                                       'id' => 'email',
                                       'class' => 'form-control',
                                       'placeholder' => __('form.placeholder.email'),
+                                      'pattern' => "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$",
                                       'value' => isset($this->request->data['Contact']['email']) ? $this->request->data['Contact']['email'] : null
                                   )
                               );
                               ?>
+                              <span style="display:none" id="email-invalid" class="text-danger"><?=__('validation.email')?></span>
+                          </div>
+                          <div  class="form-group">
+                              <?php
+            					echo $this->Form->input(
+            					  'subject',
+            					  array(
+            						'placeholder' => __('form.placeholder.subject').'',
+            						'value' => isset($this->request->data['Contact']['subject']) ? $this->request->data['Contact']['subject'] : null,
+            					  )
+            					);
+            					?>
                           </div>
                           <div class="form-group">
                               <?php
@@ -86,7 +99,7 @@
 
 
                           <div class="form-group">
-                              <input type="checkbox" name="agreement" id="agreement" checked>
+                              <input type="checkbox" name="agreement" id="agreement">
                               <label for="agreement"><?= __('form.label.policy') ; ?></label>
                           </div>
 

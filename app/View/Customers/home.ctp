@@ -33,6 +33,7 @@
                     'value'=>NULL
                   ]); ?>
                 <button class="btn"id="submitBtn"type="submit"><img alt=""src="/img/tools-and-utensils.svg"></button></div>
+                <span style="display:none" id="track-invalid" class="text-danger"><?=__('validation.track')?></span>
                 <?=$this->Form->input('carrier',['type'=>'hidden','value'=>NULL])?><?php echo $this->Form->end(); ?>
                 <?php } else{ ?>
                 <?php
@@ -69,7 +70,10 @@
                         'value' => NULL
                     )
                 );
-                ?></div>
+                ?>
+                <button class="btn sbmtbtn1" id="homesearchcheckbutton" ><img alt=""src="/img/tools-and-utensils.svg"></button>
+                </div>
+                <span style="display:none" id="track-invalid" class="text-danger"><?=__('validation.track')?></span>
                     <div class="form-group last-group" id="secondInput">
                         <?php
                         echo $this->Form->input(
@@ -83,6 +87,7 @@
                             )
                         );
                         ?>
+                        <span style="display:none" id="email-invalid" class="text-danger"><?=__('validation.email')?></span>
                         <div class="valid-feedback"></div>
                         <div class="invalid-feedback"></div>
 
@@ -230,7 +235,7 @@
             </div>
             <div class="col-xl-5 col-lg-6">
                 <p class="mt-5"><?= __('home.subscription.text06') ;?></p>
-                <a href="#" class="btn"><?= __('home.subscription.locate') ;?></a>
+                <a href="#search" class="btn" id="locate-home-btn"><?= __('home.subscription.locate') ;?></a>
             </div>
         </div>
     </div>

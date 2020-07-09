@@ -192,7 +192,7 @@ section {
   width: 100%;
   border: 1px solid #ededed;
   border-radius: 5px;
-  padding: 28px 144px 28px 34px;
+  padding: 20px 144px 20px 34px;
   height: auto;
   font-size: 16px;
   line-height: 24px;
@@ -220,7 +220,7 @@ section {
   right: 0;
   height: 100%;
   border-radius: 0 5px 5px 0;
-  height: 83px
+  height: 65px
 }
 .form-control:active, .form-control:focus {
   border-color: #ededed !important;
@@ -355,6 +355,27 @@ section {
 .b-r {
   right: 20px;
   bottom: 0
+}
+#email-invalid{
+  padding-top: 4px;
+  display: block;
+  font-size: 13px;
+}
+.hidden-last-input #track-invalid{
+    display: block;
+}
+#track-invalid{
+    font-size: 13px;
+}
+#contact #email-invalid {
+    padding-top: 0px;
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+#cancellation #email-invalid{
+    color: rgb(255, 255, 255) !important;
+    margin-bottom: 20px;
+    margin-top: -20px;
 }
 .fw-600 {
   font-weight: 600 !important
@@ -897,7 +918,7 @@ footer h4 {
     width: 100%;
     border: 1px solid #ededed;
     border-radius: 5px;
-    padding: 28px 144px 28px 34px;
+    padding: 20px 144px 20px 34px;
     height: auto;
     font-size: 16px;
     line-height: 24px;
@@ -906,6 +927,9 @@ footer h4 {
   #TrackParcelHomeForm button.btn {
     padding: 18px 24px;
     max-height: 75px
+  }
+  #home #CustomerEmail{
+      background-image: none !important;
   }
   .form-group.error::after {
     top: 24px;
@@ -1089,6 +1113,12 @@ footer h4 {
     color: #0056b3!important;
 }
 @media (max-width: 992px){
+    h3 {
+        font-size: 24px;
+    }
+    h1{
+        font-size: 26px;
+    }
 .filter-tabs {
     display: inline-block;
     height: auto;
@@ -1111,6 +1141,7 @@ footer h4 {
 }
 #home .last-group #CustomerEmail{
     transition: all 1s ease;
+    background-image: none !important;
 }
 #home .hidden-last-input .last-group #CustomerEmail{
     padding: 0 0 0 30px;
@@ -1131,6 +1162,37 @@ footer h4 {
     opacity: 1;
     transition: all 1s ease;
 }
+#home .first-group .sbmtbtn1{
+    transition: all 1s ease;
+    opacity:0;
+}
+#home .hidden-last-input .first-group .sbmtbtn1{
+    opacity:1;
+}
 #home .hidden-last-input .home-customer-cgv{
     opacity: 0;
+}
+#login .form-group.error-validate label.error{
+    color: #dc3545!important;
+    font-size: 13px;
+    margin-bottom: -26px;
+    display: block;
+}
+@media (max-width:480px){ 
+    h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    h3 {
+    font-size: 20px;
+    }
+    h4 {
+    font-size: 16px;
+    }
+    h3.sm {
+    font-size: 20px;
+    }
+    .simple-list li::before{
+        top: 12px;
+    }
 }

@@ -136,7 +136,7 @@ if ($this->params['controller'] == 'payments') {
                         <div class="nav-item contact-item align-self-center d-none d-sm-block">
                             <a href="tel:442033182332"><img src="/img/t-mobile.svg" alt="">+44 2 033 182 332</a>
                         </div>
-                        <div class="nav-item align-self-center d-none d-xl-block">
+                        <div class="nav-item align-self-center ">
                             <a  class="btn" target="<?= $option_link; ?>" href="<?= $this->Html->url(array('controller' => 'users', 'action' => 'login', 'language' => $this->Session->read('Config.language'))); ?>" class="btn btn-nav nav-link"><?= __('header.link.login') ?></a>
                         </div>
                         <?php endif; ?>
@@ -285,7 +285,7 @@ if ($this->params['controller'] == 'payments') {
       var messageRequiredMsg = "<?= __('validation.required.message') ?>";
       var messagetMinMsg = "<?= __('validation.min.message') ?>";
       var policyRequiredMsg = "<?= __('validation.required.policy') ?>";
-      var passwordRequiredMsg = "<?= __('validation.required.policy') ?>";
+      var passwordRequiredMsg = "<?= __('validation.required.password') ?>";
       var phoneRequiredMsg = "<?= __('validation.required.phone') ?>";
       var categoryRequiredMsg = "<?= __('validation.required.category') ?>";
 
@@ -303,10 +303,11 @@ if ($this->params['controller'] == 'payments') {
     <script ksrc="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    
     <?php
       echo $this->Html->script('cleave.min.js?x='.Configure::read('Variable.css_js'));
       echo $this->Html->script('jquery.validate.min.js?x='.Configure::read('Variable.css_js'));
+      
       echo $this->Html->script('jquery.autotab.min.js?x='.Configure::read('Variable.css_js'));
       echo $this->Html->script('aos.js?x='.Configure::read('Variable.css_js'));
       echo $this->Html->script('app.js?x='.Configure::read('Variable.css_js'));
@@ -314,8 +315,13 @@ if ($this->params['controller'] == 'payments') {
 
       echo $this->fetch('scriptBottom');
     ?>
-
-
+    <script type="text/javascript" >if (window.location.href.indexOf("/fr") > -1) {
+    	var script = document.createElement('script');
+	script.src = "/js/messages_fr.js";
+	document.head.appendChild(script); 
+    }
+    </script>
+  
 
 </body>
 

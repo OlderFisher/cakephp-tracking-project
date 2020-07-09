@@ -637,6 +637,9 @@ msgstr "En attente"
 msgid "validation.email"
 msgstr "Vous devez saisir une adresse email valide."
 
+msgid "validation.track"
+msgstr "Vous devez saisir une votre numéro de colis valide."
+
 msgid "validation.min.cvv"
 msgstr "Les numéros au dos de la carte doivent comporter 3 caractères."
 

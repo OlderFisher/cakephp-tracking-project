@@ -696,6 +696,9 @@ msgstr "Waiting"
 msgid "validation.email"
 msgstr "You must enter a valid email address."
 
+msgid "validation.track"
+msgstr "You must enter a valid track number."
+
 msgid "validation.min.cvv"
 msgstr "The numbers on the back of the card must be 3 characters long."
 
